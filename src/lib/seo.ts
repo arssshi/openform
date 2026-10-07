@@ -1,10 +1,12 @@
 import { brands, fontFamily } from './catalog'
-import { brandUrl, collectionUrl, guideUrl, questions, styleNotes, styleUrl } from './pages'
+import { brandPath, collectionPath, guidePath, questions, styleNotes, stylePath } from './pages'
+import { siteBasePath, sitePath } from './site'
 import type { PageRoute } from './pages'
 
 export interface PageMeta { title: string; description: string; path: string; image: string; robots: string; graph: object[] }
 export const configuredOrigin = (import.meta.env.VITE_SITE_URL || '').replace(/\/$/, '')
-export const absoluteUrl = (path: string, origin = configuredOrigin) => origin ? new URL(path, origin).href : path
+const joinSiteUrl = (path: string, site: string) => new URL(path.replace(/^\/+/, ''), `${site.replace(/\/$/, '')}/`).href
+export const absoluteUrl = (path: string, origin = configuredOrigin) => origin ? joinSiteUrl(path, origin) : sitePath(path)
 
 export function pageMeta(route: PageRoute, origin = configuredOrigin): PageMeta {
   const url = (path: string) => absoluteUrl(path, origin)
@@ -24,16 +26,16 @@ export function pageMeta(route: PageRoute, origin = configuredOrigin): PageMeta 
   } else if (route.kind === 'style') {
     title = `${route.style} Brand Identity Inspiration & Free Kits | Openform`
     description = `${styleNotes[route.style].intro} Explore original ${route.style.toLowerCase()} logos, palettes, fonts, and free website themes.`
-    breadcrumb(`${route.style} design`, styleUrl(route.style))
+    breadcrumb(`${route.style} design`, stylePath(route.style))
   } else if (route.kind === 'collection') {
     title = `${route.collection.name} — Brand Design Collection | Openform`
     description = `${route.collection.description} Explore ${route.collection.ids.length} complete identities with original logos, typography, palettes, and installable themes.`
-    breadcrumb(route.collection.name, collectionUrl(route.collection.id))
+    breadcrumb(route.collection.name, collectionPath(route.collection.id))
   } else if (route.kind === 'guide') {
     title = 'How to Install a Brand Theme on Your Website | Openform'
     description = 'A practical guide to applying a complete Openform identity: install local files, load the CSS, map your components, and verify typography, accessibility, and mobile layouts.'
-    breadcrumb('Install a brand theme', guideUrl)
-    graph.push({ '@type': 'TechArticle', headline: 'How to install an Openform brand theme', description, url: url(guideUrl), image: url(image), author: { '@id': url('/#openform') }, publisher: { '@id': url('/#openform') }, inLanguage: 'en', isAccessibleForFree: true })
+    breadcrumb('Install a brand theme', guidePath)
+    graph.push({ '@type': 'TechArticle', headline: 'How to install an Openform brand theme', description, url: url(guidePath), image: url(image), author: { '@id': url('/#openform') }, publisher: { '@id': url('/#openform') }, inLanguage: 'en', isAccessibleForFree: true })
   }
   if (route.kind === 'home') {
     graph.push({ '@type': 'WebSite', '@id': url('/#website'), name: 'Openform', url: url('/'), description, publisher: { '@id': url('/#openform') }, inLanguage: 'en', potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: url('/?q={search_term_string}#library') }, 'query-input': 'required name=search_term_string' } })
@@ -41,7 +43,7 @@ export function pageMeta(route: PageRoute, origin = configuredOrigin): PageMeta 
   }
   if (['home', 'style', 'collection'].includes(route.kind)) {
     const list = brands.filter(b => route.kind === 'style' ? b.style === route.style : route.kind === 'collection' ? b.collection === route.collection.id : true)
-    graph.push({ '@type': 'ItemList', name: route.kind === 'home' ? 'Openform brand identity library' : title.split(' | ')[0], numberOfItems: list.length, itemListElement: list.map((b, index) => ({ '@type': 'ListItem', position: index + 1, name: b.name, url: url(brandUrl(b.id)) })) })
+    graph.push({ '@type': 'ItemList', name: route.kind === 'home' ? 'Openform brand identity library' : title.split(' | ')[0], numberOfItems: list.length, itemListElement: list.map((b, index) => ({ '@type': 'ListItem', position: index + 1, name: b.name, url: url(brandPath(b.id)) })) })
   }
   graph.unshift(publisher)
   const notFound = route.kind === 'not-found'
@@ -49,12 +51,13 @@ export function pageMeta(route: PageRoute, origin = configuredOrigin): PageMeta 
 }
 
 export function updatePageMeta(route: PageRoute) {
-  const meta = pageMeta(route, configuredOrigin || location.origin)
+  const publicSite = configuredOrigin || `${location.origin}${siteBasePath}`
+  const meta = pageMeta(route, publicSite)
   if (route.kind === 'brand' && !document.getElementById('openform-brand-fonts')) {
     const fonts = document.createElement('link')
     fonts.id = 'openform-brand-fonts'
     fonts.rel = 'stylesheet'
-    fonts.href = '/fonts/fonts.css'
+    fonts.href = sitePath('/fonts/fonts.css')
     document.head.append(fonts)
   }
   document.title = meta.title
@@ -66,11 +69,11 @@ export function updatePageMeta(route: PageRoute) {
   set('name', 'description', meta.description)
   const filtered = ['q', 'style', 'industry', 'collection'].some(key => new URLSearchParams(location.search).has(key))
   set('name', 'robots', filtered ? 'noindex, follow' : meta.robots)
-  for (const [key, value] of Object.entries({ title: meta.title, description: meta.description, type: route.kind === 'guide' ? 'article' : 'website', url: absoluteUrl(meta.path, configuredOrigin || location.origin), image: absoluteUrl(meta.image, configuredOrigin || location.origin), 'image:alt': route.kind === 'brand' ? `${route.brand.name} original brand identity` : 'Openform — original brand identities and free website themes' })) set('property', `og:${key}`, value)
-  for (const [key, value] of Object.entries({ card: 'summary_large_image', title: meta.title, description: meta.description, image: absoluteUrl(meta.image, configuredOrigin || location.origin) })) set('name', `twitter:${key}`, value)
+  for (const [key, value] of Object.entries({ title: meta.title, description: meta.description, type: route.kind === 'guide' ? 'article' : 'website', url: absoluteUrl(meta.path, publicSite), image: absoluteUrl(meta.image, publicSite), 'image:alt': route.kind === 'brand' ? `${route.brand.name} original brand identity` : 'Openform — original brand identities and free website themes' })) set('property', `og:${key}`, value)
+  for (const [key, value] of Object.entries({ card: 'summary_large_image', title: meta.title, description: meta.description, image: absoluteUrl(meta.image, publicSite) })) set('name', `twitter:${key}`, value)
   let canonical = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]')
   if (!canonical) { canonical = document.createElement('link'); canonical.rel = 'canonical'; document.head.append(canonical) }
-  canonical.href = absoluteUrl(meta.path, configuredOrigin || location.origin)
+  canonical.href = absoluteUrl(meta.path, publicSite)
   let structured = document.getElementById('openform-schema') as HTMLScriptElement | null
   if (!structured) { structured = document.createElement('script'); structured.id = 'openform-schema'; structured.type = 'application/ld+json'; document.head.append(structured) }
   structured.textContent = JSON.stringify({ '@context': 'https://schema.org', '@graph': meta.graph })

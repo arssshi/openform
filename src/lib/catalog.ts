@@ -4,6 +4,7 @@ import rawCollections from '../data/collections.json'
 import assetDefinitions from '../data/assets.json'
 import systems from '../data/systems.json'
 import type { Brand, Collection, FontInfo, Style } from '../types'
+import { sitePath } from './site'
 
 export const assets = assetDefinitions
 export const brands: Brand[] = rawBrands.map((brand, index) => ({ ...brand, system: systems[brand.id as keyof typeof systems], number: index + 1, assets: assets.length })) as Brand[]
@@ -13,8 +14,8 @@ export const styles: Style[] = ['Minimal', 'Organic', 'Playful', 'Editorial', 'F
 export const industries = [...new Set(brands.map(brand => brand.category))].sort()
 export const totalAssets = brands.reduce((count, brand) => count + brand.assets, 0)
 export const fontFamily = (id: string) => fonts.find(font => font.id === id)?.family || 'DM Sans'
-export const assetUrl = (id: string, file: string) => `/brands/${id}/${file}`
-export const kitUrl = (id: string) => `/downloads/${id}-brand-kit.zip`
+export const assetUrl = (id: string, file: string) => sitePath(`/brands/${id}/${file}`)
+export const kitUrl = (id: string) => sitePath(`/downloads/${id}-brand-kit.zip`)
 
 export function contrast(a: string, b: string) {
   const luminance = (hex: string) => {

@@ -6,14 +6,25 @@ import { fileURLToPath, pathToFileURL } from 'node:url'
 const root=fileURLToPath(new URL('../',import.meta.url))
 const environment=loadEnv('production',root,'VITE_')
 const configured=process.env.VITE_SITE_URL||environment.VITE_SITE_URL||''
-let origin=''
+const normalizeBase=value=>{
+  const pathValue=value?.trim()||''
+  if(!pathValue||pathValue==='/') return ''
+  return `/${pathValue.replace(/^\/+|\/+$/g,'')}`
+}
+let siteRoot=''
+let siteBase=normalizeBase(process.env.VITE_BASE_PATH||environment.VITE_BASE_PATH||'')
 if(configured) {
   const url=new URL(configured)
-  if(!['https:','http:'].includes(url.protocol)||url.pathname!=='/'||url.search||url.hash) throw new Error('VITE_SITE_URL must be the public site origin, such as https://your-domain.com, with no path or query.')
-  origin=url.origin
+  if(!['https:','http:'].includes(url.protocol)||url.search||url.hash) throw new Error('VITE_SITE_URL must be the public site URL, such as https://your-domain.com or https://username.github.io/repository, with no query or hash.')
+  siteBase=normalizeBase(url.pathname)
+  siteRoot=`${url.origin}${siteBase}`
 }
 const escape=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;')
-const publicUrl=relative=>origin?new URL(relative,origin).href:relative
+const withBase=relative=>{
+  const pathValue=relative.startsWith('/')?relative:`/${relative}`
+  return siteBase?`${siteBase}${pathValue==='/'?'/':pathValue}`:pathValue
+}
+const publicUrl=relative=>siteRoot?new URL(relative.replace(/^\/+/,''),`${siteRoot}/`).href:withBase(relative)
 const temporary=path.join(root,'.openform-ssr')
 await build({root})
 try {
@@ -22,9 +33,9 @@ try {
   const template=await readFile(path.join(root,'dist/index.html'),'utf8')
   const manifest=[]
   function document(pathname) {
-    const {html,meta}=render(pathname,origin)
+    const {html,meta}=render(pathname,siteRoot)
     const head=`<title>${escape(meta.title)}</title>
-    ${pathname.startsWith('/brands/')?'<link id="openform-brand-fonts" rel="stylesheet" href="/fonts/fonts.css">':''}
+    ${pathname.startsWith('/brands/')?`<link id="openform-brand-fonts" rel="stylesheet" href="${withBase('/fonts/fonts.css')}">`:''}
     <meta name="description" content="${escape(meta.description)}">
     <meta name="robots" content="${escape(meta.robots)}">
     ${pathname==='/404/'?'':`<link rel="canonical" href="${escape(publicUrl(meta.path))}">`}
@@ -52,16 +63,16 @@ try {
     await writeFile(file,document(route))
   }
   await writeFile(path.join(root,'dist/404.html'),document('/404/'))
-  const robots=`User-agent: *\nAllow: /\nDisallow: /downloads/\n${origin?`\nSitemap: ${origin}/sitemap.xml\n`:''}`
-  await writeFile(path.join(root,'dist/robots.txt'),robots)
-  if(origin) {
+   const robots=`User-agent: *\nAllow: ${withBase('/')}\nDisallow: ${withBase('/downloads/')}\n${siteRoot?`\nSitemap: ${publicUrl('/sitemap.xml')}\n`:''}`
+   await writeFile(path.join(root,'dist/robots.txt'),robots)
+   if(siteRoot) {
     const xml=`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${routes.map(route=>`  <url><loc>${escape(publicUrl(route))}</loc></url>`).join('\n')}\n</urlset>\n`
     await writeFile(path.join(root,'dist/sitemap.xml'),xml)
   }
-  await writeFile(path.join(root,'dist/seo-manifest.json'),JSON.stringify({origin:origin||null,sitemap:origin?'/sitemap.xml':null,pages:manifest},null,2)+'\n')
-  console.log(`✓ ${routes.length} crawlable, prerendered pages with unique metadata and structured data`)
-  console.log('✓ Real identity, style, collection, and guide URLs; accessible content without JavaScript')
-  console.log(origin?`✓ Absolute canonicals, social URLs, robots.txt, and sitemap: ${origin}`:'✓ Relative canonicals and robots.txt ready. Set VITE_SITE_URL to generate the public-domain sitemap when publishing.')
+   await writeFile(path.join(root,'dist/seo-manifest.json'),JSON.stringify({origin:siteRoot||null,sitemap:siteRoot?withBase('/sitemap.xml'):null,pages:manifest},null,2)+'\n')
+   console.log(`✓ ${routes.length} crawlable, prerendered pages with unique metadata and structured data`)
+   console.log('✓ Real identity, style, collection, and guide URLs; accessible content without JavaScript')
+   console.log(siteRoot?`✓ Absolute canonicals, social URLs, robots.txt, and sitemap: ${siteRoot}`:'✓ Relative canonicals and robots.txt ready. Set VITE_SITE_URL to generate the public-domain sitemap when publishing.')
 } finally {
   await rm(temporary,{recursive:true,force:true})
 }

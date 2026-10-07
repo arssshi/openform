@@ -3,6 +3,7 @@ import { ArrowDown, ArrowRight, Bookmark, ChevronDown, Search, SlidersHorizontal
 import BrandCard from './BrandCard'
 import { brands, collections, fontFamily, industries, styles } from '../lib/catalog'
 import { collectionUrl, styleNotes, styleUrl } from '../lib/pages'
+import { sitePath } from '../lib/site'
 import type { PageRoute } from '../lib/pages'
 
 interface Props { route: PageRoute; saved: string[]; savedOnly: boolean; onSavedOnly: (value: boolean) => void; onSave: (id: string) => void }
@@ -81,7 +82,7 @@ export default function Library({ route, saved, savedOnly, onSavedOnly, onSave }
       <label className="saved-checkbox"><input type="checkbox" checked={savedOnly} onChange={event => onSavedOnly(event.target.checked)} /><Bookmark size={16} />Only my saved identities</label>
       <button className="text-link" onClick={reset}>Reset filters<X size={15} /></button>
     </div>}
-    <nav className="style-filters" aria-label="Browse design styles"><a className={!baseStyle ? 'active' : ''} href="/#library" aria-current={!baseStyle ? 'page' : undefined}>All styles<span>{brands.length}</span></a>{styles.map(item => <a key={item} href={styleUrl(item)} className={baseStyle === item ? 'active' : ''} aria-current={baseStyle === item ? 'page' : undefined}>{item}</a>)}</nav>
+    <nav className="style-filters" aria-label="Browse design styles"><a className={!baseStyle ? 'active' : ''} href={sitePath('/#library')} aria-current={!baseStyle ? 'page' : undefined}>All styles<span>{brands.length}</span></a>{styles.map(item => <a key={item} href={styleUrl(item)} className={baseStyle === item ? 'active' : ''} aria-current={baseStyle === item ? 'page' : undefined}>{item}</a>)}</nav>
     <div className="results-row"><div className="results-text" role="status" aria-live="polite"><span>{filtered.length} {filtered.length === 1 ? 'identity' : 'identities'}{savedOnly ? ' saved' : ''}</span>{savedOnly && <button className="active-chip" onClick={() => onSavedOnly(false)}>Saved<X size={12} /></button>}{collection && <a className="active-chip" href={collectionUrl(collection)}>{collections.find(item => item.id === collection)?.name}<ArrowRight size={12} /></a>}</div><label className="sort-control">Sort by<span className="select-wrap"><select value={sort} onChange={event => setSort(event.target.value)}><option value="curated">Curated order</option><option value="az">Name A–Z</option><option value="za">Name Z–A</option></select><ChevronDown size={14} /></span></label></div>
     {filtered.length ? <>
       <div className="brand-grid library-grid">{filtered.slice(0, visibleCount).map(brand => <BrandCard key={brand.id} brand={brand} saved={saved.includes(brand.id)} onSave={onSave} />)}</div>

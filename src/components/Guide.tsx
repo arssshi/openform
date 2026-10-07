@@ -1,9 +1,10 @@
 import { ArrowUpRight, Check } from 'lucide-react'
 import { brandUrl } from '../lib/pages'
+import { sitePath } from '../lib/site'
 
 export default function Guide() {
   return <main id="main" className="guide-page container">
-    <nav className="breadcrumbs" aria-label="Breadcrumb"><a href="/">Openform</a><span>/</span><span>Design notes</span></nav>
+    <nav className="breadcrumbs" aria-label="Breadcrumb"><a href={sitePath('/')}>Openform</a><span>/</span><span>Design notes</span></nav>
     <header className="guide-heading"><span className="eyebrow">A PRACTICAL DESIGN NOTE</span><h1>A new identity.<br /><em>Your existing website.</em></h1><p>How to install a complete Openform brand theme, keep your working application, and make the details feel like they belong together.</p></header>
     <div className="guide-layout"><aside className="guide-toc"><span className="eyebrow">IN THIS GUIDE</span><a href="#choose">01 / Choose a starting point</a><a href="#install">02 / Install the files</a><a href="#apply">03 / Apply the system</a><a href="#verify">04 / Check the details</a><a href="#assistant">05 / Use a coding assistant</a></aside><article className="guide-article">
       <section id="choose"><h2>01. Start with a clear idea.</h2><p>A useful brand identity is a relationship between a mark, typography, color, and spacing. Choose a system for the feeling and structure your project needs, rather than one accent color in isolation.</p><p>Explore an identity’s palette and type pairing, try your own words in the playground, and open its working website reference. Our templates keep the presentation simple: a clear heading, one focal visual, and comfortably readable sections. The downloadable applications show how the same decisions can work in print and on screen.</p><p>For this example, we’ll use <a href={brandUrl('moss')}>moss, our botanical identity</a>. Download its complete kit and extract it into a folder you can work from. The original font files, SVGs, stylesheet, installer, and license notices stay together.</p></section>

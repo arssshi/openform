@@ -21,6 +21,6 @@ await Promise.all(fonts.map(async (font) => {
   console.log(`✓ ${font.family}${font.style ? ` ${font.style}` : ''}`)
 }))
 
-const css = fonts.map(font => `@font-face { font-family: '${font.family}'; src: url('/fonts/${font.id}.ttf') format('truetype'); font-style: ${font.style || 'normal'}; font-weight: ${font.weight}; font-display: swap; }`).join('\n')
+const css = fonts.map(font => `@font-face { font-family: '${font.family}'; src: url('./${font.id}.ttf') format('truetype'); font-style: ${font.style || 'normal'}; font-weight: ${font.weight}; font-display: swap; }`).join('\n')
 await writeFile(path.join(destination, 'fonts.css'), `${css}\n`)
 console.log(`${fonts.length} self-hosted font files and their original OFL licenses are ready.`)

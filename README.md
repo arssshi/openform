@@ -245,10 +245,10 @@ Human visual review remains part of the standard. A unique identifier does not m
 
 ## Search-friendly publishing
 
-Set the real public origin before building:
+Set the real public site URL before building. A GitHub Pages project site includes the repository path:
 
 ```sh
-VITE_SITE_URL=https://your-real-domain.com npm run build
+VITE_SITE_URL=https://arssshi.github.io/openform npm run build
 ```
 
 The build produces:
@@ -258,6 +258,18 @@ The build produces:
 - `robots.txt` and an absolute `sitemap.xml` when `VITE_SITE_URL` is set;
 - `noindex, follow` handling for query-string search/filter states;
 - identity-specific social preview images generated from local vector artwork.
+
+### Publish this repository with GitHub Pages
+
+This repository includes `.github/workflows/deploy-pages.yml`. It builds the prerendered site with the correct `/openform/` base path and deploys `dist/` whenever `main` changes.
+
+1. Push `main` to [github.com/arssshi/openform](https://github.com/arssshi/openform).
+2. Open **Settings → Pages** in the repository.
+3. Under **Build and deployment**, choose **GitHub Actions** as the source.
+4. Wait for the **Deploy Openform to GitHub Pages** workflow to finish.
+5. Open [arssshi.github.io/openform](https://arssshi.github.io/openform).
+
+The workflow uses `VITE_SITE_URL=https://arssshi.github.io/openform`, so generated canonicals, Open Graph URLs, robots metadata, and the sitemap point to the project site. If the repository is renamed, update that value in `.github/workflows/deploy-pages.yml` and `.env.example`.
 
 Openform focuses on useful, accurate content rather than keyword stuffing, fabricated rankings, or fake popularity claims.
 

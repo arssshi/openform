@@ -2,10 +2,10 @@ import { renderToString } from 'react-dom/server'
 import { MotionConfig } from 'motion/react'
 import App from './App'
 import { brands, collections, styles } from './lib/catalog'
-import { brandUrl, collectionUrl, guideUrl, resolvePage, styleUrl } from './lib/pages'
+import { brandPath, collectionPath, guidePath, resolvePage, stylePath } from './lib/pages'
 import { pageMeta } from './lib/seo'
 
-export const routes = ['/', ...brands.map(b => brandUrl(b.id)), ...styles.map(styleUrl), ...collections.map(c => collectionUrl(c.id)), guideUrl]
+export const routes = ['/', ...brands.map(b => brandPath(b.id)), ...styles.map(stylePath), ...collections.map(c => collectionPath(c.id)), guidePath]
 
 export function render(path: string, origin = '') {
   return {

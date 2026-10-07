@@ -1,10 +1,15 @@
 import { brands, collections, styles } from './catalog'
 import type { Brand, Collection, Style } from '../types'
+import { sitePath, stripSitePath } from './site'
 
-export const brandUrl = (id: string) => `/brands/${id}/`
-export const styleUrl = (style: string) => `/styles/${style.toLowerCase()}/`
-export const collectionUrl = (id: string) => `/collections/${id}/`
-export const guideUrl = '/guides/install-brand-theme/'
+export const brandPath = (id: string) => `/brands/${id}/`
+export const stylePath = (style: string) => `/styles/${style.toLowerCase()}/`
+export const collectionPath = (id: string) => `/collections/${id}/`
+export const guidePath = '/guides/install-brand-theme/'
+export const brandUrl = (id: string) => sitePath(brandPath(id))
+export const styleUrl = (style: string) => sitePath(stylePath(style))
+export const collectionUrl = (id: string) => sitePath(collectionPath(id))
+export const guideUrl = sitePath(guidePath)
 
 export type PageRoute =
   | { kind: 'home'; path: '/' }
@@ -15,15 +20,16 @@ export type PageRoute =
   | { kind: 'not-found'; path: string }
 
 export function resolvePage(pathname: string): PageRoute {
-  const path = pathname === '/' ? '/' : pathname.replace(/\/+$/, '') + '/'
+  const cleanPath = stripSitePath(pathname)
+  const path = cleanPath === '/' ? '/' : cleanPath.replace(/\/+$/, '') + '/'
   if (path === '/' || path === '/index.html/') return { kind: 'home', path: '/' }
-  const brand = brands.find(item => brandUrl(item.id) === path)
+  const brand = brands.find(item => brandPath(item.id) === path)
   if (brand) return { kind: 'brand', path, brand }
-  const style = styles.find(item => styleUrl(item) === path)
+  const style = styles.find(item => stylePath(item) === path)
   if (style) return { kind: 'style', path, style }
-  const collection = collections.find(item => collectionUrl(item.id) === path)
+  const collection = collections.find(item => collectionPath(item.id) === path)
   if (collection) return { kind: 'collection', path, collection }
-  if (path === guideUrl) return { kind: 'guide', path }
+  if (path === guidePath) return { kind: 'guide', path }
   return { kind: 'not-found', path }
 }
 
