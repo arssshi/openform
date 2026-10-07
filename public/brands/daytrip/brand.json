@@ -1,0 +1,87 @@
+{
+  "id": "daytrip",
+  "name": "Daytrip",
+  "category": "Travel",
+  "style": "Retro",
+  "tagline": "Make a day of it.",
+  "description": "A spirited identity for local travel guides. A rolling compass, sunshine yellow, and friendly mid-century display type make nearby adventures feel like a special occasion.",
+  "colors": [
+    "#394E55",
+    "#EAC669",
+    "#F8EFD9",
+    "#D78A6A"
+  ],
+  "colorNames": [
+    "Road sign",
+    "Sunlit",
+    "Ticket",
+    "Coral mile"
+  ],
+  "heading": "fraunces",
+  "body": "urbanist",
+  "weight": 600,
+  "tracking": -3,
+  "mark": "compass",
+  "layout": "ticket",
+  "pattern": "routes",
+  "radius": 16,
+  "voice": "Upbeat, curious, and pleasantly practical.",
+  "rules": [
+    "Compass points align vertically even when the surrounding badge rotates.",
+    "Use ticket-style borders with route information in a distinct lower strip.",
+    "Place sunshine behind short display headlines, not long itineraries."
+  ],
+  "collection": "back-to-good",
+  "featured": false,
+  "system": {
+    "direction": "The nearby adventure",
+    "concept": "Mid-century map postcards, compass-cut sun shapes, warm destination tickets, and generously curved serif type. A familiar place becomes a fresh little journey.",
+    "art": "postcard-landscape",
+    "family": "retro",
+    "mode": "accent",
+    "alignment": "center",
+    "split": 0.5,
+    "maxWidth": 1260,
+    "headingSize": 114,
+    "border": 1,
+    "button": "pill",
+    "accentFont": "fraunces",
+    "campaign": [
+      "MAKE",
+      "A DAY",
+      "OF IT."
+    ],
+    "headline": [
+      "Go somewhere.",
+      "Make a day of it."
+    ],
+    "eyebrow": "NEARBY ADVENTURES / A GOOD WAY TO GO",
+    "cta": "Find your daytrip",
+    "secondaryCta": "Read the local notes",
+    "nav": [
+      "The daytrips",
+      "Local notes",
+      "Our scenic approach"
+    ],
+    "product": "A ticket to a good day",
+    "productNote": "A new view, not so far away.",
+    "features": [
+      [
+        "Start nearby",
+        "Thoughtful guides to the places just beyond the usual route."
+      ],
+      [
+        "Take your time",
+        "A more curious way to make a day feel different."
+      ],
+      [
+        "Keep a good note",
+        "Useful details and small observations worth bringing along."
+      ]
+    ],
+    "layoutNote": "Sunlit centered hero with a postcard landscape and road-sign typography. Ticket-like borders, coral route chips, and plainly organized itinerary cards."
+  },
+  "version": "2.0.0",
+  "number": 46,
+  "assets": 30
+}

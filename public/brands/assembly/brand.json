@@ -1,0 +1,87 @@
+{
+  "id": "assembly",
+  "name": "ASSEMBLY",
+  "category": "Community",
+  "style": "Brutalist",
+  "tagline": "Many parts. One possibility.",
+  "description": "A participatory identity for an urban arts collective. Four fitted pieces, energetic citron, and type that behaves like signage turn many voices into one strong system.",
+  "colors": [
+    "#344735",
+    "#DAE67B",
+    "#F2F0E1",
+    "#E79366"
+  ],
+  "colorNames": [
+    "Workshop",
+    "Citron",
+    "Public paper",
+    "Safety orange"
+  ],
+  "heading": "bebas",
+  "body": "space-grotesk",
+  "weight": 400,
+  "tracking": 3,
+  "mark": "interlock",
+  "layout": "public",
+  "pattern": "assemblies",
+  "radius": 0,
+  "voice": "Collective, open, and action-oriented.",
+  "rules": [
+    "The four fitted pieces must remain distinguishable.",
+    "Use sign-like large capitals and keep event details in consistent blocks.",
+    "Citron surfaces carry workshop-colored text for accessible contrast."
+  ],
+  "collection": "loud-and-clear",
+  "featured": false,
+  "system": {
+    "direction": "Public possibility",
+    "concept": "Fitted graphic modules, large civic type, constructive street-poster layouts, and a high-visibility citron palette. Many voices combine into one deliberately public system.",
+    "art": "public-modules",
+    "family": "poster",
+    "mode": "accent",
+    "alignment": "left",
+    "split": 0.56,
+    "maxWidth": 1460,
+    "headingSize": 136,
+    "border": 2,
+    "button": "square",
+    "accentFont": "dm-mono",
+    "campaign": [
+      "MANY PARTS.",
+      "ONE",
+      "POSSIBILITY."
+    ],
+    "headline": [
+      "Bring your part.",
+      "Build something together."
+    ],
+    "eyebrow": "PUBLIC ARTS / COLLECTIVE POSSIBILITY",
+    "cta": "Find your part",
+    "secondaryCta": "See what is happening",
+    "nav": [
+      "The program",
+      "The collective",
+      "Public notes"
+    ],
+    "product": "The public program",
+    "productNote": "Different parts. A shared possibility.",
+    "features": [
+      [
+        "A part for everyone",
+        "A public practice with room for many kinds of contribution."
+      ],
+      [
+        "Make the idea visible",
+        "Useful graphic expression that brings people toward a shared goal."
+      ],
+      [
+        "Build it together",
+        "A collective that values participation as much as the finished work."
+      ]
+    ],
+    "layoutNote": "Citron poster hero with condensed civic headings, fitted-module artwork, 2px section lines, and square controls. Event details use practical date / title / place columns."
+  },
+  "version": "2.0.0",
+  "number": 40,
+  "assets": 30
+}

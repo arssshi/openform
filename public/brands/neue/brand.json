@@ -1,0 +1,87 @@
+{
+  "id": "neue",
+  "name": "neue",
+  "category": "Technology",
+  "style": "Minimal",
+  "tagline": "Less friction. More flow.",
+  "description": "A restrained digital identity built around a folded N and a cool mineral palette. Every line has a job; every layout prioritizes clarity over decoration.",
+  "colors": [
+    "#22282D",
+    "#C5CDD3",
+    "#F5F6F4",
+    "#798F86"
+  ],
+  "colorNames": [
+    "Graphite",
+    "Alloy",
+    "Chalk",
+    "Mineral"
+  ],
+  "heading": "dm-sans",
+  "body": "space-grotesk",
+  "weight": 500,
+  "tracking": -5,
+  "mark": "foldn",
+  "layout": "swiss",
+  "pattern": "bars",
+  "radius": 8,
+  "voice": "Clear, useful, and confident.",
+  "rules": [
+    "The folded N is always filled, never outlined.",
+    "Use a single accent per interface view and maintain strong neutral hierarchy.",
+    "Align all headings to the same vertical axis across a page."
+  ],
+  "collection": "less-but-better",
+  "featured": false,
+  "system": {
+    "direction": "Precision in motion",
+    "concept": "Folded aluminum-like surfaces, disciplined neutral typography, and modular documentation. Contrast, alignment, and sequence create the entire visual language.",
+    "art": "folded-alloy",
+    "family": "digital",
+    "mode": "paper",
+    "alignment": "left",
+    "split": 0.56,
+    "maxWidth": 1260,
+    "headingSize": 104,
+    "border": 1,
+    "button": "soft",
+    "accentFont": "space-grotesk",
+    "campaign": [
+      "LESS",
+      "FRICTION.",
+      "MORE FLOW."
+    ],
+    "headline": [
+      "A clearer way",
+      "to get things done."
+    ],
+    "eyebrow": "A MORE CONSIDERED DIGITAL WORKSPACE",
+    "cta": "Discover a better flow",
+    "secondaryCta": "See how it works",
+    "nav": [
+      "The system",
+      "How it works",
+      "Resources"
+    ],
+    "product": "A useful new workflow",
+    "productNote": "Clarity is the feature.",
+    "features": [
+      [
+        "One clear place",
+        "A modular workspace that puts the useful things first."
+      ],
+      [
+        "Less to get around",
+        "Thoughtful defaults and a hierarchy that makes sense."
+      ],
+      [
+        "More room to focus",
+        "A quiet interface that lets the work do the talking."
+      ]
+    ],
+    "layoutNote": "White, left-aligned product hero with an alloy-fold image. Restrained 8px cards, 1px dividers, one mineral accent, and clear numerical hierarchy."
+  },
+  "version": "2.0.0",
+  "number": 8,
+  "assets": 30
+}

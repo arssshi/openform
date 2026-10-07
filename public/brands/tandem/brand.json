@@ -1,0 +1,87 @@
+{
+  "id": "tandem",
+  "name": "tandem",
+  "category": "Mobility",
+  "style": "Minimal",
+  "tagline": "Better together. Further together.",
+  "description": "A balanced identity for a shared-mobility platform. Two linked loops, a clean teal, and functional typography express connection through the simplest possible geometry.",
+  "colors": [
+    "#205C5C",
+    "#C3DFD4",
+    "#F2F2E6",
+    "#D9AF73"
+  ],
+  "colorNames": [
+    "Petrol",
+    "Mint",
+    "Porcelain",
+    "Spoke"
+  ],
+  "heading": "urbanist",
+  "body": "dm-sans",
+  "weight": 600,
+  "tracking": -3,
+  "mark": "link",
+  "layout": "connected",
+  "pattern": "links",
+  "radius": 16,
+  "voice": "Cooperative, reliable, and optimistic.",
+  "rules": [
+    "Both loops use equal dimensions and a shared baseline.",
+    "Keep interface spacing on a four-unit rhythm.",
+    "Use petrol text on porcelain for route and journey information."
+  ],
+  "collection": "less-but-better",
+  "featured": false,
+  "system": {
+    "direction": "Connected momentum",
+    "concept": "Braided loops, wheel-like negative spaces, clean route diagrams, and friendly functional typography. Connection is expressed through continuous geometry and shared direction.",
+    "art": "connected-loops",
+    "family": "digital",
+    "mode": "paper",
+    "alignment": "left",
+    "split": 0.52,
+    "maxWidth": 1320,
+    "headingSize": 108,
+    "border": 1,
+    "button": "pill",
+    "accentFont": "urbanist",
+    "campaign": [
+      "BETTER",
+      "TOGETHER.",
+      "FURTHER."
+    ],
+    "headline": [
+      "A better way",
+      "to move together."
+    ],
+    "eyebrow": "SHARED JOURNEYS / BETTER EVERYDAYS",
+    "cta": "Find a better journey",
+    "secondaryCta": "How sharing works",
+    "nav": [
+      "Journeys",
+      "How it works",
+      "The community"
+    ],
+    "product": "The shared journey",
+    "productNote": "Connection makes more possible.",
+    "features": [
+      [
+        "Share the direction",
+        "A useful way to connect people going somewhere similar."
+      ],
+      [
+        "A clear next step",
+        "Thoughtful route information and simple journey planning."
+      ],
+      [
+        "Go a little further",
+        "A cooperative approach to moving through the everyday."
+      ]
+    ],
+    "layoutNote": "Porcelain split hero with oversized mint loop artwork. Petrol route text, rounded itinerary cards, and consistent 4px spacing increments."
+  },
+  "version": "2.0.0",
+  "number": 26,
+  "assets": 30
+}

@@ -1,0 +1,87 @@
+{
+  "id": "caravan",
+  "name": "Caravan",
+  "category": "Travel",
+  "style": "Retro",
+  "tagline": "The long way is the good way.",
+  "description": "A wandering identity for a road-trip outfitter. A rolling pennant, burnt sienna, and sturdy vintage lettering bring practical adventure back into focus.",
+  "colors": [
+    "#5B3424",
+    "#E6A871",
+    "#F5E8CC",
+    "#498E82"
+  ],
+  "colorNames": [
+    "Leather",
+    "Desert",
+    "Route map",
+    "Roadside"
+  ],
+  "heading": "bebas",
+  "body": "lora",
+  "weight": 400,
+  "tracking": 4,
+  "mark": "pennant",
+  "layout": "badge",
+  "pattern": "chevrons",
+  "radius": 10,
+  "voice": "Spirited, practical, and delightfully nostalgic.",
+  "rules": [
+    "The pennant always points right and uses the full-height mast.",
+    "Frame display headlines with badge-like rules and a small route label.",
+    "Use roadside teal sparingly against the warm main palette."
+  ],
+  "collection": "back-to-good",
+  "featured": false,
+  "system": {
+    "direction": "The long-road outfitter",
+    "concept": "Winding route illustrations, old road-sign geometry, stitched-looking badge frames, and sturdy condensed lettering. A practical travel world with a richly nostalgic landscape.",
+    "art": "desert-route",
+    "family": "expedition",
+    "mode": "accent",
+    "alignment": "left",
+    "split": 0.49,
+    "maxWidth": 1320,
+    "headingSize": 130,
+    "border": 2,
+    "button": "soft",
+    "accentFont": "lora",
+    "campaign": [
+      "THE LONG WAY",
+      "IS THE",
+      "GOOD WAY."
+    ],
+    "headline": [
+      "Take the long way.",
+      "Bring good company."
+    ],
+    "eyebrow": "GOODS FOR THE ROAD / NOTES FROM THE WAY",
+    "cta": "Explore the road goods",
+    "secondaryCta": "Read the route notes",
+    "nav": [
+      "Road goods",
+      "Routes",
+      "Stories from the way"
+    ],
+    "product": "The road-ready collection",
+    "productNote": "Made for the scenic approach.",
+    "features": [
+      [
+        "Useful on the way",
+        "A focused set of things that make a journey feel easier."
+      ],
+      [
+        "Routes worth the time",
+        "Notes for taking a more curious road."
+      ],
+      [
+        "Keep going, well",
+        "Practical design with the warmth of a familiar companion."
+      ]
+    ],
+    "layoutNote": "Desert hero with condensed road-sign headings and a layered landscape. Leather outlines, teal route accents, and badge-like equipment labels."
+  },
+  "version": "2.0.0",
+  "number": 22,
+  "assets": 30
+}

@@ -1,0 +1,233 @@
+{
+  "format": "openform-theme",
+  "version": "2.0.0",
+  "id": "bloom",
+  "name": "bloom",
+  "direction": "Joyful object culture",
+  "concept": "Oversized sculpted petals, candy-colored packaging, and friendly heavy lettering. Playfulness appears in a few big gestures, balanced by very readable details.",
+  "scope": {
+    "attribute": "data-openform",
+    "value": "bloom",
+    "selector": "[data-openform=\"bloom\"]"
+  },
+  "installation": {
+    "command": "node install-theme.mjs --target /path/to/your/project",
+    "publicDirectory": "public",
+    "destination": "themes/bloom",
+    "stylesheet": "/themes/bloom/theme.css",
+    "reference": "/themes/bloom/reference.html",
+    "components": "/themes/bloom/components.html",
+    "htmlAttribute": "data-openform=\"bloom\""
+  },
+  "colors": {
+    "ink": "#592D48",
+    "accent": "#F7A6A0",
+    "paper": "#FFF4DA",
+    "support": "#D2C1EB",
+    "secondary": "#724b5e",
+    "border": "#d2beb3",
+    "heroBackground": "#F7A6A0",
+    "heroForeground": "#592D48",
+    "buttonBackground": "#592D48",
+    "buttonForeground": "#FFF4DA"
+  },
+  "typography": {
+    "display": {
+      "family": "Bricolage Grotesque",
+      "file": "fonts/bricolage.ttf",
+      "weight": 700,
+      "trackingEm": -0.04,
+      "lineHeight": 1.02,
+      "desktopMaxPx": 96,
+      "mobileMinPx": 38
+    },
+    "body": {
+      "family": "Karla",
+      "file": "fonts/karla.ttf",
+      "weight": 400,
+      "sizePx": 16,
+      "lineHeight": 1.7
+    },
+    "accent": {
+      "family": "Fraunces",
+      "file": "fonts/fraunces.ttf",
+      "style": "normal"
+    },
+    "label": {
+      "sizePx": 11,
+      "trackingEm": 0.08,
+      "lineHeight": 1.5
+    }
+  },
+  "layout": {
+    "id": "sticker",
+    "family": "playful",
+    "mode": "accent",
+    "alignment": "center",
+    "maxWidthPx": 1240,
+    "pageGutter": "clamp(20px, 4vw, 64px)",
+    "sectionGap": "clamp(64px, 9vw, 128px)",
+    "heroTextRatio": 0.5,
+    "gridColumns": 3,
+    "breakpoints": {
+      "mobile": 640,
+      "tablet": 960
+    },
+    "description": "Centered coral hero, rounded petal artwork below the headline, wide cream pill CTAs, and alternating lilac / vanilla product tiles. Keep the berry text anchor."
+  },
+  "components": {
+    "classes": {
+      "root": "of-theme",
+      "container": "of-container",
+      "header": "of-header",
+      "navigation": "of-nav",
+      "mobileNavigation": "of-mobile-nav",
+      "logo": "of-logo",
+      "eyebrow": "of-eyebrow",
+      "hero": "of-hero",
+      "heroCopy": "of-hero-copy",
+      "heroHeading": "of-display",
+      "heroMedia": "of-hero-media",
+      "heading": "of-heading",
+      "body": "of-body",
+      "actions": "of-actions",
+      "button": "of-button",
+      "secondaryButton": "of-button of-button--ghost",
+      "section": "of-section",
+      "sectionHeading": "of-section-heading",
+      "grid": "of-grid",
+      "card": "of-card",
+      "cardImage": "of-card-image",
+      "badge": "of-badge",
+      "form": "of-form",
+      "field": "of-field",
+      "input": "of-input",
+      "select": "of-select",
+      "textarea": "of-textarea",
+      "notice": "of-notice",
+      "table": "of-table",
+      "accordion": "of-accordion",
+      "footer": "of-footer"
+    },
+    "radiusPx": 32,
+    "cardRadiusPx": 0,
+    "borderPx": 1,
+    "buttonShape": "pill",
+    "minimumControlHeightPx": 48,
+    "inputHeightPx": 52,
+    "focus": {
+      "widthPx": 3,
+      "offsetPx": 4,
+      "color": "#592D48"
+    }
+  },
+  "content": {
+    "headline": [
+      "Good things",
+      "have room to bloom."
+    ],
+    "eyebrow": "EVERYDAY OBJECTS / EXTRAORDINARY FEELING",
+    "cta": "Meet the good things",
+    "secondaryCta": "A little about us",
+    "nav": [
+      "Good things",
+      "Our world",
+      "Notes"
+    ],
+    "features": [
+      [
+        "A brighter everyday",
+        "Objects that make the ordinary moments feel a little less ordinary."
+      ],
+      [
+        "Made to be kept",
+        "Good form, useful function, and personality that lasts."
+      ],
+      [
+        "Room for your own way",
+        "A collection to mix, match, and make part of your world."
+      ]
+    ]
+  },
+  "rules": [
+    "Petals may rotate as a group, but their proportions never change.",
+    "Mix two pastel surfaces per layout with berry as the text anchor.",
+    "Use pill-shaped labels as playful annotations, not primary headings.",
+    "Centered coral hero, rounded petal artwork below the headline, wide cream pill CTAs, and alternating lilac / vanilla product tiles. Keep the berry text anchor.",
+    "Use the supplied artwork and SVG logos; keep glyph proportions intact.",
+    "Preserve the existing project content, routes, data fetching, and interaction handlers."
+  ],
+  "fonts": [
+    {
+      "id": "bricolage",
+      "family": "Bricolage Grotesque",
+      "path": "fonts/bricolage.ttf",
+      "license": "fonts/bricolage-OFL.txt",
+      "weight": "200 800",
+      "style": "normal"
+    },
+    {
+      "id": "karla",
+      "family": "Karla",
+      "path": "fonts/karla.ttf",
+      "license": "fonts/karla-OFL.txt",
+      "weight": "200 800",
+      "style": "normal"
+    },
+    {
+      "id": "fraunces",
+      "family": "Fraunces",
+      "path": "fonts/fraunces.ttf",
+      "license": "fonts/fraunces-OFL.txt",
+      "weight": "100 900",
+      "style": "normal"
+    }
+  ],
+  "exports": [
+    "mark.svg",
+    "lockup.svg",
+    "wordmark.svg",
+    "monochrome.svg",
+    "pattern.svg",
+    "poster.svg",
+    "social.svg",
+    "avatar.svg",
+    "favicon.svg",
+    "artwork.svg",
+    "identity-board.svg",
+    "stationery.svg",
+    "packaging.svg",
+    "website.svg",
+    "social-story.svg",
+    "icon-set.svg",
+    "palette.svg",
+    "typography.svg",
+    "business-card.svg",
+    "tokens.json",
+    "theme.css",
+    "theme.json",
+    "theme.js",
+    "reference.html",
+    "components.html",
+    "components.tsx",
+    "install-theme.mjs",
+    "AI-PROMPT.md",
+    "INSTALL.md",
+    "guidelines.md"
+  ],
+  "license": {
+    "artwork": "CC0-1.0",
+    "code": "MIT",
+    "fonts": "OFL-1.1"
+  },
+  "acceptance": [
+    "The exact stylesheet loads without a 404.",
+    "All local fonts load; there are no requests to remote font services.",
+    "The root or intended subtree carries the exact data-openform attribute.",
+    "The supplied display font, colors, radius, spacing, and layout family are used consistently.",
+    "At 360px, 768px, and 1440px there is no horizontal page overflow.",
+    "Navigation, forms, routes, and existing business behavior still work.",
+    "Controls are keyboard accessible with visible focus; reduced-motion preferences are respected.",
+    "The final interface follows reference.html and components.html rather than a guessed visual style."
+  ]
+}

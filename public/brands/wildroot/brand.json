@@ -1,0 +1,87 @@
+{
+  "id": "wildroot",
+  "name": "wildroot",
+  "category": "Outdoors",
+  "style": "Organic",
+  "tagline": "Leave room for the wild.",
+  "description": "A grounded identity for regenerative gardening tools. Branching roots, mulberry soil tones, and softly rustic type honor the untidy beauty of things that grow.",
+  "colors": [
+    "#603C43",
+    "#B4C38E",
+    "#F3E9D8",
+    "#CF9365"
+  ],
+  "colorNames": [
+    "Rich soil",
+    "Wild grass",
+    "Husk",
+    "Seedpod"
+  ],
+  "heading": "fraunces",
+  "body": "dm-sans",
+  "weight": 600,
+  "tracking": -3,
+  "mark": "roots",
+  "layout": "rooted",
+  "pattern": "branches",
+  "radius": 8,
+  "voice": "Practical, hopeful, and naturally expressive.",
+  "rules": [
+    "The branching root symbol always has a visible central stem.",
+    "Allow branches to frame content without crossing body text.",
+    "Use husk for instructional pages and wild grass for packaging."
+  ],
+  "collection": "earthbound",
+  "featured": false,
+  "system": {
+    "direction": "The untidy garden",
+    "concept": "Branching line studies, carved seedpod illustrations, soil-colored labels, and a softly rustic serif. The useful grid leaves room for a little natural wildness.",
+    "art": "root-system",
+    "family": "botanical",
+    "mode": "paper",
+    "alignment": "left",
+    "split": 0.46,
+    "maxWidth": 1300,
+    "headingSize": 110,
+    "border": 1,
+    "button": "soft",
+    "accentFont": "fraunces",
+    "campaign": [
+      "LEAVE ROOM",
+      "FOR THE",
+      "WILD."
+    ],
+    "headline": [
+      "Good things grow",
+      "a little wild."
+    ],
+    "eyebrow": "TOOLS / GARDENS / GOOD GROUND",
+    "cta": "Explore the garden goods",
+    "secondaryCta": "Read the growing notes",
+    "nav": [
+      "Garden goods",
+      "Growing notes",
+      "Our approach"
+    ],
+    "product": "The growing collection",
+    "productNote": "Useful things for an untidy kind of beauty.",
+    "features": [
+      [
+        "Work with what grows",
+        "A practical approach that begins with the ground beneath you."
+      ],
+      [
+        "Useful, naturally",
+        "Considered garden tools with a clear place in the everyday."
+      ],
+      [
+        "Leave room for more",
+        "A little care, a little patience, and some space for the unexpected."
+      ]
+    ],
+    "layoutNote": "Husk split hero with soil serif type and branching artwork. Grass image panels, seedpod annotation chips, and an orderly instructional grid underneath."
+  },
+  "version": "2.0.0",
+  "number": 41,
+  "assets": 30
+}

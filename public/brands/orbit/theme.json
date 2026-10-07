@@ -1,0 +1,225 @@
+{
+  "format": "openform-theme",
+  "version": "2.0.0",
+  "id": "orbit",
+  "name": "orbit",
+  "direction": "Orbital optimism",
+  "concept": "Luminous orbital objects and precise flight-path diagrams meet a playful digital interface. Rounded controls live inside disciplined, spacious technical frames.",
+  "scope": {
+    "attribute": "data-openform",
+    "value": "orbit",
+    "selector": "[data-openform=\"orbit\"]"
+  },
+  "installation": {
+    "command": "node install-theme.mjs --target /path/to/your/project",
+    "publicDirectory": "public",
+    "destination": "themes/orbit",
+    "stylesheet": "/themes/orbit/theme.css",
+    "reference": "/themes/orbit/reference.html",
+    "components": "/themes/orbit/components.html",
+    "htmlAttribute": "data-openform=\"orbit\""
+  },
+  "colors": {
+    "ink": "#28204A",
+    "accent": "#C5B4F3",
+    "paper": "#F0ECFA",
+    "support": "#FF8468",
+    "secondary": "#463f64",
+    "border": "#bab5ca",
+    "heroBackground": "#C5B4F3",
+    "heroForeground": "#28204A",
+    "buttonBackground": "#28204A",
+    "buttonForeground": "#F0ECFA"
+  },
+  "typography": {
+    "display": {
+      "family": "Space Grotesk",
+      "file": "fonts/space-grotesk.ttf",
+      "weight": 500,
+      "trackingEm": -0.03,
+      "lineHeight": 1.02,
+      "desktopMaxPx": 96,
+      "mobileMinPx": 38
+    },
+    "body": {
+      "family": "DM Sans",
+      "file": "fonts/dm-sans.ttf",
+      "weight": 400,
+      "sizePx": 16,
+      "lineHeight": 1.7
+    },
+    "accent": {
+      "family": "Space Grotesk",
+      "file": "fonts/space-grotesk.ttf",
+      "style": "normal"
+    },
+    "label": {
+      "sizePx": 11,
+      "trackingEm": 0.08,
+      "lineHeight": 1.5
+    }
+  },
+  "layout": {
+    "id": "orbital",
+    "family": "digital",
+    "mode": "accent",
+    "alignment": "left",
+    "maxWidthPx": 1320,
+    "pageGutter": "clamp(20px, 4vw, 64px)",
+    "sectionGap": "clamp(64px, 9vw, 128px)",
+    "heroTextRatio": 0.48,
+    "gridColumns": 3,
+    "breakpoints": {
+      "mobile": 640,
+      "tablet": 960
+    },
+    "description": "Lilac split hero with oversized orbital artwork. The second section uses bordered, offset cards and coral only as a small decorative highlight."
+  },
+  "components": {
+    "classes": {
+      "root": "of-theme",
+      "container": "of-container",
+      "header": "of-header",
+      "navigation": "of-nav",
+      "mobileNavigation": "of-mobile-nav",
+      "logo": "of-logo",
+      "eyebrow": "of-eyebrow",
+      "hero": "of-hero",
+      "heroCopy": "of-hero-copy",
+      "heroHeading": "of-display",
+      "heroMedia": "of-hero-media",
+      "heading": "of-heading",
+      "body": "of-body",
+      "actions": "of-actions",
+      "button": "of-button",
+      "secondaryButton": "of-button of-button--ghost",
+      "section": "of-section",
+      "sectionHeading": "of-section-heading",
+      "grid": "of-grid",
+      "card": "of-card",
+      "cardImage": "of-card-image",
+      "badge": "of-badge",
+      "form": "of-form",
+      "field": "of-field",
+      "input": "of-input",
+      "select": "of-select",
+      "textarea": "of-textarea",
+      "notice": "of-notice",
+      "table": "of-table",
+      "accordion": "of-accordion",
+      "footer": "of-footer"
+    },
+    "radiusPx": 24,
+    "cardRadiusPx": 0,
+    "borderPx": 1,
+    "buttonShape": "pill",
+    "minimumControlHeightPx": 48,
+    "inputHeightPx": 52,
+    "focus": {
+      "widthPx": 3,
+      "offsetPx": 4,
+      "color": "#28204A"
+    }
+  },
+  "content": {
+    "headline": [
+      "Your next idea.",
+      "A new orbit."
+    ],
+    "eyebrow": "A WORKSPACE FOR WHAT COMES NEXT",
+    "cta": "Find your orbit",
+    "secondaryCta": "See the possibilities",
+    "nav": [
+      "The workspace",
+      "Possibilities",
+      "Journal"
+    ],
+    "features": [
+      [
+        "Make space",
+        "Collect the fragments that could become your next great idea."
+      ],
+      [
+        "Connect the dots",
+        "Bring your thinking together in a workspace that stays open."
+      ],
+      [
+        "Build with others",
+        "Good ideas get better when they have somewhere to meet."
+      ]
+    ]
+  },
+  "rules": [
+    "Orbit rings stay at a 28-degree inclination.",
+    "Use lilac as the primary canvas and deep space for the wordmark.",
+    "Keep interface components rounded while display layouts remain open.",
+    "Lilac split hero with oversized orbital artwork. The second section uses bordered, offset cards and coral only as a small decorative highlight.",
+    "Use the supplied artwork and SVG logos; keep glyph proportions intact.",
+    "Preserve the existing project content, routes, data fetching, and interaction handlers."
+  ],
+  "fonts": [
+    {
+      "id": "space-grotesk",
+      "family": "Space Grotesk",
+      "path": "fonts/space-grotesk.ttf",
+      "license": "fonts/space-grotesk-OFL.txt",
+      "weight": "300 700",
+      "style": "normal"
+    },
+    {
+      "id": "dm-sans",
+      "family": "DM Sans",
+      "path": "fonts/dm-sans.ttf",
+      "license": "fonts/dm-sans-OFL.txt",
+      "weight": "100 1000",
+      "style": "normal"
+    }
+  ],
+  "exports": [
+    "mark.svg",
+    "lockup.svg",
+    "wordmark.svg",
+    "monochrome.svg",
+    "pattern.svg",
+    "poster.svg",
+    "social.svg",
+    "avatar.svg",
+    "favicon.svg",
+    "artwork.svg",
+    "identity-board.svg",
+    "stationery.svg",
+    "packaging.svg",
+    "website.svg",
+    "social-story.svg",
+    "icon-set.svg",
+    "palette.svg",
+    "typography.svg",
+    "business-card.svg",
+    "tokens.json",
+    "theme.css",
+    "theme.json",
+    "theme.js",
+    "reference.html",
+    "components.html",
+    "components.tsx",
+    "install-theme.mjs",
+    "AI-PROMPT.md",
+    "INSTALL.md",
+    "guidelines.md"
+  ],
+  "license": {
+    "artwork": "CC0-1.0",
+    "code": "MIT",
+    "fonts": "OFL-1.1"
+  },
+  "acceptance": [
+    "The exact stylesheet loads without a 404.",
+    "All local fonts load; there are no requests to remote font services.",
+    "The root or intended subtree carries the exact data-openform attribute.",
+    "The supplied display font, colors, radius, spacing, and layout family are used consistently.",
+    "At 360px, 768px, and 1440px there is no horizontal page overflow.",
+    "Navigation, forms, routes, and existing business behavior still work.",
+    "Controls are keyboard accessible with visible focus; reduced-motion preferences are respected.",
+    "The final interface follows reference.html and components.html rather than a guessed visual style."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "onda",
+  "name": "onda",
+  "category": "Wellness",
+  "style": "Organic",
+  "tagline": "Find your own rhythm.",
+  "description": "A fluid identity for a coastal movement studio. Hand-drawn wave geometry, ocean blue, and cloud-white surfaces create a calm but active visual rhythm.",
+  "colors": [
+    "#204958",
+    "#A4D4CB",
+    "#EFF4E8",
+    "#E1A484"
+  ],
+  "colorNames": [
+    "Deep water",
+    "Sea glass",
+    "Foam",
+    "Shell"
+  ],
+  "heading": "urbanist",
+  "body": "karla",
+  "weight": 500,
+  "tracking": -4,
+  "mark": "wave",
+  "layout": "tidal",
+  "pattern": "waves",
+  "radius": 28,
+  "voice": "Fluid, reassuring, and present.",
+  "rules": [
+    "Wave strokes retain rounded caps and never taper.",
+    "Allow organic bands to flow off both sides of the canvas.",
+    "Use sea glass for generous background areas, not paragraph text."
+  ],
+  "collection": "earthbound",
+  "featured": false,
+  "system": {
+    "direction": "A fluid practice",
+    "concept": "Tidal contours, folded wave ribbons, sea-glass translucency, and airy movement typography. The composition alternates still reading areas with broad flowing graphics.",
+    "art": "tidal-ribbon",
+    "family": "botanical",
+    "mode": "paper",
+    "alignment": "left",
+    "split": 0.5,
+    "maxWidth": 1300,
+    "headingSize": 108,
+    "border": 0,
+    "button": "pill",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "FIND YOUR",
+      "OWN",
+      "RHYTHM."
+    ],
+    "headline": [
+      "Move with",
+      "your own rhythm."
+    ],
+    "eyebrow": "MOVEMENT / BREATH / THE COASTAL WAY",
+    "cta": "Find your practice",
+    "secondaryCta": "Meet the studio",
+    "nav": [
+      "Practice",
+      "The studio",
+      "Notes on movement"
+    ],
+    "product": "A coastal daily practice",
+    "productNote": "Make a little room for movement.",
+    "features": [
+      [
+        "Begin where you are",
+        "A practice that makes space for your own pace."
+      ],
+      [
+        "Find a natural rhythm",
+        "Movement, breath, and consistency over perfection."
+      ],
+      [
+        "Return to the moment",
+        "A calm, thoughtful place to connect with yourself."
+      ]
+    ],
+    "layoutNote": "Foam-white hero with sea-glass tidal art, a wide text-to-image gutter, and shell-colored section annotations. Rounded movement cards are balanced by open space."
+  },
+  "version": "2.0.0",
+  "number": 13,
+  "assets": 30
+}

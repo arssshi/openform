@@ -1,0 +1,87 @@
+{
+  "id": "pebble",
+  "name": "pebble",
+  "category": "Wellness",
+  "style": "Playful",
+  "tagline": "Small steps. Softer days.",
+  "description": "A friendly identity for a habit-building app. Irregular rounded stones, clear cornflower blue, and an expressive but readable wordmark make progress feel human.",
+  "colors": [
+    "#334D8A",
+    "#ABC3EA",
+    "#FAF4E6",
+    "#EEAC8F"
+  ],
+  "colorNames": [
+    "River blue",
+    "Cornflower",
+    "Sand",
+    "Peach stone"
+  ],
+  "heading": "bricolage",
+  "body": "dm-sans",
+  "weight": 600,
+  "tracking": -5,
+  "mark": "pebble",
+  "layout": "scattered",
+  "pattern": "stones",
+  "radius": 30,
+  "voice": "Patient, kind, and encouraging.",
+  "rules": [
+    "Use asymmetrical pebbles rather than perfect circles.",
+    "Never visually rank people; use color to distinguish habits instead.",
+    "Keep encouraging headlines short and in lowercase."
+  ],
+  "collection": "happy-accidents",
+  "featured": false,
+  "system": {
+    "direction": "Progress, gently shaped",
+    "concept": "Soft dimensional stones, stacked organic frames, warm editorial annotations, and unforced friendly type. The system makes small progress feel worth noticing.",
+    "art": "river-stones",
+    "family": "playful",
+    "mode": "paper",
+    "alignment": "left",
+    "split": 0.54,
+    "maxWidth": 1240,
+    "headingSize": 108,
+    "border": 0,
+    "button": "pill",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "SMALL STEPS.",
+      "SOFTER",
+      "DAYS."
+    ],
+    "headline": [
+      "One small thing.",
+      "A softer day."
+    ],
+    "eyebrow": "A LITTLE PRACTICE / A LITTLE PROGRESS",
+    "cta": "Find your small step",
+    "secondaryCta": "Meet the approach",
+    "nav": [
+      "Small steps",
+      "The approach",
+      "Good notes"
+    ],
+    "product": "A softer daily practice",
+    "productNote": "Progress does not have to be loud.",
+    "features": [
+      [
+        "Start small",
+        "A thoughtful beginning that can fit into your actual day."
+      ],
+      [
+        "Make it your rhythm",
+        "A gentle approach to building something consistent."
+      ],
+      [
+        "Notice the good",
+        "Small progress, clearly seen and kindly celebrated."
+      ]
+    ],
+    "layoutNote": "Sand hero with irregular blue stone artwork and a conversational heading. Peach accents, 30px cards, and reassuring empty space; never competitive-looking progress charts."
+  },
+  "version": "2.0.0",
+  "number": 27,
+  "assets": 30
+}

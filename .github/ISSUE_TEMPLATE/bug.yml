@@ -1,0 +1,24 @@
+name: Report a bug
+description: Help make the library more useful and accessible.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser, operating system, and screen size
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior and screenshots

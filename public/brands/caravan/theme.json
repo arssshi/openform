@@ -1,0 +1,225 @@
+{
+  "format": "openform-theme",
+  "version": "2.0.0",
+  "id": "caravan",
+  "name": "Caravan",
+  "direction": "The long-road outfitter",
+  "concept": "Winding route illustrations, old road-sign geometry, stitched-looking badge frames, and sturdy condensed lettering. A practical travel world with a richly nostalgic landscape.",
+  "scope": {
+    "attribute": "data-openform",
+    "value": "caravan",
+    "selector": "[data-openform=\"caravan\"]"
+  },
+  "installation": {
+    "command": "node install-theme.mjs --target /path/to/your/project",
+    "publicDirectory": "public",
+    "destination": "themes/caravan",
+    "stylesheet": "/themes/caravan/theme.css",
+    "reference": "/themes/caravan/reference.html",
+    "components": "/themes/caravan/components.html",
+    "htmlAttribute": "data-openform=\"caravan\""
+  },
+  "colors": {
+    "ink": "#5B3424",
+    "accent": "#E6A871",
+    "paper": "#F5E8CC",
+    "support": "#498E82",
+    "secondary": "#724f3d",
+    "border": "#cbb79f",
+    "heroBackground": "#E6A871",
+    "heroForeground": "#5B3424",
+    "buttonBackground": "#5B3424",
+    "buttonForeground": "#F5E8CC"
+  },
+  "typography": {
+    "display": {
+      "family": "Bebas Neue",
+      "file": "fonts/bebas.ttf",
+      "weight": 400,
+      "trackingEm": 0.04,
+      "lineHeight": 1.02,
+      "desktopMaxPx": 96,
+      "mobileMinPx": 38
+    },
+    "body": {
+      "family": "Lora",
+      "file": "fonts/lora.ttf",
+      "weight": 400,
+      "sizePx": 16,
+      "lineHeight": 1.7
+    },
+    "accent": {
+      "family": "Lora",
+      "file": "fonts/lora.ttf",
+      "style": "normal"
+    },
+    "label": {
+      "sizePx": 11,
+      "trackingEm": 0.08,
+      "lineHeight": 1.5
+    }
+  },
+  "layout": {
+    "id": "badge",
+    "family": "expedition",
+    "mode": "accent",
+    "alignment": "left",
+    "maxWidthPx": 1320,
+    "pageGutter": "clamp(20px, 4vw, 64px)",
+    "sectionGap": "clamp(64px, 9vw, 128px)",
+    "heroTextRatio": 0.49,
+    "gridColumns": 3,
+    "breakpoints": {
+      "mobile": 640,
+      "tablet": 960
+    },
+    "description": "Desert hero with condensed road-sign headings and a layered landscape. Leather outlines, teal route accents, and badge-like equipment labels."
+  },
+  "components": {
+    "classes": {
+      "root": "of-theme",
+      "container": "of-container",
+      "header": "of-header",
+      "navigation": "of-nav",
+      "mobileNavigation": "of-mobile-nav",
+      "logo": "of-logo",
+      "eyebrow": "of-eyebrow",
+      "hero": "of-hero",
+      "heroCopy": "of-hero-copy",
+      "heroHeading": "of-display",
+      "heroMedia": "of-hero-media",
+      "heading": "of-heading",
+      "body": "of-body",
+      "actions": "of-actions",
+      "button": "of-button",
+      "secondaryButton": "of-button of-button--ghost",
+      "section": "of-section",
+      "sectionHeading": "of-section-heading",
+      "grid": "of-grid",
+      "card": "of-card",
+      "cardImage": "of-card-image",
+      "badge": "of-badge",
+      "form": "of-form",
+      "field": "of-field",
+      "input": "of-input",
+      "select": "of-select",
+      "textarea": "of-textarea",
+      "notice": "of-notice",
+      "table": "of-table",
+      "accordion": "of-accordion",
+      "footer": "of-footer"
+    },
+    "radiusPx": 10,
+    "cardRadiusPx": 0,
+    "borderPx": 2,
+    "buttonShape": "soft",
+    "minimumControlHeightPx": 48,
+    "inputHeightPx": 52,
+    "focus": {
+      "widthPx": 3,
+      "offsetPx": 4,
+      "color": "#5B3424"
+    }
+  },
+  "content": {
+    "headline": [
+      "Take the long way.",
+      "Bring good company."
+    ],
+    "eyebrow": "GOODS FOR THE ROAD / NOTES FROM THE WAY",
+    "cta": "Explore the road goods",
+    "secondaryCta": "Read the route notes",
+    "nav": [
+      "Road goods",
+      "Routes",
+      "Stories from the way"
+    ],
+    "features": [
+      [
+        "Useful on the way",
+        "A focused set of things that make a journey feel easier."
+      ],
+      [
+        "Routes worth the time",
+        "Notes for taking a more curious road."
+      ],
+      [
+        "Keep going, well",
+        "Practical design with the warmth of a familiar companion."
+      ]
+    ]
+  },
+  "rules": [
+    "The pennant always points right and uses the full-height mast.",
+    "Frame display headlines with badge-like rules and a small route label.",
+    "Use roadside teal sparingly against the warm main palette.",
+    "Desert hero with condensed road-sign headings and a layered landscape. Leather outlines, teal route accents, and badge-like equipment labels.",
+    "Use the supplied artwork and SVG logos; keep glyph proportions intact.",
+    "Preserve the existing project content, routes, data fetching, and interaction handlers."
+  ],
+  "fonts": [
+    {
+      "id": "bebas",
+      "family": "Bebas Neue",
+      "path": "fonts/bebas.ttf",
+      "license": "fonts/bebas-OFL.txt",
+      "weight": "400",
+      "style": "normal"
+    },
+    {
+      "id": "lora",
+      "family": "Lora",
+      "path": "fonts/lora.ttf",
+      "license": "fonts/lora-OFL.txt",
+      "weight": "400 700",
+      "style": "normal"
+    }
+  ],
+  "exports": [
+    "mark.svg",
+    "lockup.svg",
+    "wordmark.svg",
+    "monochrome.svg",
+    "pattern.svg",
+    "poster.svg",
+    "social.svg",
+    "avatar.svg",
+    "favicon.svg",
+    "artwork.svg",
+    "identity-board.svg",
+    "stationery.svg",
+    "packaging.svg",
+    "website.svg",
+    "social-story.svg",
+    "icon-set.svg",
+    "palette.svg",
+    "typography.svg",
+    "business-card.svg",
+    "tokens.json",
+    "theme.css",
+    "theme.json",
+    "theme.js",
+    "reference.html",
+    "components.html",
+    "components.tsx",
+    "install-theme.mjs",
+    "AI-PROMPT.md",
+    "INSTALL.md",
+    "guidelines.md"
+  ],
+  "license": {
+    "artwork": "CC0-1.0",
+    "code": "MIT",
+    "fonts": "OFL-1.1"
+  },
+  "acceptance": [
+    "The exact stylesheet loads without a 404.",
+    "All local fonts load; there are no requests to remote font services.",
+    "The root or intended subtree carries the exact data-openform attribute.",
+    "The supplied display font, colors, radius, spacing, and layout family are used consistently.",
+    "At 360px, 768px, and 1440px there is no horizontal page overflow.",
+    "Navigation, forms, routes, and existing business behavior still work.",
+    "Controls are keyboard accessible with visible focus; reduced-motion preferences are respected.",
+    "The final interface follows reference.html and components.html rather than a guessed visual style."
+  ]
+}

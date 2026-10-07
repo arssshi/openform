@@ -1,0 +1,225 @@
+{
+  "format": "openform-theme",
+  "version": "2.0.0",
+  "id": "modo",
+  "name": "modo",
+  "direction": "Clarity compounds",
+  "concept": "Folded modular M geometry, confident cobalt interfaces, and meticulous financial hierarchy. The expressive graphic system never obscures numerical information.",
+  "scope": {
+    "attribute": "data-openform",
+    "value": "modo",
+    "selector": "[data-openform=\"modo\"]"
+  },
+  "installation": {
+    "command": "node install-theme.mjs --target /path/to/your/project",
+    "publicDirectory": "public",
+    "destination": "themes/modo",
+    "stylesheet": "/themes/modo/theme.css",
+    "reference": "/themes/modo/reference.html",
+    "components": "/themes/modo/components.html",
+    "htmlAttribute": "data-openform=\"modo\""
+  },
+  "colors": {
+    "ink": "#163BD0",
+    "accent": "#B9D7F6",
+    "paper": "#F3F6FA",
+    "support": "#253143",
+    "secondary": "#3757d6",
+    "border": "#b7c4ef",
+    "heroBackground": "#F3F6FA",
+    "heroForeground": "#163BD0",
+    "buttonBackground": "#163BD0",
+    "buttonForeground": "#F3F6FA"
+  },
+  "typography": {
+    "display": {
+      "family": "Manrope",
+      "file": "fonts/manrope.ttf",
+      "weight": 700,
+      "trackingEm": -0.04,
+      "lineHeight": 1.02,
+      "desktopMaxPx": 96,
+      "mobileMinPx": 38
+    },
+    "body": {
+      "family": "Outfit",
+      "file": "fonts/outfit.ttf",
+      "weight": 400,
+      "sizePx": 16,
+      "lineHeight": 1.7
+    },
+    "accent": {
+      "family": "Outfit",
+      "file": "fonts/outfit.ttf",
+      "style": "normal"
+    },
+    "label": {
+      "sizePx": 11,
+      "trackingEm": 0.08,
+      "lineHeight": 1.5
+    }
+  },
+  "layout": {
+    "id": "precision",
+    "family": "digital",
+    "mode": "paper",
+    "alignment": "left",
+    "maxWidthPx": 1280,
+    "pageGutter": "clamp(20px, 4vw, 64px)",
+    "sectionGap": "clamp(64px, 9vw, 128px)",
+    "heroTextRatio": 0.57,
+    "gridColumns": 3,
+    "breakpoints": {
+      "mobile": 640,
+      "tablet": 960
+    },
+    "description": "White finance hero with cobalt modular illustration. Ledger text for long reading, aligned numeric rows, and calm 10px card corners. Avoid decorative low-contrast data."
+  },
+  "components": {
+    "classes": {
+      "root": "of-theme",
+      "container": "of-container",
+      "header": "of-header",
+      "navigation": "of-nav",
+      "mobileNavigation": "of-mobile-nav",
+      "logo": "of-logo",
+      "eyebrow": "of-eyebrow",
+      "hero": "of-hero",
+      "heroCopy": "of-hero-copy",
+      "heroHeading": "of-display",
+      "heroMedia": "of-hero-media",
+      "heading": "of-heading",
+      "body": "of-body",
+      "actions": "of-actions",
+      "button": "of-button",
+      "secondaryButton": "of-button of-button--ghost",
+      "section": "of-section",
+      "sectionHeading": "of-section-heading",
+      "grid": "of-grid",
+      "card": "of-card",
+      "cardImage": "of-card-image",
+      "badge": "of-badge",
+      "form": "of-form",
+      "field": "of-field",
+      "input": "of-input",
+      "select": "of-select",
+      "textarea": "of-textarea",
+      "notice": "of-notice",
+      "table": "of-table",
+      "accordion": "of-accordion",
+      "footer": "of-footer"
+    },
+    "radiusPx": 10,
+    "cardRadiusPx": 0,
+    "borderPx": 1,
+    "buttonShape": "soft",
+    "minimumControlHeightPx": 48,
+    "inputHeightPx": 52,
+    "focus": {
+      "widthPx": 3,
+      "offsetPx": 4,
+      "color": "#163BD0"
+    }
+  },
+  "content": {
+    "headline": [
+      "A little more clarity.",
+      "A lot more possibility."
+    ],
+    "eyebrow": "A BETTER VIEW OF YOUR BUSINESS",
+    "cta": "Explore a clearer view",
+    "secondaryCta": "How it works",
+    "nav": [
+      "The platform",
+      "How it works",
+      "Resources"
+    ],
+    "features": [
+      [
+        "See what matters",
+        "A considered hierarchy that makes important information clear."
+      ],
+      [
+        "Stay in control",
+        "Useful workflows that keep the everyday details together."
+      ],
+      [
+        "Make room to grow",
+        "A trustworthy foundation for the next part of your business."
+      ]
+    ]
+  },
+  "rules": [
+    "Keep a one-module gap between the two halves of the symbol.",
+    "Use cobalt for active elements, with ledger for long-form text.",
+    "Align numerical values to the right and use consistent decimal precision.",
+    "White finance hero with cobalt modular illustration. Ledger text for long reading, aligned numeric rows, and calm 10px card corners. Avoid decorative low-contrast data.",
+    "Use the supplied artwork and SVG logos; keep glyph proportions intact.",
+    "Preserve the existing project content, routes, data fetching, and interaction handlers."
+  ],
+  "fonts": [
+    {
+      "id": "manrope",
+      "family": "Manrope",
+      "path": "fonts/manrope.ttf",
+      "license": "fonts/manrope-OFL.txt",
+      "weight": "200 800",
+      "style": "normal"
+    },
+    {
+      "id": "outfit",
+      "family": "Outfit",
+      "path": "fonts/outfit.ttf",
+      "license": "fonts/outfit-OFL.txt",
+      "weight": "100 900",
+      "style": "normal"
+    }
+  ],
+  "exports": [
+    "mark.svg",
+    "lockup.svg",
+    "wordmark.svg",
+    "monochrome.svg",
+    "pattern.svg",
+    "poster.svg",
+    "social.svg",
+    "avatar.svg",
+    "favicon.svg",
+    "artwork.svg",
+    "identity-board.svg",
+    "stationery.svg",
+    "packaging.svg",
+    "website.svg",
+    "social-story.svg",
+    "icon-set.svg",
+    "palette.svg",
+    "typography.svg",
+    "business-card.svg",
+    "tokens.json",
+    "theme.css",
+    "theme.json",
+    "theme.js",
+    "reference.html",
+    "components.html",
+    "components.tsx",
+    "install-theme.mjs",
+    "AI-PROMPT.md",
+    "INSTALL.md",
+    "guidelines.md"
+  ],
+  "license": {
+    "artwork": "CC0-1.0",
+    "code": "MIT",
+    "fonts": "OFL-1.1"
+  },
+  "acceptance": [
+    "The exact stylesheet loads without a 404.",
+    "All local fonts load; there are no requests to remote font services.",
+    "The root or intended subtree carries the exact data-openform attribute.",
+    "The supplied display font, colors, radius, spacing, and layout family are used consistently.",
+    "At 360px, 768px, and 1440px there is no horizontal page overflow.",
+    "Navigation, forms, routes, and existing business behavior still work.",
+    "Controls are keyboard accessible with visible focus; reduced-motion preferences are respected.",
+    "The final interface follows reference.html and components.html rather than a guessed visual style."
+  ]
+}

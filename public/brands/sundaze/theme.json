@@ -1,0 +1,225 @@
+{
+  "format": "openform-theme",
+  "version": "2.0.0",
+  "id": "sundaze",
+  "name": "Sundaze",
+  "direction": "A slower kind of sunshine",
+  "concept": "Warm screenprint sunsets, scalloped café labels, striped cups, and deeply rounded vintage type. A coherent coffee-and-soda world with real packaging personality.",
+  "scope": {
+    "attribute": "data-openform",
+    "value": "sundaze",
+    "selector": "[data-openform=\"sundaze\"]"
+  },
+  "installation": {
+    "command": "node install-theme.mjs --target /path/to/your/project",
+    "publicDirectory": "public",
+    "destination": "themes/sundaze",
+    "stylesheet": "/themes/sundaze/theme.css",
+    "reference": "/themes/sundaze/reference.html",
+    "components": "/themes/sundaze/components.html",
+    "htmlAttribute": "data-openform=\"sundaze\""
+  },
+  "colors": {
+    "ink": "#603324",
+    "accent": "#F5B86C",
+    "paper": "#FFF0D4",
+    "support": "#D87550",
+    "secondary": "#784f3e",
+    "border": "#d4bda4",
+    "heroBackground": "#F5B86C",
+    "heroForeground": "#603324",
+    "buttonBackground": "#603324",
+    "buttonForeground": "#FFF0D4"
+  },
+  "typography": {
+    "display": {
+      "family": "Fraunces",
+      "file": "fonts/fraunces.ttf",
+      "weight": 700,
+      "trackingEm": -0.04,
+      "lineHeight": 1.02,
+      "desktopMaxPx": 96,
+      "mobileMinPx": 38
+    },
+    "body": {
+      "family": "Karla",
+      "file": "fonts/karla.ttf",
+      "weight": 400,
+      "sizePx": 16,
+      "lineHeight": 1.7
+    },
+    "accent": {
+      "family": "Fraunces",
+      "file": "fonts/fraunces.ttf",
+      "style": "normal"
+    },
+    "label": {
+      "sizePx": 11,
+      "trackingEm": 0.08,
+      "lineHeight": 1.5
+    }
+  },
+  "layout": {
+    "id": "retro",
+    "family": "retro",
+    "mode": "accent",
+    "alignment": "center",
+    "maxWidthPx": 1220,
+    "pageGutter": "clamp(20px, 4vw, 64px)",
+    "sectionGap": "clamp(64px, 9vw, 128px)",
+    "heroTextRatio": 0.5,
+    "gridColumns": 3,
+    "breakpoints": {
+      "mobile": 640,
+      "tablet": 960
+    },
+    "description": "Apricot centered hero, soft chunky serif, a broad sunny illustration, and roast-colored rounded outlined controls. Cream menu tiles and simple stripes, not modern glass cards."
+  },
+  "components": {
+    "classes": {
+      "root": "of-theme",
+      "container": "of-container",
+      "header": "of-header",
+      "navigation": "of-nav",
+      "mobileNavigation": "of-mobile-nav",
+      "logo": "of-logo",
+      "eyebrow": "of-eyebrow",
+      "hero": "of-hero",
+      "heroCopy": "of-hero-copy",
+      "heroHeading": "of-display",
+      "heroMedia": "of-hero-media",
+      "heading": "of-heading",
+      "body": "of-body",
+      "actions": "of-actions",
+      "button": "of-button",
+      "secondaryButton": "of-button of-button--ghost",
+      "section": "of-section",
+      "sectionHeading": "of-section-heading",
+      "grid": "of-grid",
+      "card": "of-card",
+      "cardImage": "of-card-image",
+      "badge": "of-badge",
+      "form": "of-form",
+      "field": "of-field",
+      "input": "of-input",
+      "select": "of-select",
+      "textarea": "of-textarea",
+      "notice": "of-notice",
+      "table": "of-table",
+      "accordion": "of-accordion",
+      "footer": "of-footer"
+    },
+    "radiusPx": 20,
+    "cardRadiusPx": 0,
+    "borderPx": 2,
+    "buttonShape": "pill",
+    "minimumControlHeightPx": 48,
+    "inputHeightPx": 52,
+    "focus": {
+      "widthPx": 3,
+      "offsetPx": 4,
+      "color": "#603324"
+    }
+  },
+  "content": {
+    "headline": [
+      "Good coffee.",
+      "No particular hurry."
+    ],
+    "eyebrow": "COFFEE / SODA / THE SLOW GOOD STUFF",
+    "cta": "See what is pouring",
+    "secondaryCta": "Come on over",
+    "nav": [
+      "The menu",
+      "The place",
+      "Good company"
+    ],
+    "features": [
+      [
+        "Your usual, made well",
+        "A familiar pleasure with room for a new favorite."
+      ],
+      [
+        "The slow good stuff",
+        "Good ingredients, unhurried care, and warm company."
+      ],
+      [
+        "Stay a little longer",
+        "A neighborhood table for mornings that become afternoons."
+      ]
+    ]
+  },
+  "rules": [
+    "Keep sunrise bands parallel and evenly spaced.",
+    "Use roast for text on apricot or cream soda surfaces.",
+    "Give headline typography a soft curve through generous spacing, not distortion.",
+    "Apricot centered hero, soft chunky serif, a broad sunny illustration, and roast-colored rounded outlined controls. Cream menu tiles and simple stripes, not modern glass cards.",
+    "Use the supplied artwork and SVG logos; keep glyph proportions intact.",
+    "Preserve the existing project content, routes, data fetching, and interaction handlers."
+  ],
+  "fonts": [
+    {
+      "id": "fraunces",
+      "family": "Fraunces",
+      "path": "fonts/fraunces.ttf",
+      "license": "fonts/fraunces-OFL.txt",
+      "weight": "100 900",
+      "style": "normal"
+    },
+    {
+      "id": "karla",
+      "family": "Karla",
+      "path": "fonts/karla.ttf",
+      "license": "fonts/karla-OFL.txt",
+      "weight": "200 800",
+      "style": "normal"
+    }
+  ],
+  "exports": [
+    "mark.svg",
+    "lockup.svg",
+    "wordmark.svg",
+    "monochrome.svg",
+    "pattern.svg",
+    "poster.svg",
+    "social.svg",
+    "avatar.svg",
+    "favicon.svg",
+    "artwork.svg",
+    "identity-board.svg",
+    "stationery.svg",
+    "packaging.svg",
+    "website.svg",
+    "social-story.svg",
+    "icon-set.svg",
+    "palette.svg",
+    "typography.svg",
+    "business-card.svg",
+    "tokens.json",
+    "theme.css",
+    "theme.json",
+    "theme.js",
+    "reference.html",
+    "components.html",
+    "components.tsx",
+    "install-theme.mjs",
+    "AI-PROMPT.md",
+    "INSTALL.md",
+    "guidelines.md"
+  ],
+  "license": {
+    "artwork": "CC0-1.0",
+    "code": "MIT",
+    "fonts": "OFL-1.1"
+  },
+  "acceptance": [
+    "The exact stylesheet loads without a 404.",
+    "All local fonts load; there are no requests to remote font services.",
+    "The root or intended subtree carries the exact data-openform attribute.",
+    "The supplied display font, colors, radius, spacing, and layout family are used consistently.",
+    "At 360px, 768px, and 1440px there is no horizontal page overflow.",
+    "Navigation, forms, routes, and existing business behavior still work.",
+    "Controls are keyboard accessible with visible focus; reduced-motion preferences are respected.",
+    "The final interface follows reference.html and components.html rather than a guessed visual style."
+  ]
+}

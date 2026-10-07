@@ -1,0 +1,164 @@
+/* Readable secondary type is a first-class part of the Openform system. */
+:root { --muted: #626d58; --secondary: #5d6d50; }
+
+:is(.hero-copy > p, .hero-license, .hero-small-note, .strip-inner > div > span,
+  .results-text > span, .sort-control, .card-meta, .load-more > span, .library-end,
+  .kit-annotation, .inside-copy > p, .kit-features > div > span > span,
+  .faq-list details > p, .closing-section .eyebrow, .footer-top > p, .footer-bottom,
+  .empty-state p) { color: var(--muted); }
+.search-box input::placeholder { color: var(--muted); opacity: 1; }
+.search-box { min-width: 0; }
+.search-box kbd { color: var(--muted); }
+.collection-card > p, .collection-card > .eyebrow { opacity: 1; }
+.about-heading > .eyebrow, .about-copy > p { color: #536340; }
+.about-copy > .about-lead { color: #35442a; }
+.kit-type > p > span { color: #5d6b50; }
+
+:is(.detail-topline > .eyebrow, .detail-license, .detail-heading p, .detail-tabs > button,
+  .detail-story > .eyebrow, .detail-story > p, .voice-block > .eyebrow, .swatch-name > span,
+  .detail-palette code, .contrast-note, .type-cards .eyebrow, .type-cards p:last-child,
+  .brand-rules > li > span, .brand-rules p, .detail-bottom > span, .panel-intro > .eyebrow,
+  .panel-intro > p, .asset-description p, .file-preview, .assets-footnote,
+  .integration-steps > div > span, .integration-steps p, .integration-steps code,
+  .info-dialog .eyebrow, .info-lead, .contribution-options p, .info-footnote,
+  .license-list > div > span, .license-list p, .section-label > span) { color: var(--secondary); }
+.detail-tabs > button[aria-selected=true] { color: var(--ink); }
+.surface-controls > button[aria-pressed=true] { color: #fff; }
+.type-playground > .eyebrow { opacity: 1; }
+.token-links > a, .license-list a { color: #526b3d; }
+.filter-control { display: flex; flex: 1; flex-direction: column; gap: 8px; }
+.filter-control > label { font-size: 11px; color: var(--secondary); }
+
+.desktop-nav > a, .header-saved { font-size: 13px; }
+.source-button { font-size: 12px; }
+.hero-copy > p { font-size: 16px; line-height: 1.75; }
+.hero-license { font-size: 11px; }
+.hero-secondary { font-size: 13px; }
+.section-heading > p { font-size: 13px; }
+.eyebrow { font-size: 11px; }
+.search-box input { font-size: 14px; }
+.filter-button { font-size: 12px; }
+.style-filters > button { font-size: 11px; }
+.results-text > span, .sort-control, .sort-control .select-wrap select { font-size: 11px; }
+.card-heading > button { font-size: 17px; }
+.card-meta { font-size: 11px; }
+.compact .card-heading > button { font-size: 15px; }
+.compact .card-meta { font-size: 10px; }
+.collection-card > p { font-size: 12px; }
+.collection-card > .eyebrow { font-size: 9px; }
+.inside-copy > p, .about-copy > p { font-size: 14px; }
+.kit-features strong { font-size: 14px; }
+.kit-features > div > span > span { font-size: 12px; }
+.about-copy > .about-lead { font-size: 21px; }
+.about-values { font-size: 11px; }
+.faq-list summary { font-size: 14px; }
+.faq-list details > p { font-size: 13px; }
+.footer-top > p { font-size: 12px; }
+.footer-top > div, .footer-top > div > button { font-size: 11px; }
+.footer-bottom { font-size: 9px; }
+.detail-story > p, .voice-block > p, .brand-rules p, .panel-intro > p { font-size: 13px; }
+.detail-story h3 { font-size: 32px; }
+.detail-story > .text-link { font-size: 11px; }
+.detail-heading p, .detail-tabs > button { font-size: 12px; }
+.detail-topline > .eyebrow, .detail-license { font-size: 10px; }
+.detail-topline { padding-right: 88px; }
+.detail-palette code { font-size: 11px; }
+.swatch-name { font-size: 13px; }
+.swatch-name > span, .section-label > span { font-size: 10px; }
+.contrast-note { font-size: 11px; }
+.type-cards .eyebrow, .type-cards p:last-child { font-size: 10px; }
+.asset-description h4 { font-size: 13px; }
+.asset-description p { font-size: 10px; }
+.assets-footnote { font-size: 11px; }
+.integration-steps p, .integration-steps code { font-size: 12px; }
+.integration-steps h4 { font-size: 15px; }
+.token-links > a { font-size: 12px; }
+.info-lead { font-size: 15px; }
+.contribution-options p, .license-list p { font-size: 13px; }
+.info-footnote { font-size: 11px; }
+
+@media (max-width: 1199px) {
+  .hero-copy > p { font-size: 14px; }
+  .hero-secondary { font-size: 11px; }
+  .card-heading > button { font-size: 16px; }
+  .card-meta { font-size: 10px; }
+  .collection-card > p { font-size: 11px; }
+  .inside-copy > p { font-size: 13px; }
+  .kit-features > div > span > span { font-size: 11px; }
+  .about-copy > .about-lead { font-size: 19px; }
+}
+@media (max-width: 959px) {
+  .desktop-nav > a { font-size: 11px; }
+  .hero-copy > p { font-size: 13px; }
+  .hero-license { font-size: 9px; }
+  .hero-secondary { font-size: 10px; }
+  .section-heading > p { font-size: 11px; }
+  .inside-copy > p { font-size: 12px; }
+  .kit-features strong { font-size: 12px; }
+  .kit-features > div > span > span { font-size: 10px; }
+  .about-copy > p { font-size: 12px; }
+  .about-copy > .about-lead { font-size: 18px; }
+  .about-values { font-size: 9px; }
+  .faq-list summary { font-size: 12px; }
+  .detail-story h3 { font-size: 27px; }
+  .detail-story > p { font-size: 12px; }
+}
+@media (max-width: 719px) {
+  .eyebrow { font-size: 10px; }
+  .hero h1 { font-size: clamp(54px, 16vw, 68px); }
+  .hero-spark { right: 8px; font-size: 34px; }
+  .hero { grid-template-columns: minmax(0, 1fr); }
+  .hero-copy, .hero-art { min-width: 0; }
+  .hero-art-grid { right: 0; }
+  .tile-orbit { right: 5%; width: 51%; }
+  .hero-small-note { right: 12px; }
+  .kit-sheet-back { right: 8%; }
+  .kit-sheet-front { left: 6%; }
+  .hero-copy > p { font-size: 14px; }
+  .hero-license { font-size: 10px; }
+  .hero-secondary { font-size: 11px; }
+  .header-saved > span { font-size: 11px; }
+  .section-heading .eyebrow { font-size: 10px; }
+  .section-heading > p { font-size: 12px; }
+  .search-box input { font-size: 12px; }
+  .filter-button { font-size: 0; }
+  .filter-control { gap: 7px; }
+  .filter-control > label { font-size: 10px; }
+  .style-filters > button { font-size: 11px; }
+  .results-text > span, .sort-control, .sort-control .select-wrap select { font-size: 10px; }
+  .card-heading > button, .compact .card-heading > button { font-size: 14px; }
+  .card-meta, .compact .card-meta { font-size: 10px; }
+  .card-meta > a { font-size: 9px; min-height: 24px; }
+  .card-meta > a > svg { width: 12px; height: 12px; }
+  .collection-card > p { font-size: 10px; }
+  .collection-card > .eyebrow { font-size: 8px; line-height: 1.7; }
+  .inside-copy > .eyebrow, .about-heading > .eyebrow, .faq-section > div > .eyebrow { font-size: 10px; }
+  .inside-copy > p, .about-copy > p { font-size: 14px; }
+  .kit-features strong { font-size: 13px; }
+  .kit-features > div > span > span { font-size: 12px; }
+  .about-copy > .about-lead { font-size: 20px; }
+  .about-values { font-size: 10px; }
+  .faq-list summary { font-size: 13px; }
+  .faq-list details > p { font-size: 13px; }
+  .footer-top > p { font-size: 11px; }
+  .footer-bottom { font-size: 8px; }
+  .detail-topline { padding-right: 59px; }
+  .detail-topline > .eyebrow { font-size: 8px; }
+  .detail-heading p { font-size: 11px; }
+  .detail-tabs { gap: 16px; }
+  .detail-tabs > button { font-size: 11px; }
+  .detail-story h3 { font-size: 28px; }
+  .detail-story > p, .voice-block > p, .brand-rules p, .panel-intro > p { font-size: 13px; }
+  .detail-palette code { font-size: 10px; }
+  .swatch-name { font-size: 12px; }
+  .swatch-name > span { font-size: 9px; }
+  .contrast-note { font-size: 10px; }
+  .asset-description h4 { font-size: 11px; }
+  .asset-description p { font-size: 9px; }
+  .assets-footnote { font-size: 10px; }
+  .integration-steps p { font-size: 12px; }
+  .token-links > a { font-size: 11px; }
+  .info-lead { font-size: 14px; }
+  .contribution-options p, .license-list p { font-size: 12px; }
+  .info-footnote { font-size: 10px; }
+}

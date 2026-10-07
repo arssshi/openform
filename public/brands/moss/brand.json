@@ -1,0 +1,87 @@
+{
+  "id": "moss",
+  "name": "moss",
+  "category": "Wellness",
+  "style": "Organic",
+  "tagline": "A little closer to nature.",
+  "description": "A quiet, restorative identity for a botanical skincare studio. Generous negative space meets a sculptural leaf and an unexpectedly fresh chartreuse.",
+  "colors": [
+    "#153E35",
+    "#D5E8A0",
+    "#F3F0DF",
+    "#A7B8A0"
+  ],
+  "colorNames": [
+    "Forest",
+    "New leaf",
+    "Oat",
+    "Sage"
+  ],
+  "heading": "manrope",
+  "body": "dm-sans",
+  "weight": 600,
+  "tracking": -5,
+  "mark": "leaf",
+  "layout": "botanical",
+  "pattern": "leaves",
+  "radius": 24,
+  "voice": "Grounded, gentle, and quietly optimistic.",
+  "rules": [
+    "Keep the leaf upright and give it half its height in clear space.",
+    "Use forest for text; new leaf is a supporting surface, never small text on oat.",
+    "Let the oversized mark crop at the edge of photography or packaging."
+  ],
+  "collection": "earthbound",
+  "featured": true,
+  "system": {
+    "direction": "Botanical modernism",
+    "concept": "Sculptural herbarium silhouettes, apothecary labels, and expansive forest-green fields. The warmth comes from material, not decorative clutter.",
+    "art": "herbarium",
+    "family": "botanical",
+    "mode": "dark",
+    "alignment": "left",
+    "split": 0.54,
+    "maxWidth": 1280,
+    "headingSize": 100,
+    "border": 1,
+    "button": "pill",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "A little",
+      "closer to",
+      "nature."
+    ],
+    "headline": [
+      "Nature, in",
+      "your nature."
+    ],
+    "eyebrow": "BOTANICAL CARE / CONSIDERED DAILY",
+    "cta": "Discover the formulas",
+    "secondaryCta": "Our approach",
+    "nav": [
+      "Formulas",
+      "Philosophy",
+      "Field notes"
+    ],
+    "product": "Botanical serum",
+    "productNote": "Made slowly. Used daily.",
+    "features": [
+      [
+        "Rooted in something real",
+        "Plant-led formulas with a purposeful place in your daily ritual."
+      ],
+      [
+        "Less, thoughtfully",
+        "A smaller collection. A clearer intention. Every ingredient belongs."
+      ],
+      [
+        "A softer daily ritual",
+        "Good care is a practice, not a promise of perfection."
+      ]
+    ],
+    "layoutNote": "Forest hero; left-aligned, two-line display; a large botanical image occupies the right half. Cream product cards follow a 3-column desktop / 1-column mobile grid."
+  },
+  "version": "2.0.0",
+  "number": 1,
+  "assets": 30
+}

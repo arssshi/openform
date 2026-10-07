@@ -1,0 +1,87 @@
+{
+  "id": "fizz",
+  "name": "fizz!",
+  "category": "Food & drink",
+  "style": "Playful",
+  "tagline": "Pop open some possibility.",
+  "description": "A fizzy identity for a botanical soda label. A bouncing burst, tangerine orange, and high-impact rounded typography make a tiny can feel full of personality.",
+  "colors": [
+    "#4E3048",
+    "#F8AA64",
+    "#FFF1C9",
+    "#CAA7D8"
+  ],
+  "colorNames": [
+    "Blackcurrant",
+    "Tangerine",
+    "Fizz foam",
+    "Grape"
+  ],
+  "heading": "outfit",
+  "body": "rubik",
+  "weight": 900,
+  "tracking": -6,
+  "mark": "burst",
+  "layout": "pop",
+  "pattern": "bubbles",
+  "radius": 24,
+  "voice": "Effervescent, bold, and delightfully unexpected.",
+  "rules": [
+    "The burst uses alternating spoke lengths and a clear central dot.",
+    "Keep flavor information in distinct color blocks.",
+    "The exclamation point is part of the wordmark and should never be omitted."
+  ],
+  "collection": "happy-accidents",
+  "featured": false,
+  "system": {
+    "direction": "Botanical pop culture",
+    "concept": "Playful exploded bubbles, juicy gradient fruit forms, loud can labels, and exuberant rounded lettering. Flavor becomes a bold, clear graphic system.",
+    "art": "citrus-pop",
+    "family": "playful",
+    "mode": "accent",
+    "alignment": "left",
+    "split": 0.54,
+    "maxWidth": 1300,
+    "headingSize": 124,
+    "border": 0,
+    "button": "pill",
+    "accentFont": "rubik",
+    "campaign": [
+      "POP OPEN",
+      "SOME",
+      "POSSIBILITY."
+    ],
+    "headline": [
+      "A little fizz.",
+      "A lot of bright side."
+    ],
+    "eyebrow": "BOTANICAL SODA / GOOD SPIRITS",
+    "cta": "Find your flavor",
+    "secondaryCta": "What is inside",
+    "nav": [
+      "The flavors",
+      "The good ingredients",
+      "Pop notes"
+    ],
+    "product": "Tangerine / Botanical soda",
+    "productNote": "Real flavor. Good spirits.",
+    "features": [
+      [
+        "A bright first sip",
+        "Botanical combinations with a character of their own."
+      ],
+      [
+        "Good things inside",
+        "Useful, plainly stated ingredients without the mystery."
+      ],
+      [
+        "Pop open a moment",
+        "A small, sunny pleasure for the way your day goes."
+      ]
+    ],
+    "layoutNote": "Tangerine hero with massive playful lowercase, a sculptural fruit-and-bubble image, and blackcurrant pill controls. Flavor cards alternate grape and foam surfaces."
+  },
+  "version": "2.0.0",
+  "number": 43,
+  "assets": 30
+}

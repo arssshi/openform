@@ -1,0 +1,10 @@
+[
+  {"id":"earthbound","name":"Earthbound","description":"Rooted in nature. Made for a gentler world.","color":"#D5E8A0","ink":"#153E35","ids":["moss","fieldwork","onda","kinfolk","nori","terra","wildroot"]},
+  {"id":"future-forward","name":"Future forward","description":"Fresh perspectives for what comes next.","color":"#C5B4F3","ink":"#28204A","ids":["orbit","relay","raster","phase","vertex","axiom"]},
+  {"id":"less-but-better","name":"Less, but better","description":"Quiet confidence. Nothing unnecessary.","color":"#B8DDE5","ink":"#243E4C","ids":["sora","neue","modo","tandem","interval","still"]},
+  {"id":"loud-and-clear","name":"Loud & clear","description":"Big ideas that refuse to blend in.","color":"#FFB18F","ink":"#442A21","ids":["offscript","formhaus","monument","unfold","assembly","outlier"]},
+  {"id":"happy-accidents","name":"Happy accidents","description":"A little unexpected. A lot of personality.","color":"#F7A6A0","ink":"#592D48","ids":["bloom","goodkind","juno","pebble","pippa","fizz"]},
+  {"id":"quiet-luxury","name":"Quiet luxury","description":"Thoughtful details. Lasting impressions.","color":"#DFBB7D","ink":"#532B39","ids":["aurel","velour","halcyon","atelier-eight","serein","maison-lune"]},
+  {"id":"type-stories","name":"Type stories","description":"For words, worlds, and points of view.","color":"#E6C46B","ink":"#233048","ids":["paloma","elsewhere","commonroom","almanac","marginalia","folio"]},
+  {"id":"back-to-good","name":"Back to good","description":"Old-school warmth. Entirely new possibilities.","color":"#F0BA99","ink":"#713F4A","ids":["sundaze","caravan","mellow","supergood","daytrip"]}
+]

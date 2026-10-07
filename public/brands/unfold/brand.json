@@ -1,0 +1,87 @@
+{
+  "id": "unfold",
+  "name": "UNFOLD",
+  "category": "Publishing",
+  "style": "Brutalist",
+  "tagline": "Open up a new perspective.",
+  "description": "An uncompromising identity for a design publication. Folded paper geometry, bright yellow, and dense display typography turn the printed page into a graphic object.",
+  "colors": [
+    "#2B2B25",
+    "#F3DA56",
+    "#F1EFE5",
+    "#B8B8A9"
+  ],
+  "colorNames": [
+    "Carbon ink",
+    "Highlighter",
+    "Stock",
+    "Proof"
+  ],
+  "heading": "archivo",
+  "body": "space-grotesk",
+  "weight": 800,
+  "tracking": -3,
+  "mark": "fold",
+  "layout": "folded",
+  "pattern": "folds",
+  "radius": 0,
+  "voice": "Critical, energetic, and intellectually generous.",
+  "rules": [
+    "Fold lines remain visible and meet at exact corners.",
+    "Run headlines across the page while captions stay in fixed columns.",
+    "Use yellow to designate primary editorial content, not decorative accents."
+  ],
+  "collection": "loud-and-clear",
+  "featured": false,
+  "system": {
+    "direction": "The printed perspective",
+    "concept": "Folded yellow paper, editorial crop marks, interlocking typographic planes, and full-bleed reading layouts. A publication that treats the page as both content and object.",
+    "art": "folded-publication",
+    "family": "poster",
+    "mode": "accent",
+    "alignment": "left",
+    "split": 0.6,
+    "maxWidth": 1400,
+    "headingSize": 124,
+    "border": 2,
+    "button": "square",
+    "accentFont": "dm-mono",
+    "campaign": [
+      "OPEN UP",
+      "A NEW",
+      "PERSPECTIVE."
+    ],
+    "headline": [
+      "A different page.",
+      "A wider perspective."
+    ],
+    "eyebrow": "DESIGN / CULTURE / NO FIXED FORMAT",
+    "cta": "Open the latest issue",
+    "secondaryCta": "Read our point of view",
+    "nav": [
+      "The latest issue",
+      "Archive",
+      "Point of view"
+    ],
+    "product": "Issue 01 / New perspectives",
+    "productNote": "A publication with an open fold.",
+    "features": [
+      [
+        "Ideas worth opening",
+        "Perspectives that make a familiar subject feel newly interesting."
+      ],
+      [
+        "The page as a place",
+        "Editorial design that gives each story a useful form."
+      ],
+      [
+        "No fixed conclusion",
+        "A publication that leaves room for the next point of view."
+      ]
+    ],
+    "layoutNote": "Yellow poster hero, bold condensed editorial setting, exposed fold graphic, hard black rules, and square issue cards. Metadata always snaps to the grid."
+  },
+  "version": "2.0.0",
+  "number": 32,
+  "assets": 30
+}

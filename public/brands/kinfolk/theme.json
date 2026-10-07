@@ -1,0 +1,225 @@
+{
+  "format": "openform-theme",
+  "version": "2.0.0",
+  "id": "kinfolk",
+  "name": "kinfolk",
+  "direction": "The good-ground pantry",
+  "concept": "Hand-cut produce silhouettes, seed diagrams, honest food labels, and a warm bookish serif. Seasonal abundance sits inside orderly, useful information design.",
+  "scope": {
+    "attribute": "data-openform",
+    "value": "kinfolk",
+    "selector": "[data-openform=\"kinfolk\"]"
+  },
+  "installation": {
+    "command": "node install-theme.mjs --target /path/to/your/project",
+    "publicDirectory": "public",
+    "destination": "themes/kinfolk",
+    "stylesheet": "/themes/kinfolk/theme.css",
+    "reference": "/themes/kinfolk/reference.html",
+    "components": "/themes/kinfolk/components.html",
+    "htmlAttribute": "data-openform=\"kinfolk\""
+  },
+  "colors": {
+    "ink": "#4B5134",
+    "accent": "#E8D996",
+    "paper": "#F4EFDF",
+    "support": "#B8684C",
+    "secondary": "#64694e",
+    "border": "#c6c4b1",
+    "heroBackground": "#E8D996",
+    "heroForeground": "#4B5134",
+    "buttonBackground": "#4B5134",
+    "buttonForeground": "#F4EFDF"
+  },
+  "typography": {
+    "display": {
+      "family": "Fraunces",
+      "file": "fonts/fraunces.ttf",
+      "weight": 500,
+      "trackingEm": -0.03,
+      "lineHeight": 1.02,
+      "desktopMaxPx": 96,
+      "mobileMinPx": 38
+    },
+    "body": {
+      "family": "Work Sans",
+      "file": "fonts/work-sans.ttf",
+      "weight": 400,
+      "sizePx": 16,
+      "lineHeight": 1.7
+    },
+    "accent": {
+      "family": "Fraunces",
+      "file": "fonts/fraunces.ttf",
+      "style": "normal"
+    },
+    "label": {
+      "sizePx": 11,
+      "trackingEm": 0.08,
+      "lineHeight": 1.5
+    }
+  },
+  "layout": {
+    "id": "pantry",
+    "family": "botanical",
+    "mode": "accent",
+    "alignment": "left",
+    "maxWidthPx": 1280,
+    "pageGutter": "clamp(20px, 4vw, 64px)",
+    "sectionGap": "clamp(64px, 9vw, 128px)",
+    "heroTextRatio": 0.52,
+    "gridColumns": 3,
+    "breakpoints": {
+      "mobile": 640,
+      "tablet": 960
+    },
+    "description": "Butter hero with olive reading type and hand-cut produce art. Pantry labels have visible ingredients, softly rounded frames, and serif product names."
+  },
+  "components": {
+    "classes": {
+      "root": "of-theme",
+      "container": "of-container",
+      "header": "of-header",
+      "navigation": "of-nav",
+      "mobileNavigation": "of-mobile-nav",
+      "logo": "of-logo",
+      "eyebrow": "of-eyebrow",
+      "hero": "of-hero",
+      "heroCopy": "of-hero-copy",
+      "heroHeading": "of-display",
+      "heroMedia": "of-hero-media",
+      "heading": "of-heading",
+      "body": "of-body",
+      "actions": "of-actions",
+      "button": "of-button",
+      "secondaryButton": "of-button of-button--ghost",
+      "section": "of-section",
+      "sectionHeading": "of-section-heading",
+      "grid": "of-grid",
+      "card": "of-card",
+      "cardImage": "of-card-image",
+      "badge": "of-badge",
+      "form": "of-form",
+      "field": "of-field",
+      "input": "of-input",
+      "select": "of-select",
+      "textarea": "of-textarea",
+      "notice": "of-notice",
+      "table": "of-table",
+      "accordion": "of-accordion",
+      "footer": "of-footer"
+    },
+    "radiusPx": 12,
+    "cardRadiusPx": 0,
+    "borderPx": 1,
+    "buttonShape": "soft",
+    "minimumControlHeightPx": 48,
+    "inputHeightPx": 52,
+    "focus": {
+      "widthPx": 3,
+      "offsetPx": 4,
+      "color": "#4B5134"
+    }
+  },
+  "content": {
+    "headline": [
+      "Good things grow",
+      "close to home."
+    ],
+    "eyebrow": "A SEASONAL PANTRY / A SHARED TABLE",
+    "cta": "Meet the pantry",
+    "secondaryCta": "From the growers",
+    "nav": [
+      "The pantry",
+      "The growers",
+      "Seasonal notes"
+    ],
+    "features": [
+      [
+        "Seasonal by nature",
+        "A collection that follows what is good right now."
+      ],
+      [
+        "Know the ground",
+        "A closer connection to the people and places that grow your food."
+      ],
+      [
+        "Bring it to the table",
+        "Simple, generous things for the way you actually eat."
+      ]
+    ]
+  },
+  "rules": [
+    "The sprout grows upward with a visible stem.",
+    "Use butter labels with olive text on natural packaging.",
+    "Treat ingredient lists as a key part of the design, not fine print.",
+    "Butter hero with olive reading type and hand-cut produce art. Pantry labels have visible ingredients, softly rounded frames, and serif product names.",
+    "Use the supplied artwork and SVG logos; keep glyph proportions intact.",
+    "Preserve the existing project content, routes, data fetching, and interaction handlers."
+  ],
+  "fonts": [
+    {
+      "id": "fraunces",
+      "family": "Fraunces",
+      "path": "fonts/fraunces.ttf",
+      "license": "fonts/fraunces-OFL.txt",
+      "weight": "100 900",
+      "style": "normal"
+    },
+    {
+      "id": "work-sans",
+      "family": "Work Sans",
+      "path": "fonts/work-sans.ttf",
+      "license": "fonts/work-sans-OFL.txt",
+      "weight": "100 900",
+      "style": "normal"
+    }
+  ],
+  "exports": [
+    "mark.svg",
+    "lockup.svg",
+    "wordmark.svg",
+    "monochrome.svg",
+    "pattern.svg",
+    "poster.svg",
+    "social.svg",
+    "avatar.svg",
+    "favicon.svg",
+    "artwork.svg",
+    "identity-board.svg",
+    "stationery.svg",
+    "packaging.svg",
+    "website.svg",
+    "social-story.svg",
+    "icon-set.svg",
+    "palette.svg",
+    "typography.svg",
+    "business-card.svg",
+    "tokens.json",
+    "theme.css",
+    "theme.json",
+    "theme.js",
+    "reference.html",
+    "components.html",
+    "components.tsx",
+    "install-theme.mjs",
+    "AI-PROMPT.md",
+    "INSTALL.md",
+    "guidelines.md"
+  ],
+  "license": {
+    "artwork": "CC0-1.0",
+    "code": "MIT",
+    "fonts": "OFL-1.1"
+  },
+  "acceptance": [
+    "The exact stylesheet loads without a 404.",
+    "All local fonts load; there are no requests to remote font services.",
+    "The root or intended subtree carries the exact data-openform attribute.",
+    "The supplied display font, colors, radius, spacing, and layout family are used consistently.",
+    "At 360px, 768px, and 1440px there is no horizontal page overflow.",
+    "Navigation, forms, routes, and existing business behavior still work.",
+    "Controls are keyboard accessible with visible focus; reduced-motion preferences are respected.",
+    "The final interface follows reference.html and components.html rather than a guessed visual style."
+  ]
+}

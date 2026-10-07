@@ -1,0 +1,11 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+.DS_Store
+*.tsbuildinfo
+*.local
+.env*
+!.env.example
+.openform-ssr/
+original-*.webp

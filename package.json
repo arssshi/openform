@@ -1,0 +1,38 @@
+{
+  "name": "openform",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An open-source library of complete, original brand identity systems.",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "fonts": "node scripts/fetch-fonts.mjs && node scripts/optimize-site-fonts.mjs",
+    "assets": "node scripts/generate-assets.mjs",
+    "release": "node scripts/package-source.mjs",
+    "previews": "node scripts/render-previews.mjs",
+    "build": "tsc -b && node scripts/build-site.mjs && node scripts/validate-site.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "check": "tsc -b && node scripts/validate-assets.mjs && node scripts/validate-installer.mjs",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "lucide-react": "^0.577.0",
+    "motion": "^12.35.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.1",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.1.0",
+    "fflate": "^0.8.2",
+    "fontkit": "^2.0.4",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1"
+  }
+}

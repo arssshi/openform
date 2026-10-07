@@ -1,0 +1,87 @@
+{
+  "id": "sundaze",
+  "name": "Sundaze",
+  "category": "Food & drink",
+  "style": "Retro",
+  "tagline": "Stay for another round.",
+  "description": "A nostalgic identity for a neighborhood coffee-and-soda bar. A rising sun, warm apricot stripes, and a delightfully soft serif bring the slow weekend to every day.",
+  "colors": [
+    "#603324",
+    "#F5B86C",
+    "#FFF0D4",
+    "#D87550"
+  ],
+  "colorNames": [
+    "Roast",
+    "Apricot",
+    "Cream soda",
+    "Terracotta"
+  ],
+  "heading": "fraunces",
+  "body": "karla",
+  "weight": 700,
+  "tracking": -4,
+  "mark": "sunrise",
+  "layout": "retro",
+  "pattern": "stripes",
+  "radius": 20,
+  "voice": "Easygoing, nostalgic, and warmly social.",
+  "rules": [
+    "Keep sunrise bands parallel and evenly spaced.",
+    "Use roast for text on apricot or cream soda surfaces.",
+    "Give headline typography a soft curve through generous spacing, not distortion."
+  ],
+  "collection": "back-to-good",
+  "featured": false,
+  "system": {
+    "direction": "A slower kind of sunshine",
+    "concept": "Warm screenprint sunsets, scalloped café labels, striped cups, and deeply rounded vintage type. A coherent coffee-and-soda world with real packaging personality.",
+    "art": "cafe-sun",
+    "family": "retro",
+    "mode": "accent",
+    "alignment": "center",
+    "split": 0.5,
+    "maxWidth": 1220,
+    "headingSize": 116,
+    "border": 2,
+    "button": "pill",
+    "accentFont": "fraunces",
+    "campaign": [
+      "STAY FOR",
+      "ANOTHER",
+      "ROUND."
+    ],
+    "headline": [
+      "Good coffee.",
+      "No particular hurry."
+    ],
+    "eyebrow": "COFFEE / SODA / THE SLOW GOOD STUFF",
+    "cta": "See what is pouring",
+    "secondaryCta": "Come on over",
+    "nav": [
+      "The menu",
+      "The place",
+      "Good company"
+    ],
+    "product": "The house roast",
+    "productNote": "A sunny little ritual.",
+    "features": [
+      [
+        "Your usual, made well",
+        "A familiar pleasure with room for a new favorite."
+      ],
+      [
+        "The slow good stuff",
+        "Good ingredients, unhurried care, and warm company."
+      ],
+      [
+        "Stay a little longer",
+        "A neighborhood table for mornings that become afternoons."
+      ]
+    ],
+    "layoutNote": "Apricot centered hero, soft chunky serif, a broad sunny illustration, and roast-colored rounded outlined controls. Cream menu tiles and simple stripes, not modern glass cards."
+  },
+  "version": "2.0.0",
+  "number": 12,
+  "assets": 30
+}

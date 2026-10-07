@@ -1,0 +1,87 @@
+{
+  "id": "maison-lune",
+  "name": "Maison Lune",
+  "category": "Hospitality",
+  "style": "Elegant",
+  "tagline": "Stay in a different light.",
+  "description": "A romantic identity for a guesthouse and table. A moonlit window, pale blue-gray, and beautifully balanced serif type turn a stay into a quiet ritual.",
+  "colors": [
+    "#3E4552",
+    "#C4CDDC",
+    "#F4ECDD",
+    "#C3A276"
+  ],
+  "colorNames": [
+    "Slate night",
+    "Moonlight",
+    "Table linen",
+    "Brass"
+  ],
+  "heading": "playfair",
+  "body": "manrope",
+  "weight": 400,
+  "tracking": -1,
+  "mark": "window",
+  "layout": "maison",
+  "pattern": "windows",
+  "radius": 4,
+  "voice": "Personal, thoughtful, and quietly romantic.",
+  "rules": [
+    "The moonlit window keeps its central division and open lower space.",
+    "Use brass only for fine lines, seals, or room identifiers.",
+    "Center invitation headlines while keeping practical information left aligned."
+  ],
+  "collection": "quiet-luxury",
+  "featured": false,
+  "system": {
+    "direction": "A house in another light",
+    "concept": "Moonlit window studies, intimate table objects, soft blue stationery, and beautifully balanced book-like typography. A house feels personal rather than perfectly polished.",
+    "art": "moonlit-window",
+    "family": "hospitality",
+    "mode": "paper",
+    "alignment": "center",
+    "split": 0.5,
+    "maxWidth": 1200,
+    "headingSize": 106,
+    "border": 1,
+    "button": "outline",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "STAY IN",
+      "A DIFFERENT",
+      "LIGHT."
+    ],
+    "headline": [
+      "A different light.",
+      "A place to feel at home."
+    ],
+    "eyebrow": "MAISON LUNE / ROOMS & TABLE",
+    "cta": "Discover the house",
+    "secondaryCta": "A seat at the table",
+    "nav": [
+      "The rooms",
+      "The table",
+      "The house"
+    ],
+    "product": "The moonlit rooms",
+    "productNote": "A stay, made a little more personal.",
+    "features": [
+      [
+        "Rooms with a point of view",
+        "Considered spaces that make room for a different rhythm."
+      ],
+      [
+        "A table to gather at",
+        "Seasonal pleasures and the good feeling of being well hosted."
+      ],
+      [
+        "A personal kind of place",
+        "Thoughtful details that feel collected rather than imposed."
+      ]
+    ],
+    "layoutNote": "Linen centered serif hero with a moonlit arched-window image. Slate text, fine brass ornaments, quiet blue image borders, and practical left-aligned room details."
+  },
+  "version": "2.0.0",
+  "number": 47,
+  "assets": 30
+}

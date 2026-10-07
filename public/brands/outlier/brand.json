@@ -1,0 +1,87 @@
+{
+  "id": "outlier",
+  "name": "OUTLIER",
+  "category": "Fashion",
+  "style": "Brutalist",
+  "tagline": "Wear your own direction.",
+  "description": "An independent identity for experimental streetwear. A displaced square, bold rust-red fields, and sharply condensed typography champion the beauty of not fitting in.",
+  "colors": [
+    "#252120",
+    "#D8765D",
+    "#F0E8D9",
+    "#B8C6AA"
+  ],
+  "colorNames": [
+    "Asphalt",
+    "Oxide",
+    "Raw cotton",
+    "Utility"
+  ],
+  "heading": "bebas",
+  "body": "dm-mono",
+  "weight": 400,
+  "tracking": 2,
+  "mark": "displaced",
+  "layout": "disruption",
+  "pattern": "displacements",
+  "radius": 0,
+  "voice": "Independent, candid, and fearless.",
+  "rules": [
+    "One square is deliberately displaced; the rest remain on the grid.",
+    "Use condensed display type at dramatic scale without stretching glyphs.",
+    "Keep care instructions plain and legible, separated from expressive graphics."
+  ],
+  "collection": "loud-and-clear",
+  "featured": false,
+  "system": {
+    "direction": "The independent issue",
+    "concept": "Displaced registration blocks, garment-label grids, graphic material folds, and severe condensed lettering. An intentionally unstandard streetwear system with clear functional details.",
+    "art": "displaced-fabric",
+    "family": "poster",
+    "mode": "accent",
+    "alignment": "left",
+    "split": 0.6,
+    "maxWidth": 1420,
+    "headingSize": 144,
+    "border": 2,
+    "button": "square",
+    "accentFont": "dm-mono",
+    "campaign": [
+      "NO",
+      "STANDARD",
+      "ISSUE."
+    ],
+    "headline": [
+      "Wear your",
+      "own direction."
+    ],
+    "eyebrow": "INDEPENDENT BY DESIGN / NO STANDARD ISSUE",
+    "cta": "Explore your direction",
+    "secondaryCta": "The independent approach",
+    "nav": [
+      "The issue",
+      "The details",
+      "Point of view"
+    ],
+    "product": "Issue 001 / Independent forms",
+    "productNote": "Made for your own direction.",
+    "features": [
+      [
+        "A different silhouette",
+        "Form with a distinct position and a useful place in your everyday."
+      ],
+      [
+        "Details with conviction",
+        "Graphic construction that follows the idea all the way through."
+      ],
+      [
+        "Wear it your way",
+        "An independent starting point, not a prescribed identity."
+      ]
+    ],
+    "layoutNote": "Oxide poster hero with condensed giant type and displaced fabric geometry. Square black CTA, strong grid rules, and utilitarian care-label captions."
+  },
+  "version": "2.0.0",
+  "number": 48,
+  "assets": 30
+}

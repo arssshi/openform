@@ -1,0 +1,225 @@
+{
+  "format": "openform-theme",
+  "version": "2.0.0",
+  "id": "nori",
+  "name": "nori",
+  "direction": "A fresh little system",
+  "concept": "Sculptural vegetable cutouts, playful bento compartments, small ingredient labels, and crisp friendly type. The food itself becomes a highly graphic visual language.",
+  "scope": {
+    "attribute": "data-openform",
+    "value": "nori",
+    "selector": "[data-openform=\"nori\"]"
+  },
+  "installation": {
+    "command": "node install-theme.mjs --target /path/to/your/project",
+    "publicDirectory": "public",
+    "destination": "themes/nori",
+    "stylesheet": "/themes/nori/theme.css",
+    "reference": "/themes/nori/reference.html",
+    "components": "/themes/nori/components.html",
+    "htmlAttribute": "data-openform=\"nori\""
+  },
+  "colors": {
+    "ink": "#29463E",
+    "accent": "#BBD3AC",
+    "paper": "#F7F1E2",
+    "support": "#EDA694",
+    "secondary": "#486057",
+    "border": "#bfc3b6",
+    "heroBackground": "#F7F1E2",
+    "heroForeground": "#29463E",
+    "buttonBackground": "#29463E",
+    "buttonForeground": "#F7F1E2"
+  },
+  "typography": {
+    "display": {
+      "family": "Rubik",
+      "file": "fonts/rubik.ttf",
+      "weight": 500,
+      "trackingEm": -0.04,
+      "lineHeight": 1.02,
+      "desktopMaxPx": 96,
+      "mobileMinPx": 38
+    },
+    "body": {
+      "family": "Urbanist",
+      "file": "fonts/urbanist.ttf",
+      "weight": 400,
+      "sizePx": 16,
+      "lineHeight": 1.7
+    },
+    "accent": {
+      "family": "Rubik",
+      "file": "fonts/rubik.ttf",
+      "style": "normal"
+    },
+    "label": {
+      "sizePx": 11,
+      "trackingEm": 0.08,
+      "lineHeight": 1.5
+    }
+  },
+  "layout": {
+    "id": "bento",
+    "family": "botanical",
+    "mode": "paper",
+    "alignment": "left",
+    "maxWidthPx": 1280,
+    "pageGutter": "clamp(20px, 4vw, 64px)",
+    "sectionGap": "clamp(64px, 9vw, 128px)",
+    "heroTextRatio": 0.46,
+    "gridColumns": 3,
+    "breakpoints": {
+      "mobile": 640,
+      "tablet": 960
+    },
+    "description": "Rice hero with an asymmetrical bento artwork and rounded, clearly separated ingredient panels. Kelp text on rice; ginger highlights seasonal items."
+  },
+  "components": {
+    "classes": {
+      "root": "of-theme",
+      "container": "of-container",
+      "header": "of-header",
+      "navigation": "of-nav",
+      "mobileNavigation": "of-mobile-nav",
+      "logo": "of-logo",
+      "eyebrow": "of-eyebrow",
+      "hero": "of-hero",
+      "heroCopy": "of-hero-copy",
+      "heroHeading": "of-display",
+      "heroMedia": "of-hero-media",
+      "heading": "of-heading",
+      "body": "of-body",
+      "actions": "of-actions",
+      "button": "of-button",
+      "secondaryButton": "of-button of-button--ghost",
+      "section": "of-section",
+      "sectionHeading": "of-section-heading",
+      "grid": "of-grid",
+      "card": "of-card",
+      "cardImage": "of-card-image",
+      "badge": "of-badge",
+      "form": "of-form",
+      "field": "of-field",
+      "input": "of-input",
+      "select": "of-select",
+      "textarea": "of-textarea",
+      "notice": "of-notice",
+      "table": "of-table",
+      "accordion": "of-accordion",
+      "footer": "of-footer"
+    },
+    "radiusPx": 18,
+    "cardRadiusPx": 0,
+    "borderPx": 1,
+    "buttonShape": "soft",
+    "minimumControlHeightPx": 48,
+    "inputHeightPx": 52,
+    "focus": {
+      "widthPx": 3,
+      "offsetPx": 4,
+      "color": "#29463E"
+    }
+  },
+  "content": {
+    "headline": [
+      "Good eating.",
+      "Fresh perspective."
+    ],
+    "eyebrow": "PLANTS FIRST / ALWAYS FRESH",
+    "cta": "Explore the menu",
+    "secondaryCta": "The way we make it",
+    "nav": [
+      "The menu",
+      "Ingredients",
+      "Our little place"
+    ],
+    "features": [
+      [
+        "Plants at the center",
+        "A bright menu that starts with the good things in season."
+      ],
+      [
+        "Nothing out of place",
+        "Simple combinations with a considered balance."
+      ],
+      [
+        "A better little lunch",
+        "Food for the everyday that still feels like a small pleasure."
+      ]
+    ]
+  },
+  "rules": [
+    "The kelp mark is one continuous silhouette.",
+    "Organize menus into softly bounded bento-like modules.",
+    "Use ginger to highlight seasonal items, never to imply warnings.",
+    "Rice hero with an asymmetrical bento artwork and rounded, clearly separated ingredient panels. Kelp text on rice; ginger highlights seasonal items.",
+    "Use the supplied artwork and SVG logos; keep glyph proportions intact.",
+    "Preserve the existing project content, routes, data fetching, and interaction handlers."
+  ],
+  "fonts": [
+    {
+      "id": "rubik",
+      "family": "Rubik",
+      "path": "fonts/rubik.ttf",
+      "license": "fonts/rubik-OFL.txt",
+      "weight": "300 900",
+      "style": "normal"
+    },
+    {
+      "id": "urbanist",
+      "family": "Urbanist",
+      "path": "fonts/urbanist.ttf",
+      "license": "fonts/urbanist-OFL.txt",
+      "weight": "100 900",
+      "style": "normal"
+    }
+  ],
+  "exports": [
+    "mark.svg",
+    "lockup.svg",
+    "wordmark.svg",
+    "monochrome.svg",
+    "pattern.svg",
+    "poster.svg",
+    "social.svg",
+    "avatar.svg",
+    "favicon.svg",
+    "artwork.svg",
+    "identity-board.svg",
+    "stationery.svg",
+    "packaging.svg",
+    "website.svg",
+    "social-story.svg",
+    "icon-set.svg",
+    "palette.svg",
+    "typography.svg",
+    "business-card.svg",
+    "tokens.json",
+    "theme.css",
+    "theme.json",
+    "theme.js",
+    "reference.html",
+    "components.html",
+    "components.tsx",
+    "install-theme.mjs",
+    "AI-PROMPT.md",
+    "INSTALL.md",
+    "guidelines.md"
+  ],
+  "license": {
+    "artwork": "CC0-1.0",
+    "code": "MIT",
+    "fonts": "OFL-1.1"
+  },
+  "acceptance": [
+    "The exact stylesheet loads without a 404.",
+    "All local fonts load; there are no requests to remote font services.",
+    "The root or intended subtree carries the exact data-openform attribute.",
+    "The supplied display font, colors, radius, spacing, and layout family are used consistently.",
+    "At 360px, 768px, and 1440px there is no horizontal page overflow.",
+    "Navigation, forms, routes, and existing business behavior still work.",
+    "Controls are keyboard accessible with visible focus; reduced-motion preferences are respected.",
+    "The final interface follows reference.html and components.html rather than a guessed visual style."
+  ]
+}

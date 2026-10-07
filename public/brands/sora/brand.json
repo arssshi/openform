@@ -1,0 +1,87 @@
+{
+  "id": "sora",
+  "name": "SORA",
+  "category": "Architecture",
+  "style": "Minimal",
+  "tagline": "Room to see differently.",
+  "description": "A considered identity for a light-led architecture practice. A blue doorway, measured capitals, and a strict alignment system give every application room to breathe.",
+  "colors": [
+    "#243E4C",
+    "#B8DDE5",
+    "#F8F6EE",
+    "#CF7D58"
+  ],
+  "colorNames": [
+    "Blueprint",
+    "Sky",
+    "Plaster",
+    "Clay"
+  ],
+  "heading": "outfit",
+  "body": "work-sans",
+  "weight": 400,
+  "tracking": 10,
+  "mark": "arch",
+  "layout": "architectural",
+  "pattern": "arches",
+  "radius": 2,
+  "voice": "Precise, open, and thoughtful.",
+  "rules": [
+    "Align the arch opening to the baseline of the wordmark.",
+    "Set headings in spaced capitals and body copy in sentence case.",
+    "Build compositions on an eight-column grid with wide outside margins."
+  ],
+  "collection": "less-but-better",
+  "featured": true,
+  "system": {
+    "direction": "Light as structure",
+    "concept": "Monolithic apertures, isometric architectural studies, and rigorously spaced type. Every application treats light and negative space as building materials.",
+    "art": "lightwell",
+    "family": "architecture",
+    "mode": "paper",
+    "alignment": "left",
+    "split": 0.42,
+    "maxWidth": 1440,
+    "headingSize": 94,
+    "border": 1,
+    "button": "square",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "Room",
+      "to see",
+      "differently."
+    ],
+    "headline": [
+      "Spaces for",
+      "a different light."
+    ],
+    "eyebrow": "ARCHITECTURE / INTERIORS / LIGHT",
+    "cta": "View selected spaces",
+    "secondaryCta": "Meet the practice",
+    "nav": [
+      "Spaces",
+      "Practice",
+      "Perspectives"
+    ],
+    "product": "Lightwell / Study 01",
+    "productNote": "Space, shaped by daylight.",
+    "features": [
+      [
+        "Begin with the light",
+        "A considered approach to how a space feels throughout the day."
+      ],
+      [
+        "Material honesty",
+        "Form and texture chosen for their place, purpose, and longevity."
+      ],
+      [
+        "Room to breathe",
+        "Measured spaces that leave enough room for real life."
+      ]
+    ],
+    "layoutNote": "An airy white architectural hero. Use an 8-column feeling, tracked uppercase labels, a wide right-hand image, and numbered project rows instead of bubbly UI."
+  },
+  "version": "2.0.0",
+  "number": 3,
+  "assets": 30
+}

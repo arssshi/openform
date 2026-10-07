@@ -1,0 +1,233 @@
+{
+  "format": "openform-theme",
+  "version": "2.0.0",
+  "id": "folio",
+  "name": "Folio",
+  "direction": "The authored presentation",
+  "concept": "Folded portfolio sheets, considered page corners, warm print-stock contrast, and high-character serif display. The work and its author stay at the center.",
+  "scope": {
+    "attribute": "data-openform",
+    "value": "folio",
+    "selector": "[data-openform=\"folio\"]"
+  },
+  "installation": {
+    "command": "node install-theme.mjs --target /path/to/your/project",
+    "publicDirectory": "public",
+    "destination": "themes/folio",
+    "stylesheet": "/themes/folio/theme.css",
+    "reference": "/themes/folio/reference.html",
+    "components": "/themes/folio/components.html",
+    "htmlAttribute": "data-openform=\"folio\""
+  },
+  "colors": {
+    "ink": "#69402F",
+    "accent": "#DDBB91",
+    "paper": "#F9F1E2",
+    "support": "#A7B1BB",
+    "secondary": "#7f5b4a",
+    "border": "#d2c1b2",
+    "heroBackground": "#F9F1E2",
+    "heroForeground": "#69402F",
+    "buttonBackground": "#69402F",
+    "buttonForeground": "#F9F1E2"
+  },
+  "typography": {
+    "display": {
+      "family": "Lora",
+      "file": "fonts/lora.ttf",
+      "weight": 600,
+      "trackingEm": -0.02,
+      "lineHeight": 1.02,
+      "desktopMaxPx": 96,
+      "mobileMinPx": 38
+    },
+    "body": {
+      "family": "Outfit",
+      "file": "fonts/outfit.ttf",
+      "weight": 400,
+      "sizePx": 16,
+      "lineHeight": 1.7
+    },
+    "accent": {
+      "family": "Instrument Serif",
+      "file": "fonts/instrument-serif-italic.ttf",
+      "style": "italic"
+    },
+    "label": {
+      "sizePx": 11,
+      "trackingEm": 0.08,
+      "lineHeight": 1.5
+    }
+  },
+  "layout": {
+    "id": "folio",
+    "family": "editorial",
+    "mode": "paper",
+    "alignment": "left",
+    "maxWidthPx": 1320,
+    "pageGutter": "clamp(20px, 4vw, 64px)",
+    "sectionGap": "clamp(64px, 9vw, 128px)",
+    "heroTextRatio": 0.5,
+    "gridColumns": 3,
+    "breakpoints": {
+      "mobile": 640,
+      "tablet": 960
+    },
+    "description": "Endpaper hero with terracotta serif type and an angled portfolio object. A thin metadata rail, large project titles, and distinctly separated author credits."
+  },
+  "components": {
+    "classes": {
+      "root": "of-theme",
+      "container": "of-container",
+      "header": "of-header",
+      "navigation": "of-nav",
+      "mobileNavigation": "of-mobile-nav",
+      "logo": "of-logo",
+      "eyebrow": "of-eyebrow",
+      "hero": "of-hero",
+      "heroCopy": "of-hero-copy",
+      "heroHeading": "of-display",
+      "heroMedia": "of-hero-media",
+      "heading": "of-heading",
+      "body": "of-body",
+      "actions": "of-actions",
+      "button": "of-button",
+      "secondaryButton": "of-button of-button--ghost",
+      "section": "of-section",
+      "sectionHeading": "of-section-heading",
+      "grid": "of-grid",
+      "card": "of-card",
+      "cardImage": "of-card-image",
+      "badge": "of-badge",
+      "form": "of-form",
+      "field": "of-field",
+      "input": "of-input",
+      "select": "of-select",
+      "textarea": "of-textarea",
+      "notice": "of-notice",
+      "table": "of-table",
+      "accordion": "of-accordion",
+      "footer": "of-footer"
+    },
+    "radiusPx": 2,
+    "cardRadiusPx": 0,
+    "borderPx": 1,
+    "buttonShape": "outline",
+    "minimumControlHeightPx": 48,
+    "inputHeightPx": 52,
+    "focus": {
+      "widthPx": 3,
+      "offsetPx": 4,
+      "color": "#69402F"
+    }
+  },
+  "content": {
+    "headline": [
+      "Work with",
+      "a point of view."
+    ],
+    "eyebrow": "WORK / WORDS / INDEPENDENT PERSPECTIVE",
+    "cta": "Explore the work",
+    "secondaryCta": "Meet the authors",
+    "nav": [
+      "Selected work",
+      "Words",
+      "The authors"
+    ],
+    "features": [
+      [
+        "A place for the work",
+        "A clear, considered presentation that lets an idea be understood."
+      ],
+      [
+        "The story behind it",
+        "Room for context, process, and the person who made it."
+      ],
+      [
+        "A lasting point of view",
+        "Work worth returning to, not just scrolling past."
+      ]
+    ]
+  },
+  "rules": [
+    "Page corners appear as open right angles, never closed boxes.",
+    "Use a vertical rule to separate project metadata from descriptions.",
+    "Give each featured work a full-width reading area and clear attribution.",
+    "Endpaper hero with terracotta serif type and an angled portfolio object. A thin metadata rail, large project titles, and distinctly separated author credits.",
+    "Use the supplied artwork and SVG logos; keep glyph proportions intact.",
+    "Preserve the existing project content, routes, data fetching, and interaction handlers."
+  ],
+  "fonts": [
+    {
+      "id": "lora",
+      "family": "Lora",
+      "path": "fonts/lora.ttf",
+      "license": "fonts/lora-OFL.txt",
+      "weight": "400 700",
+      "style": "normal"
+    },
+    {
+      "id": "outfit",
+      "family": "Outfit",
+      "path": "fonts/outfit.ttf",
+      "license": "fonts/outfit-OFL.txt",
+      "weight": "100 900",
+      "style": "normal"
+    },
+    {
+      "id": "instrument-serif-italic",
+      "family": "Instrument Serif",
+      "path": "fonts/instrument-serif-italic.ttf",
+      "license": "fonts/instrument-serif-italic-OFL.txt",
+      "weight": "400",
+      "style": "italic"
+    }
+  ],
+  "exports": [
+    "mark.svg",
+    "lockup.svg",
+    "wordmark.svg",
+    "monochrome.svg",
+    "pattern.svg",
+    "poster.svg",
+    "social.svg",
+    "avatar.svg",
+    "favicon.svg",
+    "artwork.svg",
+    "identity-board.svg",
+    "stationery.svg",
+    "packaging.svg",
+    "website.svg",
+    "social-story.svg",
+    "icon-set.svg",
+    "palette.svg",
+    "typography.svg",
+    "business-card.svg",
+    "tokens.json",
+    "theme.css",
+    "theme.json",
+    "theme.js",
+    "reference.html",
+    "components.html",
+    "components.tsx",
+    "install-theme.mjs",
+    "AI-PROMPT.md",
+    "INSTALL.md",
+    "guidelines.md"
+  ],
+  "license": {
+    "artwork": "CC0-1.0",
+    "code": "MIT",
+    "fonts": "OFL-1.1"
+  },
+  "acceptance": [
+    "The exact stylesheet loads without a 404.",
+    "All local fonts load; there are no requests to remote font services.",
+    "The root or intended subtree carries the exact data-openform attribute.",
+    "The supplied display font, colors, radius, spacing, and layout family are used consistently.",
+    "At 360px, 768px, and 1440px there is no horizontal page overflow.",
+    "Navigation, forms, routes, and existing business behavior still work.",
+    "Controls are keyboard accessible with visible focus; reduced-motion preferences are respected.",
+    "The final interface follows reference.html and components.html rather than a guessed visual style."
+  ]
+}

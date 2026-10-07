@@ -1,0 +1,87 @@
+{
+  "id": "velour",
+  "name": "velour",
+  "category": "Fashion",
+  "style": "Elegant",
+  "tagline": "An everyday kind of extraordinary.",
+  "description": "A tactile identity for a slow-fashion label. A looping ribbon, soft blush, and precise charcoal wordmarks balance romantic detail with a contemporary silhouette.",
+  "colors": [
+    "#37302F",
+    "#E9CBC5",
+    "#F7F0E7",
+    "#A73E47"
+  ],
+  "colorNames": [
+    "Cacao",
+    "Blush",
+    "Silk",
+    "Rouge"
+  ],
+  "heading": "prata",
+  "body": "urbanist",
+  "weight": 400,
+  "tracking": -1,
+  "mark": "ribbon",
+  "layout": "fashion",
+  "pattern": "ribbons",
+  "radius": 2,
+  "voice": "Intimate, assured, and sensorial.",
+  "rules": [
+    "Preserve the ribbon's negative space at every size.",
+    "Use rouge as a tiny editorial punctuation rather than a full background.",
+    "Keep garment information quiet and never track body paragraphs."
+  ],
+  "collection": "quiet-luxury",
+  "featured": false,
+  "system": {
+    "direction": "Soft architecture of dress",
+    "concept": "Sculptural folded ribbons, couture-like labels, blush tissue, and quietly dramatic serif setting. Sensory material meets precise contemporary composition.",
+    "art": "silk-fold",
+    "family": "fashion",
+    "mode": "paper",
+    "alignment": "center",
+    "split": 0.5,
+    "maxWidth": 1240,
+    "headingSize": 108,
+    "border": 1,
+    "button": "outline",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "MADE",
+      "TO FEEL",
+      "LIKE YOU."
+    ],
+    "headline": [
+      "Extraordinary,",
+      "in the everyday."
+    ],
+    "eyebrow": "SLOWLY MADE / OFTEN WORN",
+    "cta": "Explore the collection",
+    "secondaryCta": "Our way of making",
+    "nav": [
+      "Collection",
+      "The details",
+      "Our approach"
+    ],
+    "product": "The soft essentials",
+    "productNote": "A considered everyday silhouette.",
+    "features": [
+      [
+        "Feel the difference",
+        "Form, texture, and the little details closest to you."
+      ],
+      [
+        "A slower approach",
+        "Pieces made with care and room to become familiar."
+      ],
+      [
+        "Wear your own way",
+        "A quiet foundation for a very personal point of view."
+      ]
+    ],
+    "layoutNote": "Centered silk-white hero with a narrow high-contrast serif and a wide blush ribbon image. Quiet product captions and fine rules; rouge is a small punctuation only."
+  },
+  "version": "2.0.0",
+  "number": 16,
+  "assets": 30
+}

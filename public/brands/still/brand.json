@@ -1,0 +1,87 @@
+{
+  "id": "still",
+  "name": "still",
+  "category": "Lifestyle",
+  "style": "Minimal",
+  "tagline": "Only what matters.",
+  "description": "A pared-back identity for durable household essentials. One grounded oval, sandstone neutrals, and effortless geometric type create a system designed to age well.",
+  "colors": [
+    "#49483F",
+    "#D2C8AE",
+    "#F5F2E9",
+    "#A4AFA7"
+  ],
+  "colorNames": [
+    "Stone",
+    "Sandstone",
+    "Ceramic",
+    "Patina"
+  ],
+  "heading": "work-sans",
+  "body": "urbanist",
+  "weight": 400,
+  "tracking": -4,
+  "mark": "oval",
+  "layout": "essential",
+  "pattern": "ovals",
+  "radius": 6,
+  "voice": "Considered, honest, and enduring.",
+  "rules": [
+    "Keep the grounded oval at a fixed 3:2 proportion.",
+    "Use tonal contrast rather than additional decorative colors.",
+    "Product names are sentence case with plainly stated materials beneath."
+  ],
+  "collection": "less-but-better",
+  "featured": false,
+  "system": {
+    "direction": "Essential objects, lasting form",
+    "concept": "Low-relief ceramic studies, grounded soft geometry, tonal paper labels, and quietly confident geometric type. Fewer elements make every proportion more important.",
+    "art": "ceramic-study",
+    "family": "minimal",
+    "mode": "paper",
+    "alignment": "center",
+    "split": 0.5,
+    "maxWidth": 1160,
+    "headingSize": 102,
+    "border": 1,
+    "button": "soft",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "ONLY",
+      "WHAT",
+      "MATTERS."
+    ],
+    "headline": [
+      "Fewer things.",
+      "Better everyday."
+    ],
+    "eyebrow": "DURABLE OBJECTS / CONSIDERED LIVING",
+    "cta": "Explore the essentials",
+    "secondaryCta": "Our way of making",
+    "nav": [
+      "Essentials",
+      "Materials",
+      "The approach"
+    ],
+    "product": "The essential collection",
+    "productNote": "Useful enough to keep.",
+    "features": [
+      [
+        "A reason to be here",
+        "Every object starts with a clear purpose."
+      ],
+      [
+        "Material, plainly",
+        "Honest details and the character of well-chosen materials."
+      ],
+      [
+        "Part of the everyday",
+        "Thoughtful things designed to become quietly familiar."
+      ]
+    ],
+    "layoutNote": "Ceramic-white centered hero with quiet stone typography and a large sculptural ceramic image. Tonal borders, a 2-column essentials grid, and no unnecessary decoration."
+  },
+  "version": "2.0.0",
+  "number": 42,
+  "assets": 30
+}

@@ -1,0 +1,87 @@
+{
+  "id": "aurel",
+  "name": "AUREL",
+  "category": "Hospitality",
+  "style": "Elegant",
+  "tagline": "The art of taking your time.",
+  "description": "A warm, cultivated identity for a small hotel with a big sense of place. A radiating sun seal, a refined serif, and wine-colored details suggest understated luxury.",
+  "colors": [
+    "#532B39",
+    "#DFBB7D",
+    "#F5EEE1",
+    "#B18483"
+  ],
+  "colorNames": [
+    "Bordeaux",
+    "Gilded",
+    "Linen",
+    "Rosewood"
+  ],
+  "heading": "cormorant",
+  "body": "manrope",
+  "weight": 500,
+  "tracking": 8,
+  "mark": "sunseal",
+  "layout": "luxury",
+  "pattern": "rays",
+  "radius": 4,
+  "voice": "Warm, gracious, and beautifully unhurried.",
+  "rules": [
+    "The sun seal sits above the wordmark, never inside it.",
+    "Reserve gilded for ornaments and spacious surfaces; use bordeaux for body text.",
+    "Pair large serif headings with very small, tracked sans-serif labels."
+  ],
+  "collection": "quiet-luxury",
+  "featured": true,
+  "system": {
+    "direction": "Sunlit heritage",
+    "concept": "A contemporary sun medallion, engraved-looking hairlines, linen-colored stationery, and generous serif setting. The system feels like a beautifully kept personal invitation.",
+    "art": "sun-courtyard",
+    "family": "hospitality",
+    "mode": "paper",
+    "alignment": "center",
+    "split": 0.5,
+    "maxWidth": 1180,
+    "headingSize": 110,
+    "border": 1,
+    "button": "outline",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "THE ART",
+      "OF TAKING",
+      "YOUR TIME."
+    ],
+    "headline": [
+      "A place to stay.",
+      "A reason to linger."
+    ],
+    "eyebrow": "AUREL / ROOMS & SMALL PLEASURES",
+    "cta": "Explore your stay",
+    "secondaryCta": "The house",
+    "nav": [
+      "The rooms",
+      "The table",
+      "The house"
+    ],
+    "product": "The courtyard rooms",
+    "productNote": "An invitation to slow down.",
+    "features": [
+      [
+        "Rooms with a rhythm",
+        "Thoughtful spaces, warm materials, and time to settle in."
+      ],
+      [
+        "A table to remember",
+        "Seasonal pleasures and the simple grace of eating well."
+      ],
+      [
+        "A sense of place",
+        "Stay close to the neighborhood, and a little closer to yourself."
+      ]
+    ],
+    "layoutNote": "Linen hero, centered high-contrast serif, a small sun seal, and a framed courtyard image. Bordeaux fine borders; gold appears as ornament, never small reading text."
+  },
+  "version": "2.0.0",
+  "number": 6,
+  "assets": 30
+}

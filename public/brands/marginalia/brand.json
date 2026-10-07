@@ -1,0 +1,87 @@
+{
+  "id": "marginalia",
+  "name": "Marginalia",
+  "category": "Creative",
+  "style": "Editorial",
+  "tagline": "The interesting things at the edges.",
+  "description": "A personal identity for a research and writing studio. Expressive brackets, lilac notes, and an elegant reading serif turn annotations into the star of the system.",
+  "colors": [
+    "#3B3342",
+    "#CABAE0",
+    "#F5F0E6",
+    "#B4B99A"
+  ],
+  "colorNames": [
+    "Pencil",
+    "Annotation",
+    "Manuscript",
+    "Margin"
+  ],
+  "heading": "instrument-serif",
+  "body": "work-sans",
+  "weight": 400,
+  "tracking": 0,
+  "mark": "brackets",
+  "layout": "margins",
+  "pattern": "annotations",
+  "radius": 0,
+  "voice": "Perceptive, personal, and quietly witty.",
+  "rules": [
+    "Brackets frame a thought without closing it in.",
+    "Use a deliberately wide margin for notes and secondary commentary.",
+    "Keep long reading text on manuscript white, with lilac as an annotation field."
+  ],
+  "collection": "type-stories",
+  "featured": false,
+  "system": {
+    "direction": "The thoughtful annotation",
+    "concept": "Hand-annotated page objects, expressive bracket geometry, faint writing rules, and large literary serifs. The margins become a purposeful second voice.",
+    "art": "annotated-pages",
+    "family": "editorial",
+    "mode": "paper",
+    "alignment": "left",
+    "split": 0.57,
+    "maxWidth": 1300,
+    "headingSize": 122,
+    "border": 1,
+    "button": "outline",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "THE INTERESTING",
+      "THINGS AT",
+      "THE EDGES."
+    ],
+    "headline": [
+      "There is more",
+      "in the margins."
+    ],
+    "eyebrow": "RESEARCH / WRITING / POINTS OF VIEW",
+    "cta": "Explore the observations",
+    "secondaryCta": "About the practice",
+    "nav": [
+      "Observations",
+      "The practice",
+      "Reading notes"
+    ],
+    "product": "Notes from the margins",
+    "productNote": "A little closer to the interesting parts.",
+    "features": [
+      [
+        "Notice what others pass",
+        "Thoughtful research that starts with a closer look."
+      ],
+      [
+        "Find the useful story",
+        "Writing that gives an interesting idea a clear place to live."
+      ],
+      [
+        "Leave room for thought",
+        "A practice that values the question as much as the conclusion."
+      ]
+    ],
+    "layoutNote": "Manuscript hero with a lilac annotation rail and expressive serif type. Brackets frame selected ideas; a real wide margin holds secondary notes."
+  },
+  "version": "2.0.0",
+  "number": 37,
+  "assets": 30
+}

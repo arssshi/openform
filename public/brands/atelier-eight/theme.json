@@ -1,0 +1,233 @@
+{
+  "format": "openform-theme",
+  "version": "2.0.0",
+  "id": "atelier-eight",
+  "name": "Atelier No.8",
+  "direction": "The collectible edition",
+  "concept": "Faceted sculptural objects, edition stamps, restrained mauve fields, and exquisitely proportioned serif typography. Every object is treated as a small piece of architecture.",
+  "scope": {
+    "attribute": "data-openform",
+    "value": "atelier-eight",
+    "selector": "[data-openform=\"atelier-eight\"]"
+  },
+  "installation": {
+    "command": "node install-theme.mjs --target /path/to/your/project",
+    "publicDirectory": "public",
+    "destination": "themes/atelier-eight",
+    "stylesheet": "/themes/atelier-eight/theme.css",
+    "reference": "/themes/atelier-eight/reference.html",
+    "components": "/themes/atelier-eight/components.html",
+    "htmlAttribute": "data-openform=\"atelier-eight\""
+  },
+  "colors": {
+    "ink": "#50323D",
+    "accent": "#D1B5BC",
+    "paper": "#F7EFE2",
+    "support": "#B19A69",
+    "secondary": "#694e56",
+    "border": "#cabcb5",
+    "heroBackground": "#F7EFE2",
+    "heroForeground": "#50323D",
+    "buttonBackground": "#50323D",
+    "buttonForeground": "#F7EFE2"
+  },
+  "typography": {
+    "display": {
+      "family": "Cormorant Garamond",
+      "file": "fonts/cormorant.ttf",
+      "weight": 600,
+      "trackingEm": 0,
+      "lineHeight": 1.02,
+      "desktopMaxPx": 96,
+      "mobileMinPx": 38
+    },
+    "body": {
+      "family": "DM Mono",
+      "file": "fonts/dm-mono.ttf",
+      "weight": 400,
+      "sizePx": 16,
+      "lineHeight": 1.7
+    },
+    "accent": {
+      "family": "Instrument Serif",
+      "file": "fonts/instrument-serif-italic.ttf",
+      "style": "italic"
+    },
+    "label": {
+      "sizePx": 11,
+      "trackingEm": 0.08,
+      "lineHeight": 1.5
+    }
+  },
+  "layout": {
+    "id": "atelier",
+    "family": "fashion",
+    "mode": "paper",
+    "alignment": "left",
+    "maxWidthPx": 1320,
+    "pageGutter": "clamp(20px, 4vw, 64px)",
+    "sectionGap": "clamp(64px, 9vw, 128px)",
+    "heroTextRatio": 0.46,
+    "gridColumns": 3,
+    "breakpoints": {
+      "mobile": 640,
+      "tablet": 960
+    },
+    "description": "Ivory split hero with an aubergine serif and a large faceted object. Numbered editions, mono dimensions, fine gold rules, and square image frames."
+  },
+  "components": {
+    "classes": {
+      "root": "of-theme",
+      "container": "of-container",
+      "header": "of-header",
+      "navigation": "of-nav",
+      "mobileNavigation": "of-mobile-nav",
+      "logo": "of-logo",
+      "eyebrow": "of-eyebrow",
+      "hero": "of-hero",
+      "heroCopy": "of-hero-copy",
+      "heroHeading": "of-display",
+      "heroMedia": "of-hero-media",
+      "heading": "of-heading",
+      "body": "of-body",
+      "actions": "of-actions",
+      "button": "of-button",
+      "secondaryButton": "of-button of-button--ghost",
+      "section": "of-section",
+      "sectionHeading": "of-section-heading",
+      "grid": "of-grid",
+      "card": "of-card",
+      "cardImage": "of-card-image",
+      "badge": "of-badge",
+      "form": "of-form",
+      "field": "of-field",
+      "input": "of-input",
+      "select": "of-select",
+      "textarea": "of-textarea",
+      "notice": "of-notice",
+      "table": "of-table",
+      "accordion": "of-accordion",
+      "footer": "of-footer"
+    },
+    "radiusPx": 0,
+    "cardRadiusPx": 0,
+    "borderPx": 1,
+    "buttonShape": "outline",
+    "minimumControlHeightPx": 48,
+    "inputHeightPx": 52,
+    "focus": {
+      "widthPx": 3,
+      "offsetPx": 4,
+      "color": "#50323D"
+    }
+  },
+  "content": {
+    "headline": [
+      "A few objects.",
+      "A distinct point of view."
+    ],
+    "eyebrow": "ATELIER NO.8 / OBJECTS & EDITIONS",
+    "cta": "Explore the editions",
+    "secondaryCta": "Inside the atelier",
+    "nav": [
+      "Editions",
+      "The atelier",
+      "Object notes"
+    ],
+    "features": [
+      [
+        "An object with intention",
+        "A considered form, a clear material, and a reason to exist."
+      ],
+      [
+        "A quieter kind of detail",
+        "Small decisions that reward looking a little closer."
+      ],
+      [
+        "Made to stay interesting",
+        "Objects whose personality can outlast the first impression."
+      ]
+    ]
+  },
+  "rules": [
+    "Keep diamond facets outlined at a consistent weight.",
+    "Use edition numbers and object dimensions as deliberate typographic details.",
+    "Allow old gold only as a line or a small seal.",
+    "Ivory split hero with an aubergine serif and a large faceted object. Numbered editions, mono dimensions, fine gold rules, and square image frames.",
+    "Use the supplied artwork and SVG logos; keep glyph proportions intact.",
+    "Preserve the existing project content, routes, data fetching, and interaction handlers."
+  ],
+  "fonts": [
+    {
+      "id": "cormorant",
+      "family": "Cormorant Garamond",
+      "path": "fonts/cormorant.ttf",
+      "license": "fonts/cormorant-OFL.txt",
+      "weight": "300 700",
+      "style": "normal"
+    },
+    {
+      "id": "dm-mono",
+      "family": "DM Mono",
+      "path": "fonts/dm-mono.ttf",
+      "license": "fonts/dm-mono-OFL.txt",
+      "weight": "400",
+      "style": "normal"
+    },
+    {
+      "id": "instrument-serif-italic",
+      "family": "Instrument Serif",
+      "path": "fonts/instrument-serif-italic.ttf",
+      "license": "fonts/instrument-serif-italic-OFL.txt",
+      "weight": "400",
+      "style": "italic"
+    }
+  ],
+  "exports": [
+    "mark.svg",
+    "lockup.svg",
+    "wordmark.svg",
+    "monochrome.svg",
+    "pattern.svg",
+    "poster.svg",
+    "social.svg",
+    "avatar.svg",
+    "favicon.svg",
+    "artwork.svg",
+    "identity-board.svg",
+    "stationery.svg",
+    "packaging.svg",
+    "website.svg",
+    "social-story.svg",
+    "icon-set.svg",
+    "palette.svg",
+    "typography.svg",
+    "business-card.svg",
+    "tokens.json",
+    "theme.css",
+    "theme.json",
+    "theme.js",
+    "reference.html",
+    "components.html",
+    "components.tsx",
+    "install-theme.mjs",
+    "AI-PROMPT.md",
+    "INSTALL.md",
+    "guidelines.md"
+  ],
+  "license": {
+    "artwork": "CC0-1.0",
+    "code": "MIT",
+    "fonts": "OFL-1.1"
+  },
+  "acceptance": [
+    "The exact stylesheet loads without a 404.",
+    "All local fonts load; there are no requests to remote font services.",
+    "The root or intended subtree carries the exact data-openform attribute.",
+    "The supplied display font, colors, radius, spacing, and layout family are used consistently.",
+    "At 360px, 768px, and 1440px there is no horizontal page overflow.",
+    "Navigation, forms, routes, and existing business behavior still work.",
+    "Controls are keyboard accessible with visible focus; reduced-motion preferences are respected.",
+    "The final interface follows reference.html and components.html rather than a guessed visual style."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "almanac",
+  "name": "Almanac",
+  "category": "Publishing",
+  "style": "Editorial",
+  "tagline": "A record of the remarkable.",
+  "description": "A thoughtful identity for an independent culture journal. An open-book emblem, deeply inked green, and index-like labels bring a sense of discovery to long-form stories.",
+  "colors": [
+    "#344B3B",
+    "#B8C5A0",
+    "#F1EBDD",
+    "#C9B8CF"
+  ],
+  "colorNames": [
+    "Library",
+    "Bookmark",
+    "Vellum",
+    "Archive"
+  ],
+  "heading": "playfair",
+  "body": "karla",
+  "weight": 500,
+  "tracking": -2,
+  "mark": "book",
+  "layout": "index",
+  "pattern": "rules",
+  "radius": 0,
+  "voice": "Inquisitive, thoughtful, and observant.",
+  "rules": [
+    "The open book retains a clearly visible central spine.",
+    "Use issue numbers and running headers as integral design elements.",
+    "Combine serif titles with sans-serif paragraphs and mono-style metadata."
+  ],
+  "collection": "type-stories",
+  "featured": false,
+  "system": {
+    "direction": "The living archive",
+    "concept": "Layered page objects, specimen-like illustrations, chapter rhythms, and richly readable book typography. A contemporary cultural journal that looks worth keeping.",
+    "art": "archive-pages",
+    "family": "editorial",
+    "mode": "paper",
+    "alignment": "left",
+    "split": 0.52,
+    "maxWidth": 1280,
+    "headingSize": 104,
+    "border": 1,
+    "button": "outline",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "A RECORD",
+      "OF THE",
+      "REMARKABLE."
+    ],
+    "headline": [
+      "Look a little closer.",
+      "There is a story here."
+    ],
+    "eyebrow": "CULTURE / NOTES / THE EVERYDAY REMARKABLE",
+    "cta": "Open the current volume",
+    "secondaryCta": "About the journal",
+    "nav": [
+      "The current volume",
+      "Archive",
+      "The journal"
+    ],
+    "product": "Volume 01 / Observations",
+    "productNote": "Things worth noticing, kept together.",
+    "features": [
+      [
+        "Observe the everyday",
+        "Thoughtful records of things that can too easily go unnoticed."
+      ],
+      [
+        "Keep the interesting parts",
+        "A considered archive of people, places, and perspectives."
+      ],
+      [
+        "Return to the page",
+        "Work with enough care and character to invite another reading."
+      ]
+    ],
+    "layoutNote": "Vellum editorial hero with an open-page graphic, large serif title, running headers, and archive-green dividers. Two-column story rows on desktop, one on mobile."
+  },
+  "version": "2.0.0",
+  "number": 29,
+  "assets": 30
+}

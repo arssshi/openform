@@ -1,0 +1,87 @@
+{
+  "id": "paloma",
+  "name": "Paloma",
+  "category": "Publishing",
+  "style": "Editorial",
+  "tagline": "Stories worth staying for.",
+  "description": "A literary identity with a distinctive paper-bird emblem. Mustard yellow and midnight blue frame a graceful serif, bringing an independent press to life.",
+  "colors": [
+    "#233048",
+    "#E6C46B",
+    "#FAF4E6",
+    "#C5A5AD"
+  ],
+  "colorNames": [
+    "Midnight",
+    "Marigold",
+    "Page",
+    "Mauve"
+  ],
+  "heading": "lora",
+  "body": "work-sans",
+  "weight": 500,
+  "tracking": -3,
+  "mark": "bird",
+  "layout": "editorial",
+  "pattern": "feathers",
+  "radius": 2,
+  "voice": "Reflective, humane, and richly descriptive.",
+  "rules": [
+    "Let the bird point toward the reading direction.",
+    "Use marigold for covers and midnight for all long-form reading text.",
+    "Set excerpts with generous leading and a visible opening margin."
+  ],
+  "collection": "type-stories",
+  "featured": false,
+  "system": {
+    "direction": "The independent imprint",
+    "concept": "Cut-paper flight, book-cover rhythm, drop-cap-like display typography, and a rich mustard-and-ink palette. A literary world with a contemporary editorial edge.",
+    "art": "paper-flight",
+    "family": "editorial",
+    "mode": "paper",
+    "alignment": "left",
+    "split": 0.47,
+    "maxWidth": 1260,
+    "headingSize": 104,
+    "border": 1,
+    "button": "outline",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "STORIES",
+      "WORTH",
+      "STAYING FOR."
+    ],
+    "headline": [
+      "Stay for",
+      "the story."
+    ],
+    "eyebrow": "AN INDEPENDENT PRESS / OPEN WORLDS",
+    "cta": "Explore the stories",
+    "secondaryCta": "About the imprint",
+    "nav": [
+      "Books",
+      "Writers",
+      "The imprint"
+    ],
+    "product": "The collected stories",
+    "productNote": "An independent point of view.",
+    "features": [
+      [
+        "A voice of their own",
+        "Work chosen for its character, care, and unmistakable perspective."
+      ],
+      [
+        "Books as objects",
+        "Considered paper, good typography, and room for the words."
+      ],
+      [
+        "A conversation that lasts",
+        "Stories to return to, pass on, and keep close."
+      ]
+    ],
+    "layoutNote": "A paper editorial hero with serif display and a yellow book-jacket image. Hairline columns, large reading margins, and clearly separated editorial metadata."
+  },
+  "version": "2.0.0",
+  "number": 9,
+  "assets": 30
+}

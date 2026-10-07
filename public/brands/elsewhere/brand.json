@@ -1,0 +1,87 @@
+{
+  "id": "elsewhere",
+  "name": "Elsewhere",
+  "category": "Travel",
+  "style": "Editorial",
+  "tagline": "A different kind of away.",
+  "description": "An evocative identity for thoughtful travel journals. A doorway into another world, pale persimmon, and an expressive serif invite people to take the scenic route.",
+  "colors": [
+    "#51405D",
+    "#F2BC96",
+    "#FAF2DF",
+    "#C5C7E2"
+  ],
+  "colorNames": [
+    "Dusk",
+    "Persimmon",
+    "Postcard",
+    "Distance"
+  ],
+  "heading": "instrument-serif",
+  "body": "manrope",
+  "weight": 400,
+  "tracking": -2,
+  "mark": "portal",
+  "layout": "postcard",
+  "pattern": "portals",
+  "radius": 0,
+  "voice": "Observant, transportive, and open-minded.",
+  "rules": [
+    "The doorway is a window, so leave its center visually open.",
+    "Frame photography with a generous postcard border.",
+    "Use large serif headlines and small, uppercase location captions."
+  ],
+  "collection": "type-stories",
+  "featured": false,
+  "system": {
+    "direction": "The considered journey",
+    "concept": "Surreal doorways into layered landscapes, postcard framing, beautifully oversized reading serifs, and destination-like color blocks. Travel as a point of view.",
+    "art": "surreal-doorway",
+    "family": "editorial",
+    "mode": "paper",
+    "alignment": "left",
+    "split": 0.45,
+    "maxWidth": 1340,
+    "headingSize": 126,
+    "border": 1,
+    "button": "outline",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "A DIFFERENT",
+      "KIND OF",
+      "AWAY."
+    ],
+    "headline": [
+      "There is another",
+      "way to be away."
+    ],
+    "eyebrow": "JOURNEYS WITH A POINT OF VIEW",
+    "cta": "Find your elsewhere",
+    "secondaryCta": "Read the travel notes",
+    "nav": [
+      "Journeys",
+      "Field notes",
+      "Our point of view"
+    ],
+    "product": "The slow travel journal",
+    "productNote": "Go slowly. Look a little closer.",
+    "features": [
+      [
+        "The scenic approach",
+        "A journey shaped by curiosity rather than a checklist."
+      ],
+      [
+        "Places with a story",
+        "Thoughtful notes on what makes somewhere feel different."
+      ],
+      [
+        "Time to notice",
+        "More room for the moments between the destinations."
+      ]
+    ],
+    "layoutNote": "Warm postcard hero with oversized expressive serif and a framed persimmon portal. Use running location captions, inset imagery, and a calm left-aligned reading rhythm."
+  },
+  "version": "2.0.0",
+  "number": 14,
+  "assets": 30
+}

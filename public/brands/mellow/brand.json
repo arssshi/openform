@@ -1,0 +1,87 @@
+{
+  "id": "mellow",
+  "name": "mellow",
+  "category": "Lifestyle",
+  "style": "Retro",
+  "tagline": "Take the day as it comes.",
+  "description": "An easygoing identity for home goods and good moods. A soft four-point sparkle, warm peach fields, and wonderfully chunky type recall the optimism of a slower era.",
+  "colors": [
+    "#713F4A",
+    "#F0BA99",
+    "#FCEDCE",
+    "#B7B885"
+  ],
+  "colorNames": [
+    "Mulberry",
+    "Peach fuzz",
+    "Buttermilk",
+    "Pistachio"
+  ],
+  "heading": "fraunces",
+  "body": "outfit",
+  "weight": 900,
+  "tracking": -5,
+  "mark": "sparkle",
+  "layout": "groovy",
+  "pattern": "sparkles",
+  "radius": 26,
+  "voice": "Relaxed, affectionate, and gently funny.",
+  "rules": [
+    "Sparkles use soft inward curves, never sharp straight spokes.",
+    "Keep backgrounds warm and use mulberry to anchor the composition.",
+    "Set short, chunky headlines with tight spacing and spacious supporting copy."
+  ],
+  "collection": "back-to-good",
+  "featured": false,
+  "system": {
+    "direction": "Soft-focus optimism",
+    "concept": "Rounded sunburst ceramics, grooved color bands, hand-friendly shapes, and delightfully plump serif lettering. Nostalgia becomes an optimistic, useful everyday system.",
+    "art": "grooved-sunburst",
+    "family": "retro",
+    "mode": "accent",
+    "alignment": "center",
+    "split": 0.5,
+    "maxWidth": 1220,
+    "headingSize": 116,
+    "border": 1,
+    "button": "pill",
+    "accentFont": "fraunces",
+    "campaign": [
+      "TAKE THE DAY",
+      "AS IT",
+      "COMES."
+    ],
+    "headline": [
+      "Good days.",
+      "At your own pace."
+    ],
+    "eyebrow": "GOOD OBJECTS / SOFT LANDINGS",
+    "cta": "Meet your mellow",
+    "secondaryCta": "The way we see things",
+    "nav": [
+      "Good objects",
+      "The good feeling",
+      "Notes"
+    ],
+    "product": "The soft landing collection",
+    "productNote": "Make yourself a little more at home.",
+    "features": [
+      [
+        "A warm beginning",
+        "Everyday objects with a generous, easygoing personality."
+      ],
+      [
+        "The soft details",
+        "Form and texture that make a place feel more like yours."
+      ],
+      [
+        "Take it your way",
+        "A collection that leaves room for your own rhythm."
+      ]
+    ],
+    "layoutNote": "Peach centered hero with chunky Fraunces lettering and a grooved sunburst. Mulberry controls, butter-colored rounded cards, and a relaxed sectional rhythm."
+  },
+  "version": "2.0.0",
+  "number": 30,
+  "assets": 30
+}

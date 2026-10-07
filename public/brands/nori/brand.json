@@ -1,0 +1,87 @@
+{
+  "id": "nori",
+  "name": "nori",
+  "category": "Food & drink",
+  "style": "Organic",
+  "tagline": "Fresh thinking. Good eating.",
+  "description": "A light identity for a plant-forward lunch spot. A curled seaweed mark, gentle mint, and a sharp little splash of salmon balance organic warmth with urban energy.",
+  "colors": [
+    "#29463E",
+    "#BBD3AC",
+    "#F7F1E2",
+    "#EDA694"
+  ],
+  "colorNames": [
+    "Kelp",
+    "Wasabi",
+    "Rice",
+    "Ginger"
+  ],
+  "heading": "rubik",
+  "body": "urbanist",
+  "weight": 500,
+  "tracking": -4,
+  "mark": "kelp",
+  "layout": "bento",
+  "pattern": "sprigs",
+  "radius": 18,
+  "voice": "Fresh, bright, and uncomplicated.",
+  "rules": [
+    "The kelp mark is one continuous silhouette.",
+    "Organize menus into softly bounded bento-like modules.",
+    "Use ginger to highlight seasonal items, never to imply warnings."
+  ],
+  "collection": "earthbound",
+  "featured": false,
+  "system": {
+    "direction": "A fresh little system",
+    "concept": "Sculptural vegetable cutouts, playful bento compartments, small ingredient labels, and crisp friendly type. The food itself becomes a highly graphic visual language.",
+    "art": "bento-garden",
+    "family": "botanical",
+    "mode": "paper",
+    "alignment": "left",
+    "split": 0.46,
+    "maxWidth": 1280,
+    "headingSize": 112,
+    "border": 1,
+    "button": "soft",
+    "accentFont": "rubik",
+    "campaign": [
+      "FRESH THINKING.",
+      "GOOD",
+      "EATING."
+    ],
+    "headline": [
+      "Good eating.",
+      "Fresh perspective."
+    ],
+    "eyebrow": "PLANTS FIRST / ALWAYS FRESH",
+    "cta": "Explore the menu",
+    "secondaryCta": "The way we make it",
+    "nav": [
+      "The menu",
+      "Ingredients",
+      "Our little place"
+    ],
+    "product": "The seasonal bento",
+    "productNote": "Fresh things, thoughtfully together.",
+    "features": [
+      [
+        "Plants at the center",
+        "A bright menu that starts with the good things in season."
+      ],
+      [
+        "Nothing out of place",
+        "Simple combinations with a considered balance."
+      ],
+      [
+        "A better little lunch",
+        "Food for the everyday that still feels like a small pleasure."
+      ]
+    ],
+    "layoutNote": "Rice hero with an asymmetrical bento artwork and rounded, clearly separated ingredient panels. Kelp text on rice; ginger highlights seasonal items."
+  },
+  "version": "2.0.0",
+  "number": 25,
+  "assets": 30
+}

@@ -1,0 +1,87 @@
+{
+  "id": "fieldwork",
+  "name": "fieldwork",
+  "category": "Outdoors",
+  "style": "Organic",
+  "tagline": "Get out. Get curious.",
+  "description": "A practical outdoor identity inspired by contour maps and trail journals. Rugged olive, rust, and a horizon mark connect useful gear to the places it goes.",
+  "colors": [
+    "#1D251A",
+    "#CB764F",
+    "#EAE1C8",
+    "#A5B888"
+  ],
+  "colorNames": [
+    "Trail",
+    "Rust",
+    "Canvas",
+    "Meadow"
+  ],
+  "heading": "work-sans",
+  "body": "dm-mono",
+  "weight": 600,
+  "tracking": -3,
+  "mark": "horizon",
+  "layout": "landscape",
+  "pattern": "contours",
+  "radius": 6,
+  "voice": "Resourceful, observant, and down to earth.",
+  "rules": [
+    "Use contour lines as full-bleed backgrounds at low visual density.",
+    "Keep the horizon mark horizontal even on angled applications.",
+    "Give product specifications mono typography and clearly separated rows."
+  ],
+  "collection": "earthbound",
+  "featured": false,
+  "system": {
+    "direction": "The field journal",
+    "concept": "Layered survey maps, trail-equipment details, and small expedition labels. A rich landscape carries the warmth of worn canvas and useful things.",
+    "art": "topographic-valley",
+    "family": "expedition",
+    "mode": "dark",
+    "alignment": "left",
+    "split": 0.52,
+    "maxWidth": 1360,
+    "headingSize": 102,
+    "border": 1,
+    "button": "square",
+    "accentFont": "dm-mono",
+    "campaign": [
+      "GET OUT.",
+      "GET",
+      "CURIOUS."
+    ],
+    "headline": [
+      "There is more",
+      "out there."
+    ],
+    "eyebrow": "FIELD NOTES / GOODS FOR GOING",
+    "cta": "Explore the field",
+    "secondaryCta": "Read the journal",
+    "nav": [
+      "Equipment",
+      "Field notes",
+      "The approach"
+    ],
+    "product": "Field kit / No. 01",
+    "productNote": "Useful, wherever you wander.",
+    "features": [
+      [
+        "Built for outside",
+        "Honest equipment for the places a screen cannot take you."
+      ],
+      [
+        "Observe a little closer",
+        "Field notes that make familiar landscapes feel new again."
+      ],
+      [
+        "Take only what helps",
+        "A focused collection of objects with a job to do."
+      ]
+    ],
+    "layoutNote": "Dark canvas split hero, topo landscape, rust annotation chips, and numbered, mono-captioned equipment cards. A utility rhythm rather than decorative wellness softness."
+  },
+  "version": "2.0.0",
+  "number": 7,
+  "assets": 30
+}

@@ -1,0 +1,87 @@
+{
+  "id": "bloom",
+  "name": "bloom",
+  "category": "Lifestyle",
+  "style": "Playful",
+  "tagline": "More room for good things.",
+  "description": "An exuberant identity for everyday objects that make people smile. Rounded petals, juicy coral, and soft lilac turn a small moment into something memorable.",
+  "colors": [
+    "#592D48",
+    "#F7A6A0",
+    "#FFF4DA",
+    "#D2C1EB"
+  ],
+  "colorNames": [
+    "Berry",
+    "Guava",
+    "Vanilla",
+    "Lilac"
+  ],
+  "heading": "bricolage",
+  "body": "karla",
+  "weight": 700,
+  "tracking": -4,
+  "mark": "flower",
+  "layout": "sticker",
+  "pattern": "petals",
+  "radius": 32,
+  "voice": "Sunny, conversational, and a little cheeky.",
+  "rules": [
+    "Petals may rotate as a group, but their proportions never change.",
+    "Mix two pastel surfaces per layout with berry as the text anchor.",
+    "Use pill-shaped labels as playful annotations, not primary headings."
+  ],
+  "collection": "happy-accidents",
+  "featured": true,
+  "system": {
+    "direction": "Joyful object culture",
+    "concept": "Oversized sculpted petals, candy-colored packaging, and friendly heavy lettering. Playfulness appears in a few big gestures, balanced by very readable details.",
+    "art": "petal-sculpture",
+    "family": "playful",
+    "mode": "accent",
+    "alignment": "center",
+    "split": 0.5,
+    "maxWidth": 1240,
+    "headingSize": 112,
+    "border": 0,
+    "button": "pill",
+    "accentFont": "fraunces",
+    "campaign": [
+      "ROOM FOR",
+      "GOOD",
+      "THINGS."
+    ],
+    "headline": [
+      "Good things",
+      "have room to bloom."
+    ],
+    "eyebrow": "EVERYDAY OBJECTS / EXTRAORDINARY FEELING",
+    "cta": "Meet the good things",
+    "secondaryCta": "A little about us",
+    "nav": [
+      "Good things",
+      "Our world",
+      "Notes"
+    ],
+    "product": "The everyday collection",
+    "productNote": "Small objects. Big good energy.",
+    "features": [
+      [
+        "A brighter everyday",
+        "Objects that make the ordinary moments feel a little less ordinary."
+      ],
+      [
+        "Made to be kept",
+        "Good form, useful function, and personality that lasts."
+      ],
+      [
+        "Room for your own way",
+        "A collection to mix, match, and make part of your world."
+      ]
+    ],
+    "layoutNote": "Centered coral hero, rounded petal artwork below the headline, wide cream pill CTAs, and alternating lilac / vanilla product tiles. Keep the berry text anchor."
+  },
+  "version": "2.0.0",
+  "number": 5,
+  "assets": 30
+}

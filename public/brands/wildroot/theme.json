@@ -1,0 +1,225 @@
+{
+  "format": "openform-theme",
+  "version": "2.0.0",
+  "id": "wildroot",
+  "name": "wildroot",
+  "direction": "The untidy garden",
+  "concept": "Branching line studies, carved seedpod illustrations, soil-colored labels, and a softly rustic serif. The useful grid leaves room for a little natural wildness.",
+  "scope": {
+    "attribute": "data-openform",
+    "value": "wildroot",
+    "selector": "[data-openform=\"wildroot\"]"
+  },
+  "installation": {
+    "command": "node install-theme.mjs --target /path/to/your/project",
+    "publicDirectory": "public",
+    "destination": "themes/wildroot",
+    "stylesheet": "/themes/wildroot/theme.css",
+    "reference": "/themes/wildroot/reference.html",
+    "components": "/themes/wildroot/components.html",
+    "htmlAttribute": "data-openform=\"wildroot\""
+  },
+  "colors": {
+    "ink": "#603C43",
+    "accent": "#B4C38E",
+    "paper": "#F3E9D8",
+    "support": "#CF9365",
+    "secondary": "#765659",
+    "border": "#cbbab0",
+    "heroBackground": "#F3E9D8",
+    "heroForeground": "#603C43",
+    "buttonBackground": "#603C43",
+    "buttonForeground": "#F3E9D8"
+  },
+  "typography": {
+    "display": {
+      "family": "Fraunces",
+      "file": "fonts/fraunces.ttf",
+      "weight": 600,
+      "trackingEm": -0.03,
+      "lineHeight": 1.02,
+      "desktopMaxPx": 96,
+      "mobileMinPx": 38
+    },
+    "body": {
+      "family": "DM Sans",
+      "file": "fonts/dm-sans.ttf",
+      "weight": 400,
+      "sizePx": 16,
+      "lineHeight": 1.7
+    },
+    "accent": {
+      "family": "Fraunces",
+      "file": "fonts/fraunces.ttf",
+      "style": "normal"
+    },
+    "label": {
+      "sizePx": 11,
+      "trackingEm": 0.08,
+      "lineHeight": 1.5
+    }
+  },
+  "layout": {
+    "id": "rooted",
+    "family": "botanical",
+    "mode": "paper",
+    "alignment": "left",
+    "maxWidthPx": 1300,
+    "pageGutter": "clamp(20px, 4vw, 64px)",
+    "sectionGap": "clamp(64px, 9vw, 128px)",
+    "heroTextRatio": 0.46,
+    "gridColumns": 3,
+    "breakpoints": {
+      "mobile": 640,
+      "tablet": 960
+    },
+    "description": "Husk split hero with soil serif type and branching artwork. Grass image panels, seedpod annotation chips, and an orderly instructional grid underneath."
+  },
+  "components": {
+    "classes": {
+      "root": "of-theme",
+      "container": "of-container",
+      "header": "of-header",
+      "navigation": "of-nav",
+      "mobileNavigation": "of-mobile-nav",
+      "logo": "of-logo",
+      "eyebrow": "of-eyebrow",
+      "hero": "of-hero",
+      "heroCopy": "of-hero-copy",
+      "heroHeading": "of-display",
+      "heroMedia": "of-hero-media",
+      "heading": "of-heading",
+      "body": "of-body",
+      "actions": "of-actions",
+      "button": "of-button",
+      "secondaryButton": "of-button of-button--ghost",
+      "section": "of-section",
+      "sectionHeading": "of-section-heading",
+      "grid": "of-grid",
+      "card": "of-card",
+      "cardImage": "of-card-image",
+      "badge": "of-badge",
+      "form": "of-form",
+      "field": "of-field",
+      "input": "of-input",
+      "select": "of-select",
+      "textarea": "of-textarea",
+      "notice": "of-notice",
+      "table": "of-table",
+      "accordion": "of-accordion",
+      "footer": "of-footer"
+    },
+    "radiusPx": 8,
+    "cardRadiusPx": 0,
+    "borderPx": 1,
+    "buttonShape": "soft",
+    "minimumControlHeightPx": 48,
+    "inputHeightPx": 52,
+    "focus": {
+      "widthPx": 3,
+      "offsetPx": 4,
+      "color": "#603C43"
+    }
+  },
+  "content": {
+    "headline": [
+      "Good things grow",
+      "a little wild."
+    ],
+    "eyebrow": "TOOLS / GARDENS / GOOD GROUND",
+    "cta": "Explore the garden goods",
+    "secondaryCta": "Read the growing notes",
+    "nav": [
+      "Garden goods",
+      "Growing notes",
+      "Our approach"
+    ],
+    "features": [
+      [
+        "Work with what grows",
+        "A practical approach that begins with the ground beneath you."
+      ],
+      [
+        "Useful, naturally",
+        "Considered garden tools with a clear place in the everyday."
+      ],
+      [
+        "Leave room for more",
+        "A little care, a little patience, and some space for the unexpected."
+      ]
+    ]
+  },
+  "rules": [
+    "The branching root symbol always has a visible central stem.",
+    "Allow branches to frame content without crossing body text.",
+    "Use husk for instructional pages and wild grass for packaging.",
+    "Husk split hero with soil serif type and branching artwork. Grass image panels, seedpod annotation chips, and an orderly instructional grid underneath.",
+    "Use the supplied artwork and SVG logos; keep glyph proportions intact.",
+    "Preserve the existing project content, routes, data fetching, and interaction handlers."
+  ],
+  "fonts": [
+    {
+      "id": "fraunces",
+      "family": "Fraunces",
+      "path": "fonts/fraunces.ttf",
+      "license": "fonts/fraunces-OFL.txt",
+      "weight": "100 900",
+      "style": "normal"
+    },
+    {
+      "id": "dm-sans",
+      "family": "DM Sans",
+      "path": "fonts/dm-sans.ttf",
+      "license": "fonts/dm-sans-OFL.txt",
+      "weight": "100 1000",
+      "style": "normal"
+    }
+  ],
+  "exports": [
+    "mark.svg",
+    "lockup.svg",
+    "wordmark.svg",
+    "monochrome.svg",
+    "pattern.svg",
+    "poster.svg",
+    "social.svg",
+    "avatar.svg",
+    "favicon.svg",
+    "artwork.svg",
+    "identity-board.svg",
+    "stationery.svg",
+    "packaging.svg",
+    "website.svg",
+    "social-story.svg",
+    "icon-set.svg",
+    "palette.svg",
+    "typography.svg",
+    "business-card.svg",
+    "tokens.json",
+    "theme.css",
+    "theme.json",
+    "theme.js",
+    "reference.html",
+    "components.html",
+    "components.tsx",
+    "install-theme.mjs",
+    "AI-PROMPT.md",
+    "INSTALL.md",
+    "guidelines.md"
+  ],
+  "license": {
+    "artwork": "CC0-1.0",
+    "code": "MIT",
+    "fonts": "OFL-1.1"
+  },
+  "acceptance": [
+    "The exact stylesheet loads without a 404.",
+    "All local fonts load; there are no requests to remote font services.",
+    "The root or intended subtree carries the exact data-openform attribute.",
+    "The supplied display font, colors, radius, spacing, and layout family are used consistently.",
+    "At 360px, 768px, and 1440px there is no horizontal page overflow.",
+    "Navigation, forms, routes, and existing business behavior still work.",
+    "Controls are keyboard accessible with visible focus; reduced-motion preferences are respected.",
+    "The final interface follows reference.html and components.html rather than a guessed visual style."
+  ]
+}

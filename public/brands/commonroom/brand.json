@@ -1,0 +1,87 @@
+{
+  "id": "commonroom",
+  "name": "Commonroom",
+  "category": "Community",
+  "style": "Editorial",
+  "tagline": "A place for everyone.",
+  "description": "A civic identity for shared neighborhood spaces. An open-table symbol, dependable blue, and warm paper typography make events and information feel genuinely accessible.",
+  "colors": [
+    "#26419A",
+    "#EDC882",
+    "#F6F0DF",
+    "#A7BAC4"
+  ],
+  "colorNames": [
+    "Community blue",
+    "Honey",
+    "Noticeboard",
+    "Denim"
+  ],
+  "heading": "bricolage",
+  "body": "work-sans",
+  "weight": 500,
+  "tracking": -3,
+  "mark": "table",
+  "layout": "noticeboard",
+  "pattern": "frames",
+  "radius": 8,
+  "voice": "Welcoming, informative, and conversational.",
+  "rules": [
+    "Keep the open center of the table mark clear.",
+    "Use visible rules to organize notices and event dates.",
+    "Information hierarchy takes priority over expressive headline placement."
+  ],
+  "collection": "type-stories",
+  "featured": false,
+  "system": {
+    "direction": "The open noticeboard",
+    "concept": "Overlapping civic tickets, a communal-table emblem, bold blue notices, and deeply human editorial type. The information feels public, legible, and worth showing up for.",
+    "art": "shared-table",
+    "family": "editorial",
+    "mode": "paper",
+    "alignment": "left",
+    "split": 0.55,
+    "maxWidth": 1340,
+    "headingSize": 98,
+    "border": 1,
+    "button": "soft",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "THERE IS",
+      "ROOM FOR",
+      "EVERYONE."
+    ],
+    "headline": [
+      "Come on in.",
+      "There is room."
+    ],
+    "eyebrow": "YOUR NEIGHBORHOOD / YOUR SHARED SPACE",
+    "cta": "See what is on",
+    "secondaryCta": "Find your place",
+    "nav": [
+      "What is on",
+      "The space",
+      "Our neighborhood"
+    ],
+    "product": "The neighborhood program",
+    "productNote": "A shared space for different people.",
+    "features": [
+      [
+        "A space to meet",
+        "A useful neighborhood place for conversation and new connections."
+      ],
+      [
+        "Something to be part of",
+        "A thoughtful program that welcomes different interests."
+      ],
+      [
+        "Bring your own voice",
+        "A community gets better when more perspectives can be heard."
+      ]
+    ],
+    "layoutNote": "Paper hero with blue noticeboard-like typography and a geometric table image. Events use clear date columns, fine rules, and warm yellow notice backgrounds."
+  },
+  "version": "2.0.0",
+  "number": 21,
+  "assets": 30
+}

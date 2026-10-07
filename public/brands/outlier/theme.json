@@ -1,0 +1,225 @@
+{
+  "format": "openform-theme",
+  "version": "2.0.0",
+  "id": "outlier",
+  "name": "OUTLIER",
+  "direction": "The independent issue",
+  "concept": "Displaced registration blocks, garment-label grids, graphic material folds, and severe condensed lettering. An intentionally unstandard streetwear system with clear functional details.",
+  "scope": {
+    "attribute": "data-openform",
+    "value": "outlier",
+    "selector": "[data-openform=\"outlier\"]"
+  },
+  "installation": {
+    "command": "node install-theme.mjs --target /path/to/your/project",
+    "publicDirectory": "public",
+    "destination": "themes/outlier",
+    "stylesheet": "/themes/outlier/theme.css",
+    "reference": "/themes/outlier/reference.html",
+    "components": "/themes/outlier/components.html",
+    "htmlAttribute": "data-openform=\"outlier\""
+  },
+  "colors": {
+    "ink": "#252120",
+    "accent": "#D8765D",
+    "paper": "#F0E8D9",
+    "support": "#B8C6AA",
+    "secondary": "#433f3c",
+    "border": "#b9b2a7",
+    "heroBackground": "#D8765D",
+    "heroForeground": "#252120",
+    "buttonBackground": "#252120",
+    "buttonForeground": "#F0E8D9"
+  },
+  "typography": {
+    "display": {
+      "family": "Bebas Neue",
+      "file": "fonts/bebas.ttf",
+      "weight": 400,
+      "trackingEm": 0.02,
+      "lineHeight": 0.96,
+      "desktopMaxPx": 96,
+      "mobileMinPx": 38
+    },
+    "body": {
+      "family": "DM Mono",
+      "file": "fonts/dm-mono.ttf",
+      "weight": 400,
+      "sizePx": 16,
+      "lineHeight": 1.7
+    },
+    "accent": {
+      "family": "DM Mono",
+      "file": "fonts/dm-mono.ttf",
+      "style": "normal"
+    },
+    "label": {
+      "sizePx": 11,
+      "trackingEm": 0.08,
+      "lineHeight": 1.5
+    }
+  },
+  "layout": {
+    "id": "disruption",
+    "family": "poster",
+    "mode": "accent",
+    "alignment": "left",
+    "maxWidthPx": 1420,
+    "pageGutter": "clamp(20px, 4vw, 64px)",
+    "sectionGap": "clamp(64px, 9vw, 128px)",
+    "heroTextRatio": 0.6,
+    "gridColumns": 3,
+    "breakpoints": {
+      "mobile": 640,
+      "tablet": 960
+    },
+    "description": "Oxide poster hero with condensed giant type and displaced fabric geometry. Square black CTA, strong grid rules, and utilitarian care-label captions."
+  },
+  "components": {
+    "classes": {
+      "root": "of-theme",
+      "container": "of-container",
+      "header": "of-header",
+      "navigation": "of-nav",
+      "mobileNavigation": "of-mobile-nav",
+      "logo": "of-logo",
+      "eyebrow": "of-eyebrow",
+      "hero": "of-hero",
+      "heroCopy": "of-hero-copy",
+      "heroHeading": "of-display",
+      "heroMedia": "of-hero-media",
+      "heading": "of-heading",
+      "body": "of-body",
+      "actions": "of-actions",
+      "button": "of-button",
+      "secondaryButton": "of-button of-button--ghost",
+      "section": "of-section",
+      "sectionHeading": "of-section-heading",
+      "grid": "of-grid",
+      "card": "of-card",
+      "cardImage": "of-card-image",
+      "badge": "of-badge",
+      "form": "of-form",
+      "field": "of-field",
+      "input": "of-input",
+      "select": "of-select",
+      "textarea": "of-textarea",
+      "notice": "of-notice",
+      "table": "of-table",
+      "accordion": "of-accordion",
+      "footer": "of-footer"
+    },
+    "radiusPx": 0,
+    "cardRadiusPx": 0,
+    "borderPx": 2,
+    "buttonShape": "square",
+    "minimumControlHeightPx": 48,
+    "inputHeightPx": 52,
+    "focus": {
+      "widthPx": 3,
+      "offsetPx": 4,
+      "color": "#252120"
+    }
+  },
+  "content": {
+    "headline": [
+      "Wear your",
+      "own direction."
+    ],
+    "eyebrow": "INDEPENDENT BY DESIGN / NO STANDARD ISSUE",
+    "cta": "Explore your direction",
+    "secondaryCta": "The independent approach",
+    "nav": [
+      "The issue",
+      "The details",
+      "Point of view"
+    ],
+    "features": [
+      [
+        "A different silhouette",
+        "Form with a distinct position and a useful place in your everyday."
+      ],
+      [
+        "Details with conviction",
+        "Graphic construction that follows the idea all the way through."
+      ],
+      [
+        "Wear it your way",
+        "An independent starting point, not a prescribed identity."
+      ]
+    ]
+  },
+  "rules": [
+    "One square is deliberately displaced; the rest remain on the grid.",
+    "Use condensed display type at dramatic scale without stretching glyphs.",
+    "Keep care instructions plain and legible, separated from expressive graphics.",
+    "Oxide poster hero with condensed giant type and displaced fabric geometry. Square black CTA, strong grid rules, and utilitarian care-label captions.",
+    "Use the supplied artwork and SVG logos; keep glyph proportions intact.",
+    "Preserve the existing project content, routes, data fetching, and interaction handlers."
+  ],
+  "fonts": [
+    {
+      "id": "bebas",
+      "family": "Bebas Neue",
+      "path": "fonts/bebas.ttf",
+      "license": "fonts/bebas-OFL.txt",
+      "weight": "400",
+      "style": "normal"
+    },
+    {
+      "id": "dm-mono",
+      "family": "DM Mono",
+      "path": "fonts/dm-mono.ttf",
+      "license": "fonts/dm-mono-OFL.txt",
+      "weight": "400",
+      "style": "normal"
+    }
+  ],
+  "exports": [
+    "mark.svg",
+    "lockup.svg",
+    "wordmark.svg",
+    "monochrome.svg",
+    "pattern.svg",
+    "poster.svg",
+    "social.svg",
+    "avatar.svg",
+    "favicon.svg",
+    "artwork.svg",
+    "identity-board.svg",
+    "stationery.svg",
+    "packaging.svg",
+    "website.svg",
+    "social-story.svg",
+    "icon-set.svg",
+    "palette.svg",
+    "typography.svg",
+    "business-card.svg",
+    "tokens.json",
+    "theme.css",
+    "theme.json",
+    "theme.js",
+    "reference.html",
+    "components.html",
+    "components.tsx",
+    "install-theme.mjs",
+    "AI-PROMPT.md",
+    "INSTALL.md",
+    "guidelines.md"
+  ],
+  "license": {
+    "artwork": "CC0-1.0",
+    "code": "MIT",
+    "fonts": "OFL-1.1"
+  },
+  "acceptance": [
+    "The exact stylesheet loads without a 404.",
+    "All local fonts load; there are no requests to remote font services.",
+    "The root or intended subtree carries the exact data-openform attribute.",
+    "The supplied display font, colors, radius, spacing, and layout family are used consistently.",
+    "At 360px, 768px, and 1440px there is no horizontal page overflow.",
+    "Navigation, forms, routes, and existing business behavior still work.",
+    "Controls are keyboard accessible with visible focus; reduced-motion preferences are respected.",
+    "The final interface follows reference.html and components.html rather than a guessed visual style."
+  ]
+}

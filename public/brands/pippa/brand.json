@@ -1,0 +1,87 @@
+{
+  "id": "pippa",
+  "name": "pippa",
+  "category": "Food & drink",
+  "style": "Playful",
+  "tagline": "A bite of the bright side.",
+  "description": "A candy-bright identity for a small bakery. A playful bow, pink blocks, and sunny yellow surprises make every box feel like a present before it is even opened.",
+  "colors": [
+    "#71364E",
+    "#F2B0C2",
+    "#FFF0C1",
+    "#D99656"
+  ],
+  "colorNames": [
+    "Jam",
+    "Candy floss",
+    "Lemon icing",
+    "Biscuit"
+  ],
+  "heading": "rubik",
+  "body": "work-sans",
+  "weight": 800,
+  "tracking": -5,
+  "mark": "bow",
+  "layout": "gift",
+  "pattern": "bows",
+  "radius": 22,
+  "voice": "Delightful, generous, and unabashedly sweet.",
+  "rules": [
+    "Bow loops stay full and symmetrical while the tails may crop.",
+    "Use jam for nutritional details and all small text.",
+    "Treat product names as big, cheerful headlines rather than labels."
+  ],
+  "collection": "happy-accidents",
+  "featured": false,
+  "system": {
+    "direction": "The little-gift bakery",
+    "concept": "Folded ribbons, sculptural pastry-like swirls, pink gift boxes, and exuberant heavy type. Every useful label is part of a generous little celebration.",
+    "art": "ribbon-patisserie",
+    "family": "playful",
+    "mode": "accent",
+    "alignment": "center",
+    "split": 0.5,
+    "maxWidth": 1240,
+    "headingSize": 120,
+    "border": 0,
+    "button": "pill",
+    "accentFont": "fraunces",
+    "campaign": [
+      "A BITE OF",
+      "THE BRIGHT",
+      "SIDE."
+    ],
+    "headline": [
+      "A little sweeter.",
+      "A little brighter."
+    ],
+    "eyebrow": "SMALL BAKES / BIG GOOD FEELINGS",
+    "cta": "Find something sweet",
+    "secondaryCta": "Meet the bakery",
+    "nav": [
+      "The good things",
+      "The bakery",
+      "Sweet notes"
+    ],
+    "product": "The little-gift box",
+    "productNote": "A bright side, baked in.",
+    "features": [
+      [
+        "Baked with a little care",
+        "Good ingredients and plenty of attention to the small things."
+      ],
+      [
+        "A box worth opening",
+        "A simple pleasure that feels like a small present."
+      ],
+      [
+        "Bring a little brightness",
+        "Sweet things for sharing, celebrating, or just because."
+      ]
+    ],
+    "layoutNote": "Candy-pink centered hero with a ribbon pastry image, jam headings, lemon-pill buttons, and softly rounded bakery tiles. Practical ingredients stay plain and legible."
+  },
+  "version": "2.0.0",
+  "number": 35,
+  "assets": 30
+}

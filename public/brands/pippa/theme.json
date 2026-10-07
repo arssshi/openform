@@ -1,0 +1,233 @@
+{
+  "format": "openform-theme",
+  "version": "2.0.0",
+  "id": "pippa",
+  "name": "pippa",
+  "direction": "The little-gift bakery",
+  "concept": "Folded ribbons, sculptural pastry-like swirls, pink gift boxes, and exuberant heavy type. Every useful label is part of a generous little celebration.",
+  "scope": {
+    "attribute": "data-openform",
+    "value": "pippa",
+    "selector": "[data-openform=\"pippa\"]"
+  },
+  "installation": {
+    "command": "node install-theme.mjs --target /path/to/your/project",
+    "publicDirectory": "public",
+    "destination": "themes/pippa",
+    "stylesheet": "/themes/pippa/theme.css",
+    "reference": "/themes/pippa/reference.html",
+    "components": "/themes/pippa/components.html",
+    "htmlAttribute": "data-openform=\"pippa\""
+  },
+  "colors": {
+    "ink": "#71364E",
+    "accent": "#F2B0C2",
+    "paper": "#FFF0C1",
+    "support": "#D99656",
+    "secondary": "#86525f",
+    "border": "#d9bea2",
+    "heroBackground": "#F2B0C2",
+    "heroForeground": "#71364E",
+    "buttonBackground": "#71364E",
+    "buttonForeground": "#FFF0C1"
+  },
+  "typography": {
+    "display": {
+      "family": "Rubik",
+      "file": "fonts/rubik.ttf",
+      "weight": 800,
+      "trackingEm": -0.05,
+      "lineHeight": 1.02,
+      "desktopMaxPx": 96,
+      "mobileMinPx": 38
+    },
+    "body": {
+      "family": "Work Sans",
+      "file": "fonts/work-sans.ttf",
+      "weight": 400,
+      "sizePx": 16,
+      "lineHeight": 1.7
+    },
+    "accent": {
+      "family": "Fraunces",
+      "file": "fonts/fraunces.ttf",
+      "style": "normal"
+    },
+    "label": {
+      "sizePx": 11,
+      "trackingEm": 0.08,
+      "lineHeight": 1.5
+    }
+  },
+  "layout": {
+    "id": "gift",
+    "family": "playful",
+    "mode": "accent",
+    "alignment": "center",
+    "maxWidthPx": 1240,
+    "pageGutter": "clamp(20px, 4vw, 64px)",
+    "sectionGap": "clamp(64px, 9vw, 128px)",
+    "heroTextRatio": 0.5,
+    "gridColumns": 3,
+    "breakpoints": {
+      "mobile": 640,
+      "tablet": 960
+    },
+    "description": "Candy-pink centered hero with a ribbon pastry image, jam headings, lemon-pill buttons, and softly rounded bakery tiles. Practical ingredients stay plain and legible."
+  },
+  "components": {
+    "classes": {
+      "root": "of-theme",
+      "container": "of-container",
+      "header": "of-header",
+      "navigation": "of-nav",
+      "mobileNavigation": "of-mobile-nav",
+      "logo": "of-logo",
+      "eyebrow": "of-eyebrow",
+      "hero": "of-hero",
+      "heroCopy": "of-hero-copy",
+      "heroHeading": "of-display",
+      "heroMedia": "of-hero-media",
+      "heading": "of-heading",
+      "body": "of-body",
+      "actions": "of-actions",
+      "button": "of-button",
+      "secondaryButton": "of-button of-button--ghost",
+      "section": "of-section",
+      "sectionHeading": "of-section-heading",
+      "grid": "of-grid",
+      "card": "of-card",
+      "cardImage": "of-card-image",
+      "badge": "of-badge",
+      "form": "of-form",
+      "field": "of-field",
+      "input": "of-input",
+      "select": "of-select",
+      "textarea": "of-textarea",
+      "notice": "of-notice",
+      "table": "of-table",
+      "accordion": "of-accordion",
+      "footer": "of-footer"
+    },
+    "radiusPx": 22,
+    "cardRadiusPx": 0,
+    "borderPx": 1,
+    "buttonShape": "pill",
+    "minimumControlHeightPx": 48,
+    "inputHeightPx": 52,
+    "focus": {
+      "widthPx": 3,
+      "offsetPx": 4,
+      "color": "#71364E"
+    }
+  },
+  "content": {
+    "headline": [
+      "A little sweeter.",
+      "A little brighter."
+    ],
+    "eyebrow": "SMALL BAKES / BIG GOOD FEELINGS",
+    "cta": "Find something sweet",
+    "secondaryCta": "Meet the bakery",
+    "nav": [
+      "The good things",
+      "The bakery",
+      "Sweet notes"
+    ],
+    "features": [
+      [
+        "Baked with a little care",
+        "Good ingredients and plenty of attention to the small things."
+      ],
+      [
+        "A box worth opening",
+        "A simple pleasure that feels like a small present."
+      ],
+      [
+        "Bring a little brightness",
+        "Sweet things for sharing, celebrating, or just because."
+      ]
+    ]
+  },
+  "rules": [
+    "Bow loops stay full and symmetrical while the tails may crop.",
+    "Use jam for nutritional details and all small text.",
+    "Treat product names as big, cheerful headlines rather than labels.",
+    "Candy-pink centered hero with a ribbon pastry image, jam headings, lemon-pill buttons, and softly rounded bakery tiles. Practical ingredients stay plain and legible.",
+    "Use the supplied artwork and SVG logos; keep glyph proportions intact.",
+    "Preserve the existing project content, routes, data fetching, and interaction handlers."
+  ],
+  "fonts": [
+    {
+      "id": "rubik",
+      "family": "Rubik",
+      "path": "fonts/rubik.ttf",
+      "license": "fonts/rubik-OFL.txt",
+      "weight": "300 900",
+      "style": "normal"
+    },
+    {
+      "id": "work-sans",
+      "family": "Work Sans",
+      "path": "fonts/work-sans.ttf",
+      "license": "fonts/work-sans-OFL.txt",
+      "weight": "100 900",
+      "style": "normal"
+    },
+    {
+      "id": "fraunces",
+      "family": "Fraunces",
+      "path": "fonts/fraunces.ttf",
+      "license": "fonts/fraunces-OFL.txt",
+      "weight": "100 900",
+      "style": "normal"
+    }
+  ],
+  "exports": [
+    "mark.svg",
+    "lockup.svg",
+    "wordmark.svg",
+    "monochrome.svg",
+    "pattern.svg",
+    "poster.svg",
+    "social.svg",
+    "avatar.svg",
+    "favicon.svg",
+    "artwork.svg",
+    "identity-board.svg",
+    "stationery.svg",
+    "packaging.svg",
+    "website.svg",
+    "social-story.svg",
+    "icon-set.svg",
+    "palette.svg",
+    "typography.svg",
+    "business-card.svg",
+    "tokens.json",
+    "theme.css",
+    "theme.json",
+    "theme.js",
+    "reference.html",
+    "components.html",
+    "components.tsx",
+    "install-theme.mjs",
+    "AI-PROMPT.md",
+    "INSTALL.md",
+    "guidelines.md"
+  ],
+  "license": {
+    "artwork": "CC0-1.0",
+    "code": "MIT",
+    "fonts": "OFL-1.1"
+  },
+  "acceptance": [
+    "The exact stylesheet loads without a 404.",
+    "All local fonts load; there are no requests to remote font services.",
+    "The root or intended subtree carries the exact data-openform attribute.",
+    "The supplied display font, colors, radius, spacing, and layout family are used consistently.",
+    "At 360px, 768px, and 1440px there is no horizontal page overflow.",
+    "Navigation, forms, routes, and existing business behavior still work.",
+    "Controls are keyboard accessible with visible focus; reduced-motion preferences are respected.",
+    "The final interface follows reference.html and components.html rather than a guessed visual style."
+  ]
+}

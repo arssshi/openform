@@ -1,0 +1,23 @@
+[
+  { "id": "dm-sans", "family": "DM Sans", "file": "DMSans[opsz,wght].ttf", "directory": "dmsans", "weight": "100 1000" },
+  { "id": "space-grotesk", "family": "Space Grotesk", "file": "SpaceGrotesk[wght].ttf", "directory": "spacegrotesk", "weight": "300 700" },
+  { "id": "instrument-serif", "family": "Instrument Serif", "file": "InstrumentSerif-Regular.ttf", "directory": "instrumentserif", "weight": "400" },
+  { "id": "instrument-serif-italic", "family": "Instrument Serif", "file": "InstrumentSerif-Italic.ttf", "directory": "instrumentserif", "weight": "400", "style": "italic" },
+  { "id": "manrope", "family": "Manrope", "file": "Manrope[wght].ttf", "directory": "manrope", "weight": "200 800" },
+  { "id": "outfit", "family": "Outfit", "file": "Outfit[wght].ttf", "directory": "outfit", "weight": "100 900" },
+  { "id": "fraunces", "family": "Fraunces", "file": "Fraunces[SOFT,WONK,opsz,wght].ttf", "directory": "fraunces", "weight": "100 900" },
+  { "id": "archivo", "family": "Archivo", "file": "Archivo[wdth,wght].ttf", "directory": "archivo", "weight": "100 900" },
+  { "id": "syne", "family": "Syne", "file": "Syne[wght].ttf", "directory": "syne", "weight": "400 800" },
+  { "id": "cormorant", "family": "Cormorant Garamond", "file": "CormorantGaramond[wght].ttf", "directory": "cormorantgaramond", "weight": "300 700" },
+  { "id": "bricolage", "family": "Bricolage Grotesque", "file": "BricolageGrotesque[opsz,wdth,wght].ttf", "directory": "bricolagegrotesque", "weight": "200 800" },
+  { "id": "dm-mono", "family": "DM Mono", "file": "DMMono-Regular.ttf", "directory": "dmmono", "weight": "400" },
+  { "id": "bebas", "family": "Bebas Neue", "file": "BebasNeue-Regular.ttf", "directory": "bebasneue", "weight": "400" },
+  { "id": "unbounded", "family": "Unbounded", "file": "Unbounded[wght].ttf", "directory": "unbounded", "weight": "200 900" },
+  { "id": "lora", "family": "Lora", "file": "Lora[wght].ttf", "directory": "lora", "weight": "400 700" },
+  { "id": "rubik", "family": "Rubik", "file": "Rubik[wght].ttf", "directory": "rubik", "weight": "300 900" },
+  { "id": "work-sans", "family": "Work Sans", "file": "WorkSans[wght].ttf", "directory": "worksans", "weight": "100 900" },
+  { "id": "playfair", "family": "Playfair Display", "file": "PlayfairDisplay[wght].ttf", "directory": "playfairdisplay", "weight": "400 900" },
+  { "id": "karla", "family": "Karla", "file": "Karla[wght].ttf", "directory": "karla", "weight": "200 800" },
+  { "id": "prata", "family": "Prata", "file": "Prata-Regular.ttf", "directory": "prata", "weight": "400" },
+  { "id": "urbanist", "family": "Urbanist", "file": "Urbanist[wght].ttf", "directory": "urbanist", "weight": "100 900" }
+]

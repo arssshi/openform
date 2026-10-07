@@ -1,0 +1,87 @@
+{
+  "id": "orbit",
+  "name": "orbit",
+  "category": "Technology",
+  "style": "Futuristic",
+  "tagline": "Ideas in a new orbit.",
+  "description": "An exploratory identity for a collaborative ideas platform. Orbital geometry, lilac space, and wide-set typography create a world that feels one step ahead.",
+  "colors": [
+    "#28204A",
+    "#C5B4F3",
+    "#F0ECFA",
+    "#FF8468"
+  ],
+  "colorNames": [
+    "Deep space",
+    "Satellite",
+    "Moon dust",
+    "Solar"
+  ],
+  "heading": "space-grotesk",
+  "body": "dm-sans",
+  "weight": 500,
+  "tracking": -3,
+  "mark": "orbit",
+  "layout": "orbital",
+  "pattern": "orbits",
+  "radius": 24,
+  "voice": "Curious, expansive, and welcoming.",
+  "rules": [
+    "Orbit rings stay at a 28-degree inclination.",
+    "Use lilac as the primary canvas and deep space for the wordmark.",
+    "Keep interface components rounded while display layouts remain open."
+  ],
+  "collection": "future-forward",
+  "featured": true,
+  "system": {
+    "direction": "Orbital optimism",
+    "concept": "Luminous orbital objects and precise flight-path diagrams meet a playful digital interface. Rounded controls live inside disciplined, spacious technical frames.",
+    "art": "orbital-sculpture",
+    "family": "digital",
+    "mode": "accent",
+    "alignment": "left",
+    "split": 0.48,
+    "maxWidth": 1320,
+    "headingSize": 106,
+    "border": 1,
+    "button": "pill",
+    "accentFont": "space-grotesk",
+    "campaign": [
+      "Ideas,",
+      "in a new",
+      "orbit."
+    ],
+    "headline": [
+      "Your next idea.",
+      "A new orbit."
+    ],
+    "eyebrow": "A WORKSPACE FOR WHAT COMES NEXT",
+    "cta": "Find your orbit",
+    "secondaryCta": "See the possibilities",
+    "nav": [
+      "The workspace",
+      "Possibilities",
+      "Journal"
+    ],
+    "product": "A shared workspace",
+    "productNote": "One idea. Many possibilities.",
+    "features": [
+      [
+        "Make space",
+        "Collect the fragments that could become your next great idea."
+      ],
+      [
+        "Connect the dots",
+        "Bring your thinking together in a workspace that stays open."
+      ],
+      [
+        "Build with others",
+        "Good ideas get better when they have somewhere to meet."
+      ]
+    ],
+    "layoutNote": "Lilac split hero with oversized orbital artwork. The second section uses bordered, offset cards and coral only as a small decorative highlight."
+  },
+  "version": "2.0.0",
+  "number": 2,
+  "assets": 30
+}

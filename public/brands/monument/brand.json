@@ -1,0 +1,87 @@
+{
+  "id": "monument",
+  "name": "MONUMENT",
+  "category": "Architecture",
+  "style": "Brutalist",
+  "tagline": "Substance over everything.",
+  "description": "A solid identity for an urban design practice. Stacked concrete-like blocks and wide black typography create presence through proportion rather than ornament.",
+  "colors": [
+    "#272826",
+    "#C3C0B7",
+    "#ECEAE1",
+    "#E58C56"
+  ],
+  "colorNames": [
+    "Basalt",
+    "Concrete",
+    "Dust",
+    "Copper"
+  ],
+  "heading": "unbounded",
+  "body": "archivo",
+  "weight": 800,
+  "tracking": -4,
+  "mark": "stack",
+  "layout": "concrete",
+  "pattern": "blocks",
+  "radius": 0,
+  "voice": "Substantial, rigorous, and direct.",
+  "rules": [
+    "Stacked blocks retain their stepped silhouette.",
+    "Use a visible structural grid and thick section rules.",
+    "Keep copper confined to identifiers or a single small module."
+  ],
+  "collection": "loud-and-clear",
+  "featured": false,
+  "system": {
+    "direction": "Permanent perspective",
+    "concept": "Weighty isometric concrete sculptures, exposed construction grids, and aggressively clear expanded type. Proportion gives the identity its presence.",
+    "art": "concrete-monolith",
+    "family": "architecture",
+    "mode": "accent",
+    "alignment": "left",
+    "split": 0.58,
+    "maxWidth": 1480,
+    "headingSize": 98,
+    "border": 2,
+    "button": "square",
+    "accentFont": "archivo",
+    "campaign": [
+      "SUBSTANCE",
+      "OVER",
+      "EVERYTHING."
+    ],
+    "headline": [
+      "Built on",
+      "something substantial."
+    ],
+    "eyebrow": "ARCHITECTURE / MATERIAL / URBAN LIFE",
+    "cta": "Explore the projects",
+    "secondaryCta": "Read our position",
+    "nav": [
+      "Projects",
+      "Practice",
+      "Position"
+    ],
+    "product": "A study in permanence",
+    "productNote": "Matter. Material. Meaning.",
+    "features": [
+      [
+        "A structural point of view",
+        "A practice that begins with what a place needs to become."
+      ],
+      [
+        "Material with meaning",
+        "Form and construction that remain visible and honest."
+      ],
+      [
+        "A lasting presence",
+        "Measured decisions with room for a building to age well."
+      ]
+    ],
+    "layoutNote": "Concrete-grey hero, broad black display, large monolith study, and thick horizontal rules. Copper only marks project numbers; project information stays aligned."
+  },
+  "version": "2.0.0",
+  "number": 24,
+  "assets": 30
+}

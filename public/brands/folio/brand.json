@@ -1,0 +1,87 @@
+{
+  "id": "folio",
+  "name": "Folio",
+  "category": "Publishing",
+  "style": "Editorial",
+  "tagline": "Every page has a point of view.",
+  "description": "A cultured identity for a portfolio and essay platform. An offset page corner, terracotta ink, and generous serif headlines make individual work feel carefully presented.",
+  "colors": [
+    "#69402F",
+    "#DDBB91",
+    "#F9F1E2",
+    "#A7B1BB"
+  ],
+  "colorNames": [
+    "Terracotta ink",
+    "Kraft",
+    "Endpaper",
+    "Pencil blue"
+  ],
+  "heading": "lora",
+  "body": "outfit",
+  "weight": 600,
+  "tracking": -2,
+  "mark": "corner",
+  "layout": "folio",
+  "pattern": "corners",
+  "radius": 2,
+  "voice": "Articulate, generous, and author-centered.",
+  "rules": [
+    "Page corners appear as open right angles, never closed boxes.",
+    "Use a vertical rule to separate project metadata from descriptions.",
+    "Give each featured work a full-width reading area and clear attribution."
+  ],
+  "collection": "type-stories",
+  "featured": false,
+  "system": {
+    "direction": "The authored presentation",
+    "concept": "Folded portfolio sheets, considered page corners, warm print-stock contrast, and high-character serif display. The work and its author stay at the center.",
+    "art": "portfolio-object",
+    "family": "editorial",
+    "mode": "paper",
+    "alignment": "left",
+    "split": 0.5,
+    "maxWidth": 1320,
+    "headingSize": 108,
+    "border": 1,
+    "button": "outline",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "EVERY PAGE",
+      "HAS A",
+      "POINT OF VIEW."
+    ],
+    "headline": [
+      "Work with",
+      "a point of view."
+    ],
+    "eyebrow": "WORK / WORDS / INDEPENDENT PERSPECTIVE",
+    "cta": "Explore the work",
+    "secondaryCta": "Meet the authors",
+    "nav": [
+      "Selected work",
+      "Words",
+      "The authors"
+    ],
+    "product": "Selected work / Volume 01",
+    "productNote": "A thoughtful place for an individual voice.",
+    "features": [
+      [
+        "A place for the work",
+        "A clear, considered presentation that lets an idea be understood."
+      ],
+      [
+        "The story behind it",
+        "Room for context, process, and the person who made it."
+      ],
+      [
+        "A lasting point of view",
+        "Work worth returning to, not just scrolling past."
+      ]
+    ],
+    "layoutNote": "Endpaper hero with terracotta serif type and an angled portfolio object. A thin metadata rail, large project titles, and distinctly separated author credits."
+  },
+  "version": "2.0.0",
+  "number": 45,
+  "assets": 30
+}

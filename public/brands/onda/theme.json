@@ -1,0 +1,233 @@
+{
+  "format": "openform-theme",
+  "version": "2.0.0",
+  "id": "onda",
+  "name": "onda",
+  "direction": "A fluid practice",
+  "concept": "Tidal contours, folded wave ribbons, sea-glass translucency, and airy movement typography. The composition alternates still reading areas with broad flowing graphics.",
+  "scope": {
+    "attribute": "data-openform",
+    "value": "onda",
+    "selector": "[data-openform=\"onda\"]"
+  },
+  "installation": {
+    "command": "node install-theme.mjs --target /path/to/your/project",
+    "publicDirectory": "public",
+    "destination": "themes/onda",
+    "stylesheet": "/themes/onda/theme.css",
+    "reference": "/themes/onda/reference.html",
+    "components": "/themes/onda/components.html",
+    "htmlAttribute": "data-openform=\"onda\""
+  },
+  "colors": {
+    "ink": "#204958",
+    "accent": "#A4D4CB",
+    "paper": "#EFF4E8",
+    "support": "#E1A484",
+    "secondary": "#3f636e",
+    "border": "#b7c6c1",
+    "heroBackground": "#EFF4E8",
+    "heroForeground": "#204958",
+    "buttonBackground": "#204958",
+    "buttonForeground": "#EFF4E8"
+  },
+  "typography": {
+    "display": {
+      "family": "Urbanist",
+      "file": "fonts/urbanist.ttf",
+      "weight": 500,
+      "trackingEm": -0.04,
+      "lineHeight": 1.02,
+      "desktopMaxPx": 96,
+      "mobileMinPx": 38
+    },
+    "body": {
+      "family": "Karla",
+      "file": "fonts/karla.ttf",
+      "weight": 400,
+      "sizePx": 16,
+      "lineHeight": 1.7
+    },
+    "accent": {
+      "family": "Instrument Serif",
+      "file": "fonts/instrument-serif-italic.ttf",
+      "style": "italic"
+    },
+    "label": {
+      "sizePx": 11,
+      "trackingEm": 0.08,
+      "lineHeight": 1.5
+    }
+  },
+  "layout": {
+    "id": "tidal",
+    "family": "botanical",
+    "mode": "paper",
+    "alignment": "left",
+    "maxWidthPx": 1300,
+    "pageGutter": "clamp(20px, 4vw, 64px)",
+    "sectionGap": "clamp(64px, 9vw, 128px)",
+    "heroTextRatio": 0.5,
+    "gridColumns": 3,
+    "breakpoints": {
+      "mobile": 640,
+      "tablet": 960
+    },
+    "description": "Foam-white hero with sea-glass tidal art, a wide text-to-image gutter, and shell-colored section annotations. Rounded movement cards are balanced by open space."
+  },
+  "components": {
+    "classes": {
+      "root": "of-theme",
+      "container": "of-container",
+      "header": "of-header",
+      "navigation": "of-nav",
+      "mobileNavigation": "of-mobile-nav",
+      "logo": "of-logo",
+      "eyebrow": "of-eyebrow",
+      "hero": "of-hero",
+      "heroCopy": "of-hero-copy",
+      "heroHeading": "of-display",
+      "heroMedia": "of-hero-media",
+      "heading": "of-heading",
+      "body": "of-body",
+      "actions": "of-actions",
+      "button": "of-button",
+      "secondaryButton": "of-button of-button--ghost",
+      "section": "of-section",
+      "sectionHeading": "of-section-heading",
+      "grid": "of-grid",
+      "card": "of-card",
+      "cardImage": "of-card-image",
+      "badge": "of-badge",
+      "form": "of-form",
+      "field": "of-field",
+      "input": "of-input",
+      "select": "of-select",
+      "textarea": "of-textarea",
+      "notice": "of-notice",
+      "table": "of-table",
+      "accordion": "of-accordion",
+      "footer": "of-footer"
+    },
+    "radiusPx": 28,
+    "cardRadiusPx": 0,
+    "borderPx": 1,
+    "buttonShape": "pill",
+    "minimumControlHeightPx": 48,
+    "inputHeightPx": 52,
+    "focus": {
+      "widthPx": 3,
+      "offsetPx": 4,
+      "color": "#204958"
+    }
+  },
+  "content": {
+    "headline": [
+      "Move with",
+      "your own rhythm."
+    ],
+    "eyebrow": "MOVEMENT / BREATH / THE COASTAL WAY",
+    "cta": "Find your practice",
+    "secondaryCta": "Meet the studio",
+    "nav": [
+      "Practice",
+      "The studio",
+      "Notes on movement"
+    ],
+    "features": [
+      [
+        "Begin where you are",
+        "A practice that makes space for your own pace."
+      ],
+      [
+        "Find a natural rhythm",
+        "Movement, breath, and consistency over perfection."
+      ],
+      [
+        "Return to the moment",
+        "A calm, thoughtful place to connect with yourself."
+      ]
+    ]
+  },
+  "rules": [
+    "Wave strokes retain rounded caps and never taper.",
+    "Allow organic bands to flow off both sides of the canvas.",
+    "Use sea glass for generous background areas, not paragraph text.",
+    "Foam-white hero with sea-glass tidal art, a wide text-to-image gutter, and shell-colored section annotations. Rounded movement cards are balanced by open space.",
+    "Use the supplied artwork and SVG logos; keep glyph proportions intact.",
+    "Preserve the existing project content, routes, data fetching, and interaction handlers."
+  ],
+  "fonts": [
+    {
+      "id": "urbanist",
+      "family": "Urbanist",
+      "path": "fonts/urbanist.ttf",
+      "license": "fonts/urbanist-OFL.txt",
+      "weight": "100 900",
+      "style": "normal"
+    },
+    {
+      "id": "karla",
+      "family": "Karla",
+      "path": "fonts/karla.ttf",
+      "license": "fonts/karla-OFL.txt",
+      "weight": "200 800",
+      "style": "normal"
+    },
+    {
+      "id": "instrument-serif-italic",
+      "family": "Instrument Serif",
+      "path": "fonts/instrument-serif-italic.ttf",
+      "license": "fonts/instrument-serif-italic-OFL.txt",
+      "weight": "400",
+      "style": "italic"
+    }
+  ],
+  "exports": [
+    "mark.svg",
+    "lockup.svg",
+    "wordmark.svg",
+    "monochrome.svg",
+    "pattern.svg",
+    "poster.svg",
+    "social.svg",
+    "avatar.svg",
+    "favicon.svg",
+    "artwork.svg",
+    "identity-board.svg",
+    "stationery.svg",
+    "packaging.svg",
+    "website.svg",
+    "social-story.svg",
+    "icon-set.svg",
+    "palette.svg",
+    "typography.svg",
+    "business-card.svg",
+    "tokens.json",
+    "theme.css",
+    "theme.json",
+    "theme.js",
+    "reference.html",
+    "components.html",
+    "components.tsx",
+    "install-theme.mjs",
+    "AI-PROMPT.md",
+    "INSTALL.md",
+    "guidelines.md"
+  ],
+  "license": {
+    "artwork": "CC0-1.0",
+    "code": "MIT",
+    "fonts": "OFL-1.1"
+  },
+  "acceptance": [
+    "The exact stylesheet loads without a 404.",
+    "All local fonts load; there are no requests to remote font services.",
+    "The root or intended subtree carries the exact data-openform attribute.",
+    "The supplied display font, colors, radius, spacing, and layout family are used consistently.",
+    "At 360px, 768px, and 1440px there is no horizontal page overflow.",
+    "Navigation, forms, routes, and existing business behavior still work.",
+    "Controls are keyboard accessible with visible focus; reduced-motion preferences are respected.",
+    "The final interface follows reference.html and components.html rather than a guessed visual style."
+  ]
+}

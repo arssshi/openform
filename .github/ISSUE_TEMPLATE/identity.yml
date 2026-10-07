@@ -1,0 +1,25 @@
+name: Propose a brand identity
+description: Bring a distinct, complete visual world to Openform.
+title: "[Identity] "
+body:
+  - type: textarea
+    id: concept
+    attributes:
+      label: The idea
+      description: Audience, name, personality, and the need this identity answers.
+    validations:
+      required: true
+  - type: textarea
+    id: system
+    attributes:
+      label: The visual system
+      description: Symbol, typography, palette, composition, pattern, and distinctive rules.
+    validations:
+      required: true
+  - type: textarea
+    id: preview
+    attributes:
+      label: Preview and provenance
+      description: Include your own artwork, source files, and font/license information.
+    validations:
+      required: true

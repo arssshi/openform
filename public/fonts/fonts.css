@@ -1,0 +1,21 @@
+@font-face { font-family: 'DM Sans'; src: url('/fonts/dm-sans.ttf') format('truetype'); font-style: normal; font-weight: 100 1000; font-display: swap; }
+@font-face { font-family: 'Space Grotesk'; src: url('/fonts/space-grotesk.ttf') format('truetype'); font-style: normal; font-weight: 300 700; font-display: swap; }
+@font-face { font-family: 'Instrument Serif'; src: url('/fonts/instrument-serif.ttf') format('truetype'); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Instrument Serif'; src: url('/fonts/instrument-serif-italic.ttf') format('truetype'); font-style: italic; font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Manrope'; src: url('/fonts/manrope.ttf') format('truetype'); font-style: normal; font-weight: 200 800; font-display: swap; }
+@font-face { font-family: 'Outfit'; src: url('/fonts/outfit.ttf') format('truetype'); font-style: normal; font-weight: 100 900; font-display: swap; }
+@font-face { font-family: 'Fraunces'; src: url('/fonts/fraunces.ttf') format('truetype'); font-style: normal; font-weight: 100 900; font-display: swap; }
+@font-face { font-family: 'Archivo'; src: url('/fonts/archivo.ttf') format('truetype'); font-style: normal; font-weight: 100 900; font-display: swap; }
+@font-face { font-family: 'Syne'; src: url('/fonts/syne.ttf') format('truetype'); font-style: normal; font-weight: 400 800; font-display: swap; }
+@font-face { font-family: 'Cormorant Garamond'; src: url('/fonts/cormorant.ttf') format('truetype'); font-style: normal; font-weight: 300 700; font-display: swap; }
+@font-face { font-family: 'Bricolage Grotesque'; src: url('/fonts/bricolage.ttf') format('truetype'); font-style: normal; font-weight: 200 800; font-display: swap; }
+@font-face { font-family: 'DM Mono'; src: url('/fonts/dm-mono.ttf') format('truetype'); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Bebas Neue'; src: url('/fonts/bebas.ttf') format('truetype'); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Unbounded'; src: url('/fonts/unbounded.ttf') format('truetype'); font-style: normal; font-weight: 200 900; font-display: swap; }
+@font-face { font-family: 'Lora'; src: url('/fonts/lora.ttf') format('truetype'); font-style: normal; font-weight: 400 700; font-display: swap; }
+@font-face { font-family: 'Rubik'; src: url('/fonts/rubik.ttf') format('truetype'); font-style: normal; font-weight: 300 900; font-display: swap; }
+@font-face { font-family: 'Work Sans'; src: url('/fonts/work-sans.ttf') format('truetype'); font-style: normal; font-weight: 100 900; font-display: swap; }
+@font-face { font-family: 'Playfair Display'; src: url('/fonts/playfair.ttf') format('truetype'); font-style: normal; font-weight: 400 900; font-display: swap; }
+@font-face { font-family: 'Karla'; src: url('/fonts/karla.ttf') format('truetype'); font-style: normal; font-weight: 200 800; font-display: swap; }
+@font-face { font-family: 'Prata'; src: url('/fonts/prata.ttf') format('truetype'); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Urbanist'; src: url('/fonts/urbanist.ttf') format('truetype'); font-style: normal; font-weight: 100 900; font-display: swap; }

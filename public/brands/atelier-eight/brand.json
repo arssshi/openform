@@ -1,0 +1,87 @@
+{
+  "id": "atelier-eight",
+  "name": "Atelier No.8",
+  "category": "Creative",
+  "style": "Elegant",
+  "tagline": "Objects with a point of view.",
+  "description": "A precise identity for a collectible-object atelier. A faceted diamond, antique mauve, and high-contrast serif lettering lend small editions a sense of enduring value.",
+  "colors": [
+    "#50323D",
+    "#D1B5BC",
+    "#F7EFE2",
+    "#B19A69"
+  ],
+  "colorNames": [
+    "Aubergine",
+    "Antique mauve",
+    "Ivory",
+    "Old gold"
+  ],
+  "heading": "cormorant",
+  "body": "dm-mono",
+  "weight": 600,
+  "tracking": 0,
+  "mark": "diamond",
+  "layout": "atelier",
+  "pattern": "diamonds",
+  "radius": 0,
+  "voice": "Discerning, intimate, and material-focused.",
+  "rules": [
+    "Keep diamond facets outlined at a consistent weight.",
+    "Use edition numbers and object dimensions as deliberate typographic details.",
+    "Allow old gold only as a line or a small seal."
+  ],
+  "collection": "quiet-luxury",
+  "featured": false,
+  "system": {
+    "direction": "The collectible edition",
+    "concept": "Faceted sculptural objects, edition stamps, restrained mauve fields, and exquisitely proportioned serif typography. Every object is treated as a small piece of architecture.",
+    "art": "faceted-object",
+    "family": "fashion",
+    "mode": "paper",
+    "alignment": "left",
+    "split": 0.46,
+    "maxWidth": 1320,
+    "headingSize": 112,
+    "border": 1,
+    "button": "outline",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "OBJECTS",
+      "WITH A",
+      "POINT OF VIEW."
+    ],
+    "headline": [
+      "A few objects.",
+      "A distinct point of view."
+    ],
+    "eyebrow": "ATELIER NO.8 / OBJECTS & EDITIONS",
+    "cta": "Explore the editions",
+    "secondaryCta": "Inside the atelier",
+    "nav": [
+      "Editions",
+      "The atelier",
+      "Object notes"
+    ],
+    "product": "Object 008 / The first edition",
+    "productNote": "Material, with a point of view.",
+    "features": [
+      [
+        "An object with intention",
+        "A considered form, a clear material, and a reason to exist."
+      ],
+      [
+        "A quieter kind of detail",
+        "Small decisions that reward looking a little closer."
+      ],
+      [
+        "Made to stay interesting",
+        "Objects whose personality can outlast the first impression."
+      ]
+    ],
+    "layoutNote": "Ivory split hero with an aubergine serif and a large faceted object. Numbered editions, mono dimensions, fine gold rules, and square image frames."
+  },
+  "version": "2.0.0",
+  "number": 31,
+  "assets": 30
+}

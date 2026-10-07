@@ -1,0 +1,87 @@
+{
+  "id": "halcyon",
+  "name": "Halcyon",
+  "category": "Wellness",
+  "style": "Elegant",
+  "tagline": "A moment, just for you.",
+  "description": "A contemplative identity for a restorative retreat. Concentric rings, pale rose, and finely drawn serif typography create a visual pause in an otherwise noisy world.",
+  "colors": [
+    "#594B47",
+    "#E2C3BD",
+    "#F5F0E7",
+    "#AFA68B"
+  ],
+  "colorNames": [
+    "Driftwood",
+    "Petal",
+    "Stillness",
+    "Reed"
+  ],
+  "heading": "instrument-serif",
+  "body": "outfit",
+  "weight": 400,
+  "tracking": 1,
+  "mark": "rings",
+  "layout": "serene",
+  "pattern": "ripples",
+  "radius": 16,
+  "voice": "Attentive, understated, and deeply calm.",
+  "rules": [
+    "Concentric rings share one center and a consistent stroke width.",
+    "Use stillness for the majority of every canvas.",
+    "Leave at least one-third of each composition free of content."
+  ],
+  "collection": "quiet-luxury",
+  "featured": false,
+  "system": {
+    "direction": "The geometry of rest",
+    "concept": "Concentric pools of light, delicate layered arches, low-relief paper texture, and exceptionally spacious serif typography. The system makes a visual pause tangible.",
+    "art": "still-pool",
+    "family": "hospitality",
+    "mode": "paper",
+    "alignment": "center",
+    "split": 0.5,
+    "maxWidth": 1160,
+    "headingSize": 124,
+    "border": 1,
+    "button": "pill",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "A MOMENT,",
+      "JUST",
+      "FOR YOU."
+    ],
+    "headline": [
+      "The art of",
+      "a little stillness."
+    ],
+    "eyebrow": "REST / RESET / RETURN",
+    "cta": "Discover a quieter moment",
+    "secondaryCta": "Our approach to rest",
+    "nav": [
+      "The experience",
+      "The place",
+      "Notes on rest"
+    ],
+    "product": "The stillness collection",
+    "productNote": "A little space between everything.",
+    "features": [
+      [
+        "An unhurried beginning",
+        "Thoughtful spaces that give you room to settle."
+      ],
+      [
+        "A softer rhythm",
+        "Small practices for making more room in the day."
+      ],
+      [
+        "Return feeling present",
+        "A restorative experience with no need to rush the moment."
+      ]
+    ],
+    "layoutNote": "Stillness-white centered serif hero with an inset pool image and at least one-third open space. Fine driftwood rules and unobtrusive pill controls."
+  },
+  "version": "2.0.0",
+  "number": 23,
+  "assets": 30
+}

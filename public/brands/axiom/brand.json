@@ -1,0 +1,87 @@
+{
+  "id": "axiom",
+  "name": "AXIOM",
+  "category": "Technology",
+  "style": "Futuristic",
+  "tagline": "A foundation for what is next.",
+  "description": "A systematic identity for an open research platform. An impossible triangle, icy blue, and precisely tracked text suggest complexity made understandable.",
+  "colors": [
+    "#253745",
+    "#A6D4E1",
+    "#EFF4F2",
+    "#D3B986"
+  ],
+  "colorNames": [
+    "Deep logic",
+    "Glacier",
+    "Clarity",
+    "Insight"
+  ],
+  "heading": "space-grotesk",
+  "body": "archivo",
+  "weight": 500,
+  "tracking": 7,
+  "mark": "triangle",
+  "layout": "blueprint",
+  "pattern": "triangles",
+  "radius": 2,
+  "voice": "Inquisitive, rigorous, and accessible.",
+  "rules": [
+    "The three sides of the triangle use matching thickness.",
+    "Blueprint lines should support structure, not compete with content.",
+    "Use glacier for diagram fields and deep logic for explanatory text."
+  ],
+  "collection": "future-forward",
+  "featured": false,
+  "system": {
+    "direction": "Open intellectual structure",
+    "concept": "Impossible triangular studies, glacial blueprint fields, precise research annotations, and wide-set modern type. Complexity is presented with a deeply legible visual order.",
+    "art": "impossible-structure",
+    "family": "terminal",
+    "mode": "paper",
+    "alignment": "left",
+    "split": 0.48,
+    "maxWidth": 1420,
+    "headingSize": 98,
+    "border": 1,
+    "button": "square",
+    "accentFont": "dm-mono",
+    "campaign": [
+      "A FOUNDATION",
+      "FOR WHAT",
+      "IS NEXT."
+    ],
+    "headline": [
+      "A stronger foundation",
+      "for the next question."
+    ],
+    "eyebrow": "OPEN RESEARCH / SHARED DISCOVERY",
+    "cta": "Explore the research",
+    "secondaryCta": "Read the principles",
+    "nav": [
+      "Research",
+      "Principles",
+      "The open archive"
+    ],
+    "product": "A study in open structure",
+    "productNote": "Better questions. Shared foundations.",
+    "features": [
+      [
+        "Make a question clear",
+        "A useful structure for research that others can understand."
+      ],
+      [
+        "Build on what is known",
+        "Thoughtful connections between ideas, evidence, and new possibilities."
+      ],
+      [
+        "Share the foundation",
+        "A practice that makes discovery more open and more useful."
+      ]
+    ],
+    "layoutNote": "Clarity-white technical hero, a glacial triangular study, wide-set titles, and fine blueprint lines. Research details use a strict, readable module grid."
+  },
+  "version": "2.0.0",
+  "number": 44,
+  "assets": 30
+}

@@ -1,0 +1,87 @@
+{
+  "id": "supergood",
+  "name": "Supergood",
+  "category": "Community",
+  "style": "Retro",
+  "tagline": "Good things happen together.",
+  "description": "A cheerful identity for a maker community. A chunky check, minty teal, and sunny vintage typography turn workshops and small victories into something worth celebrating.",
+  "colors": [
+    "#24534D",
+    "#A3D9BF",
+    "#FFF0C8",
+    "#E6B451"
+  ],
+  "colorNames": [
+    "Bottle green",
+    "Soda mint",
+    "Popcorn",
+    "Sunshine"
+  ],
+  "heading": "bricolage",
+  "body": "rubik",
+  "weight": 800,
+  "tracking": -4,
+  "mark": "check",
+  "layout": "checker",
+  "pattern": "checks",
+  "radius": 14,
+  "voice": "Celebratory, communal, and wonderfully sincere.",
+  "rules": [
+    "The check keeps its chunky rectangular construction.",
+    "Use a checkerboard only as a border or a dedicated graphic surface.",
+    "Headlines should sound like an invitation from a friend."
+  ],
+  "collection": "back-to-good",
+  "featured": false,
+  "system": {
+    "direction": "Optimism, collectively made",
+    "concept": "Screenprinted checkerboards, chunky approval geometry, workshop-object illustrations, and warm heavy grotesk lettering. A vintage community language that feels sincere and active.",
+    "art": "makers-table",
+    "family": "retro",
+    "mode": "accent",
+    "alignment": "center",
+    "split": 0.5,
+    "maxWidth": 1260,
+    "headingSize": 108,
+    "border": 2,
+    "button": "pill",
+    "accentFont": "bricolage",
+    "campaign": [
+      "GOOD THINGS",
+      "HAPPEN",
+      "TOGETHER."
+    ],
+    "headline": [
+      "Make something.",
+      "Make it supergood."
+    ],
+    "eyebrow": "GOOD PEOPLE / THINGS WORTH MAKING",
+    "cta": "Find something to join",
+    "secondaryCta": "Meet the makers",
+    "nav": [
+      "The workshops",
+      "The makers",
+      "Good notes"
+    ],
+    "product": "The workshop collection",
+    "productNote": "Good ideas are better together.",
+    "features": [
+      [
+        "Give an idea a go",
+        "A welcoming place to turn a thought into something real."
+      ],
+      [
+        "Meet your kind of makers",
+        "Different people, useful skills, and good company."
+      ],
+      [
+        "Keep the good going",
+        "A community built around doing, sharing, and showing up."
+      ]
+    ],
+    "layoutNote": "Mint centered hero, heavy warm grotesk, checker border, and sunny maker illustration. Bottle-green 2px outlines and optimistic, rounded invitation buttons."
+  },
+  "version": "2.0.0",
+  "number": 38,
+  "assets": 30
+}

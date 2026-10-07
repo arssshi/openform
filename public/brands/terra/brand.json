@@ -1,0 +1,87 @@
+{
+  "id": "terra",
+  "name": "terra",
+  "category": "Architecture",
+  "style": "Organic",
+  "tagline": "Made of the places we love.",
+  "description": "A material-led identity for a sustainable building studio. A layered hill, clay-rich color, and tactile typographic contrast put landscapes at the heart of the system.",
+  "colors": [
+    "#4D3026",
+    "#D5A383",
+    "#F1E9D9",
+    "#69817D"
+  ],
+  "colorNames": [
+    "Earth",
+    "Adobe",
+    "Limestone",
+    "Weathered green"
+  ],
+  "heading": "lora",
+  "body": "manrope",
+  "weight": 600,
+  "tracking": -2,
+  "mark": "hill",
+  "layout": "strata",
+  "pattern": "strata",
+  "radius": 6,
+  "voice": "Rooted, responsible, and quietly ambitious.",
+  "rules": [
+    "Hill layers are offset but share one continuous lower edge.",
+    "Build compositions from horizontal strata with unequal heights.",
+    "Use earth text on limestone for all technical explanations."
+  ],
+  "collection": "earthbound",
+  "featured": false,
+  "system": {
+    "direction": "Built from the ground",
+    "concept": "Stratified clay objects, contour-like architecture, raw material studies, and grounded serif contrasts. The identity keeps the landscape visibly present in every application.",
+    "art": "clay-strata",
+    "family": "architecture",
+    "mode": "paper",
+    "alignment": "left",
+    "split": 0.48,
+    "maxWidth": 1380,
+    "headingSize": 108,
+    "border": 1,
+    "button": "soft",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "MADE OF",
+      "THE PLACES",
+      "WE LOVE."
+    ],
+    "headline": [
+      "Good places.",
+      "Made from good ground."
+    ],
+    "eyebrow": "ARCHITECTURE / LANDSCAPE / MATERIAL",
+    "cta": "Explore the places",
+    "secondaryCta": "Our material approach",
+    "nav": [
+      "Places",
+      "Material approach",
+      "Field studies"
+    ],
+    "product": "Strata / Material study 01",
+    "productNote": "A place, understood from the ground.",
+    "features": [
+      [
+        "Begin with the place",
+        "An approach shaped by the landscape and the life already there."
+      ],
+      [
+        "Material with a memory",
+        "Honest surfaces, local character, and carefully considered form."
+      ],
+      [
+        "Build with care",
+        "Thoughtful decisions for the way a place will be lived in."
+      ]
+    ],
+    "layoutNote": "Limestone hero with earth serif type and layered clay architecture. Horizontal unequal-height sections, weathered-green annotations, and generous project imagery."
+  },
+  "version": "2.0.0",
+  "number": 33,
+  "assets": 30
+}

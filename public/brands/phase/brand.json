@@ -1,0 +1,87 @@
+{
+  "id": "phase",
+  "name": "PHASE",
+  "category": "Technology",
+  "style": "Futuristic",
+  "tagline": "What comes next starts now.",
+  "description": "An energetic identity for a development toolkit. An interrupted diagonal, electric turquoise, and sharply cut compositions express progress as an ongoing transition.",
+  "colors": [
+    "#20383A",
+    "#80E9D0",
+    "#EDF4EC",
+    "#B6B5E3"
+  ],
+  "colorNames": [
+    "Dark mode",
+    "Ion",
+    "Light mode",
+    "Pulse"
+  ],
+  "heading": "syne",
+  "body": "dm-mono",
+  "weight": 700,
+  "tracking": 2,
+  "mark": "slash",
+  "layout": "diagonal",
+  "pattern": "slashes",
+  "radius": 4,
+  "voice": "Progressive, incisive, and enabling.",
+  "rules": [
+    "Diagonal shapes share a 35-degree angle.",
+    "Use dark mode as the dominant developer-facing background.",
+    "Highlight a single transition with ion instead of adding gradients."
+  ],
+  "collection": "future-forward",
+  "featured": false,
+  "system": {
+    "direction": "The transition toolkit",
+    "concept": "Slashed planes, folded technical ribbons, progression diagrams, and a sharp sea-green terminal palette. Progress has a visible direction and a clear structure.",
+    "art": "folded-transition",
+    "family": "terminal",
+    "mode": "dark",
+    "alignment": "left",
+    "split": 0.55,
+    "maxWidth": 1380,
+    "headingSize": 108,
+    "border": 1,
+    "button": "square",
+    "accentFont": "dm-mono",
+    "campaign": [
+      "BUILD",
+      "THE NEXT",
+      "VERSION."
+    ],
+    "headline": [
+      "What comes next",
+      "starts with a phase."
+    ],
+    "eyebrow": "AN OPEN TOOLKIT FOR THE NEXT VERSION",
+    "cta": "Explore the toolkit",
+    "secondaryCta": "Read the principles",
+    "nav": [
+      "Toolkit",
+      "Documentation",
+      "Principles"
+    ],
+    "product": "The next-version toolkit",
+    "productNote": "Move the work forward.",
+    "features": [
+      [
+        "A clear transition",
+        "A practical structure for getting from an idea to its next version."
+      ],
+      [
+        "Tools with purpose",
+        "Useful primitives and fewer unnecessary choices."
+      ],
+      [
+        "Keep building",
+        "A foundation that supports iteration rather than getting in its way."
+      ]
+    ],
+    "layoutNote": "Dark-mode hero, ion-colored typography, and diagonal folded art. Straight 4px UI corners, mono labels, and a single mint action color. Keep reading panels flat."
+  },
+  "version": "2.0.0",
+  "number": 28,
+  "assets": 30
+}

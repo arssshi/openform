@@ -1,0 +1,87 @@
+{
+  "id": "serein",
+  "name": "SEREIN",
+  "category": "Hospitality",
+  "style": "Elegant",
+  "tagline": "A softer kind of evening.",
+  "description": "A poetic identity for a late-night tea salon. A fine crescent, midnight blue, and warm champagne-colored paper create a distinctive mood of intimate sophistication.",
+  "colors": [
+    "#293A4F",
+    "#DCCAA0",
+    "#F3EDE0",
+    "#A1AFAB"
+  ],
+  "colorNames": [
+    "After dark",
+    "Champagne",
+    "Porcelain",
+    "Mist"
+  ],
+  "heading": "prata",
+  "body": "manrope",
+  "weight": 400,
+  "tracking": 8,
+  "mark": "crescent",
+  "layout": "nocturne",
+  "pattern": "moons",
+  "radius": 2,
+  "voice": "Poetic, hospitable, and softly assured.",
+  "rules": [
+    "The crescent opens to the right and retains a fine inner curve.",
+    "Use tracked capitals for the wordmark, never for paragraphs.",
+    "Let champagne lines and borders remain subtle against after dark."
+  ],
+  "collection": "quiet-luxury",
+  "featured": false,
+  "system": {
+    "direction": "The small hours",
+    "concept": "Moonlit tea objects, celestial hairline diagrams, deep-blue packaging, and gracefully tracked serif capitals. A nocturnal world with unmistakable hospitality.",
+    "art": "moonlit-tea",
+    "family": "hospitality",
+    "mode": "dark",
+    "alignment": "center",
+    "split": 0.5,
+    "maxWidth": 1180,
+    "headingSize": 108,
+    "border": 1,
+    "button": "outline",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "A SOFTER",
+      "KIND OF",
+      "EVENING."
+    ],
+    "headline": [
+      "Stay for",
+      "a softer evening."
+    ],
+    "eyebrow": "TEA / CONVERSATION / THE SMALL HOURS",
+    "cta": "Explore the evening",
+    "secondaryCta": "The salon",
+    "nav": [
+      "The tea",
+      "The salon",
+      "Evening notes"
+    ],
+    "product": "The after-dark collection",
+    "productNote": "A little ceremony for the small hours.",
+    "features": [
+      [
+        "An evening, unhurried",
+        "A thoughtful place to let the day become something softer."
+      ],
+      [
+        "Tea with a point of view",
+        "Small, considered pleasures and a table worth lingering at."
+      ],
+      [
+        "A quieter conversation",
+        "Room for company, reflection, and the passing of time."
+      ]
+    ],
+    "layoutNote": "Midnight centered serif hero, champagne type, moonlit tea artwork, and thin celestial frames. Keep the tracked capitals for labels and the wordmark, not paragraphs."
+  },
+  "version": "2.0.0",
+  "number": 39,
+  "assets": 30
+}

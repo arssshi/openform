@@ -1,0 +1,87 @@
+{
+  "id": "interval",
+  "name": "interval",
+  "category": "Wellness",
+  "style": "Minimal",
+  "tagline": "Space between the busy.",
+  "description": "A lucid identity for a focus and rest app. Two separated bars, inky navy, and measured whitespace give a simple pause a meaningful visual presence.",
+  "colors": [
+    "#293F57",
+    "#C0D5E7",
+    "#F4F5EF",
+    "#AFBCA0"
+  ],
+  "colorNames": [
+    "Evening",
+    "Breath",
+    "Quiet",
+    "Soft sage"
+  ],
+  "heading": "outfit",
+  "body": "manrope",
+  "weight": 400,
+  "tracking": -2,
+  "mark": "pause",
+  "layout": "spacious",
+  "pattern": "intervals",
+  "radius": 12,
+  "voice": "Measured, reassuring, and clear.",
+  "rules": [
+    "The space between pause bars equals one bar width.",
+    "Let whitespace communicate rest instead of adding decorative calm imagery.",
+    "Use one concise message per view and keep secondary information small."
+  ],
+  "collection": "less-but-better",
+  "featured": false,
+  "system": {
+    "direction": "The space between",
+    "concept": "Quiet light wells, precisely separated planes, softened navy-and-blue surfaces, and unusually open typographic rhythm. Restraint is a measurable design decision.",
+    "art": "light-interval",
+    "family": "minimal",
+    "mode": "paper",
+    "alignment": "center",
+    "split": 0.5,
+    "maxWidth": 1120,
+    "headingSize": 98,
+    "border": 1,
+    "button": "soft",
+    "accentFont": "instrument-serif-italic",
+    "campaign": [
+      "SPACE",
+      "BETWEEN",
+      "THE BUSY."
+    ],
+    "headline": [
+      "A little space",
+      "between everything."
+    ],
+    "eyebrow": "FOCUS / REST / A MORE USEFUL RHYTHM",
+    "cta": "Find your interval",
+    "secondaryCta": "See the approach",
+    "nav": [
+      "The practice",
+      "The approach",
+      "Notes"
+    ],
+    "product": "A little room to focus",
+    "productNote": "Only the space you need.",
+    "features": [
+      [
+        "A clearer beginning",
+        "One thoughtful step toward making more room in the day."
+      ],
+      [
+        "A useful pause",
+        "Simple practices with enough structure to become familiar."
+      ],
+      [
+        "Less to get around",
+        "An open, considered experience that keeps the essentials clear."
+      ]
+    ],
+    "layoutNote": "Centered, extremely open white hero with a small pause symbol and a broad light-well artwork. Two understated bordered cards; no dense decorative sections."
+  },
+  "version": "2.0.0",
+  "number": 34,
+  "assets": 30
+}

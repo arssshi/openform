@@ -1,0 +1,87 @@
+{
+  "id": "formhaus",
+  "name": "FORMHAUS",
+  "category": "Architecture",
+  "style": "Brutalist",
+  "tagline": "Built to be different.",
+  "description": "A structural identity for a furniture workshop. Intersecting beams, a deep ultramarine, and a strict modular grid make the construction itself the visual language.",
+  "colors": [
+    "#2639A7",
+    "#E8DD93",
+    "#F2F0E4",
+    "#252730"
+  ],
+  "colorNames": [
+    "Ultramarine",
+    "Plywood",
+    "Studio white",
+    "Structural"
+  ],
+  "heading": "syne",
+  "body": "work-sans",
+  "weight": 800,
+  "tracking": -3,
+  "mark": "beams",
+  "layout": "modular",
+  "pattern": "lattice",
+  "radius": 0,
+  "voice": "Constructive, exacting, and unapologetic.",
+  "rules": [
+    "Build all graphic frames from the same beam thickness.",
+    "Let ultramarine dominate with plywood as the counterweight.",
+    "Keep titles flush left and attach measurements to visible grid lines."
+  ],
+  "collection": "loud-and-clear",
+  "featured": false,
+  "system": {
+    "direction": "Visible construction",
+    "concept": "Isometric furniture studies, exposed joins, ultramarine structural frames, and expanded industrial type. Nothing disguises how the system is put together.",
+    "art": "joinery-chair",
+    "family": "architecture",
+    "mode": "dark",
+    "alignment": "left",
+    "split": 0.53,
+    "maxWidth": 1440,
+    "headingSize": 98,
+    "border": 2,
+    "button": "square",
+    "accentFont": "dm-mono",
+    "campaign": [
+      "FORM.",
+      "MEETS.",
+      "FUNCTION."
+    ],
+    "headline": [
+      "Good form.",
+      "Built from the inside."
+    ],
+    "eyebrow": "FURNITURE / FORM / CONSTRUCTION",
+    "cta": "See the objects",
+    "secondaryCta": "The workshop",
+    "nav": [
+      "Objects",
+      "Workshop",
+      "Construction notes"
+    ],
+    "product": "Chair / Assembly 01",
+    "productNote": "A structure worth living with.",
+    "features": [
+      [
+        "Construction first",
+        "Objects whose structure is also their character."
+      ],
+      [
+        "Material, honestly",
+        "Useful forms made with respect for what they are made from."
+      ],
+      [
+        "A place in real life",
+        "Design that earns its space by being used."
+      ]
+    ],
+    "layoutNote": "Ultramarine structural hero with plywood light type and isometric joinery. A visible modular grid, square frames, dimension-like labels, and full-width object rows."
+  },
+  "version": "2.0.0",
+  "number": 15,
+  "assets": 30
+}

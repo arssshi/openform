@@ -1,0 +1,87 @@
+{
+  "id": "raster",
+  "name": "RASTER",
+  "category": "Creative",
+  "style": "Futuristic",
+  "tagline": "A sharper point of view.",
+  "description": "A digital-first identity for a motion and code studio. A broken pixel diamond, cold neutrals, and a flicker of acid green create an unmistakable computational character.",
+  "colors": [
+    "#252C2E",
+    "#C9EF85",
+    "#E4EAE9",
+    "#8C9D9D"
+  ],
+  "colorNames": [
+    "Carbon",
+    "Phosphor",
+    "Screen",
+    "Tin"
+  ],
+  "heading": "space-grotesk",
+  "body": "dm-mono",
+  "weight": 700,
+  "tracking": 4,
+  "mark": "pixel",
+  "layout": "pixel",
+  "pattern": "pixels",
+  "radius": 0,
+  "voice": "Experimental, exact, and future-facing.",
+  "rules": [
+    "Pixel shapes snap to a square grid without rounded corners.",
+    "Use phosphor to identify one focal point per composition.",
+    "Set captions as compact mono data labels at the canvas edges."
+  ],
+  "collection": "future-forward",
+  "featured": false,
+  "system": {
+    "direction": "Computational craft",
+    "concept": "Dithered dimensional objects, scanner-like framing, broken grid glyphs, and compact machine labels. A digital visual world with an intentionally crafted edge.",
+    "art": "dither-torus",
+    "family": "terminal",
+    "mode": "dark",
+    "alignment": "left",
+    "split": 0.48,
+    "maxWidth": 1400,
+    "headingSize": 104,
+    "border": 1,
+    "button": "square",
+    "accentFont": "dm-mono",
+    "campaign": [
+      "A SHARPER",
+      "POINT OF",
+      "VIEW."
+    ],
+    "headline": [
+      "A sharper view.",
+      "A different resolution."
+    ],
+    "eyebrow": "DESIGN / CODE / MOVING PICTURES",
+    "cta": "See the resolution",
+    "secondaryCta": "Behind the process",
+    "nav": [
+      "Selected work",
+      "The process",
+      "Notes"
+    ],
+    "product": "Studies in resolution",
+    "productNote": "Frame 001 / New perspectives",
+    "features": [
+      [
+        "Design in detail",
+        "A visual practice that finds character in the smallest units."
+      ],
+      [
+        "Built with code",
+        "Experimental systems that are also ready for the real world."
+      ],
+      [
+        "A moving point of view",
+        "Work that keeps an idea clear across frames and formats."
+      ]
+    ],
+    "layoutNote": "Carbon hero, phosphor type, dithered artifact, and scan-line boundaries. Square pixels and mono captions; a strict data grid anchors experimental imagery."
+  },
+  "version": "2.0.0",
+  "number": 20,
+  "assets": 30
+}

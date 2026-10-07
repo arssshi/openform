@@ -1,0 +1,225 @@
+{
+  "format": "openform-theme",
+  "version": "2.0.0",
+  "id": "supergood",
+  "name": "Supergood",
+  "direction": "Optimism, collectively made",
+  "concept": "Screenprinted checkerboards, chunky approval geometry, workshop-object illustrations, and warm heavy grotesk lettering. A vintage community language that feels sincere and active.",
+  "scope": {
+    "attribute": "data-openform",
+    "value": "supergood",
+    "selector": "[data-openform=\"supergood\"]"
+  },
+  "installation": {
+    "command": "node install-theme.mjs --target /path/to/your/project",
+    "publicDirectory": "public",
+    "destination": "themes/supergood",
+    "stylesheet": "/themes/supergood/theme.css",
+    "reference": "/themes/supergood/reference.html",
+    "components": "/themes/supergood/components.html",
+    "htmlAttribute": "data-openform=\"supergood\""
+  },
+  "colors": {
+    "ink": "#24534D",
+    "accent": "#A3D9BF",
+    "paper": "#FFF0C8",
+    "support": "#E6B451",
+    "secondary": "#456b5f",
+    "border": "#c4c6a7",
+    "heroBackground": "#A3D9BF",
+    "heroForeground": "#24534D",
+    "buttonBackground": "#24534D",
+    "buttonForeground": "#FFF0C8"
+  },
+  "typography": {
+    "display": {
+      "family": "Bricolage Grotesque",
+      "file": "fonts/bricolage.ttf",
+      "weight": 800,
+      "trackingEm": -0.04,
+      "lineHeight": 1.02,
+      "desktopMaxPx": 96,
+      "mobileMinPx": 38
+    },
+    "body": {
+      "family": "Rubik",
+      "file": "fonts/rubik.ttf",
+      "weight": 400,
+      "sizePx": 16,
+      "lineHeight": 1.7
+    },
+    "accent": {
+      "family": "Bricolage Grotesque",
+      "file": "fonts/bricolage.ttf",
+      "style": "normal"
+    },
+    "label": {
+      "sizePx": 11,
+      "trackingEm": 0.08,
+      "lineHeight": 1.5
+    }
+  },
+  "layout": {
+    "id": "checker",
+    "family": "retro",
+    "mode": "accent",
+    "alignment": "center",
+    "maxWidthPx": 1260,
+    "pageGutter": "clamp(20px, 4vw, 64px)",
+    "sectionGap": "clamp(64px, 9vw, 128px)",
+    "heroTextRatio": 0.5,
+    "gridColumns": 3,
+    "breakpoints": {
+      "mobile": 640,
+      "tablet": 960
+    },
+    "description": "Mint centered hero, heavy warm grotesk, checker border, and sunny maker illustration. Bottle-green 2px outlines and optimistic, rounded invitation buttons."
+  },
+  "components": {
+    "classes": {
+      "root": "of-theme",
+      "container": "of-container",
+      "header": "of-header",
+      "navigation": "of-nav",
+      "mobileNavigation": "of-mobile-nav",
+      "logo": "of-logo",
+      "eyebrow": "of-eyebrow",
+      "hero": "of-hero",
+      "heroCopy": "of-hero-copy",
+      "heroHeading": "of-display",
+      "heroMedia": "of-hero-media",
+      "heading": "of-heading",
+      "body": "of-body",
+      "actions": "of-actions",
+      "button": "of-button",
+      "secondaryButton": "of-button of-button--ghost",
+      "section": "of-section",
+      "sectionHeading": "of-section-heading",
+      "grid": "of-grid",
+      "card": "of-card",
+      "cardImage": "of-card-image",
+      "badge": "of-badge",
+      "form": "of-form",
+      "field": "of-field",
+      "input": "of-input",
+      "select": "of-select",
+      "textarea": "of-textarea",
+      "notice": "of-notice",
+      "table": "of-table",
+      "accordion": "of-accordion",
+      "footer": "of-footer"
+    },
+    "radiusPx": 14,
+    "cardRadiusPx": 0,
+    "borderPx": 2,
+    "buttonShape": "pill",
+    "minimumControlHeightPx": 48,
+    "inputHeightPx": 52,
+    "focus": {
+      "widthPx": 3,
+      "offsetPx": 4,
+      "color": "#24534D"
+    }
+  },
+  "content": {
+    "headline": [
+      "Make something.",
+      "Make it supergood."
+    ],
+    "eyebrow": "GOOD PEOPLE / THINGS WORTH MAKING",
+    "cta": "Find something to join",
+    "secondaryCta": "Meet the makers",
+    "nav": [
+      "The workshops",
+      "The makers",
+      "Good notes"
+    ],
+    "features": [
+      [
+        "Give an idea a go",
+        "A welcoming place to turn a thought into something real."
+      ],
+      [
+        "Meet your kind of makers",
+        "Different people, useful skills, and good company."
+      ],
+      [
+        "Keep the good going",
+        "A community built around doing, sharing, and showing up."
+      ]
+    ]
+  },
+  "rules": [
+    "The check keeps its chunky rectangular construction.",
+    "Use a checkerboard only as a border or a dedicated graphic surface.",
+    "Headlines should sound like an invitation from a friend.",
+    "Mint centered hero, heavy warm grotesk, checker border, and sunny maker illustration. Bottle-green 2px outlines and optimistic, rounded invitation buttons.",
+    "Use the supplied artwork and SVG logos; keep glyph proportions intact.",
+    "Preserve the existing project content, routes, data fetching, and interaction handlers."
+  ],
+  "fonts": [
+    {
+      "id": "bricolage",
+      "family": "Bricolage Grotesque",
+      "path": "fonts/bricolage.ttf",
+      "license": "fonts/bricolage-OFL.txt",
+      "weight": "200 800",
+      "style": "normal"
+    },
+    {
+      "id": "rubik",
+      "family": "Rubik",
+      "path": "fonts/rubik.ttf",
+      "license": "fonts/rubik-OFL.txt",
+      "weight": "300 900",
+      "style": "normal"
+    }
+  ],
+  "exports": [
+    "mark.svg",
+    "lockup.svg",
+    "wordmark.svg",
+    "monochrome.svg",
+    "pattern.svg",
+    "poster.svg",
+    "social.svg",
+    "avatar.svg",
+    "favicon.svg",
+    "artwork.svg",
+    "identity-board.svg",
+    "stationery.svg",
+    "packaging.svg",
+    "website.svg",
+    "social-story.svg",
+    "icon-set.svg",
+    "palette.svg",
+    "typography.svg",
+    "business-card.svg",
+    "tokens.json",
+    "theme.css",
+    "theme.json",
+    "theme.js",
+    "reference.html",
+    "components.html",
+    "components.tsx",
+    "install-theme.mjs",
+    "AI-PROMPT.md",
+    "INSTALL.md",
+    "guidelines.md"
+  ],
+  "license": {
+    "artwork": "CC0-1.0",
+    "code": "MIT",
+    "fonts": "OFL-1.1"
+  },
+  "acceptance": [
+    "The exact stylesheet loads without a 404.",
+    "All local fonts load; there are no requests to remote font services.",
+    "The root or intended subtree carries the exact data-openform attribute.",
+    "The supplied display font, colors, radius, spacing, and layout family are used consistently.",
+    "At 360px, 768px, and 1440px there is no horizontal page overflow.",
+    "Navigation, forms, routes, and existing business behavior still work.",
+    "Controls are keyboard accessible with visible focus; reduced-motion preferences are respected.",
+    "The final interface follows reference.html and components.html rather than a guessed visual style."
+  ]
+}

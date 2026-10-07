@@ -1,0 +1,87 @@
+{
+  "id": "relay",
+  "name": "RELAY",
+  "category": "Technology",
+  "style": "Futuristic",
+  "tagline": "Always moving forward.",
+  "description": "A high-energy identity for real-time infrastructure. A stepped signal, acid yellow, and compact technical typography communicate speed without visual clutter.",
+  "colors": [
+    "#202421",
+    "#DBF65F",
+    "#F1F4E8",
+    "#9DACA6"
+  ],
+  "colorNames": [
+    "Terminal",
+    "Signal",
+    "Static",
+    "Steel"
+  ],
+  "heading": "unbounded",
+  "body": "dm-mono",
+  "weight": 600,
+  "tracking": -2,
+  "mark": "signal",
+  "layout": "terminal",
+  "pattern": "signals",
+  "radius": 3,
+  "voice": "Fast, capable, and straightforward.",
+  "rules": [
+    "Use the three-step signal at fixed proportions.",
+    "Acid yellow carries action; terminal carries technical detail.",
+    "Number modules and keep specification labels in monospaced capitals."
+  ],
+  "collection": "future-forward",
+  "featured": false,
+  "system": {
+    "direction": "Signal infrastructure",
+    "concept": "Oscilloscope ribbons, precise terminal frames, numbered modules, and sharply electric signal color. A technical world with unmistakable speed and editorial discipline.",
+    "art": "signal-field",
+    "family": "terminal",
+    "mode": "dark",
+    "alignment": "left",
+    "split": 0.6,
+    "maxWidth": 1400,
+    "headingSize": 96,
+    "border": 1,
+    "button": "square",
+    "accentFont": "dm-mono",
+    "campaign": [
+      "STAY",
+      "IN THE",
+      "SIGNAL."
+    ],
+    "headline": [
+      "Keep your ideas",
+      "moving forward."
+    ],
+    "eyebrow": "REAL-TIME TOOLS / OPEN SIGNAL",
+    "cta": "Explore the system",
+    "secondaryCta": "Read the docs",
+    "nav": [
+      "Platform",
+      "Documentation",
+      "Journal"
+    ],
+    "product": "Signal / Interface 01",
+    "productNote": "Connect. Build. Keep moving.",
+    "features": [
+      [
+        "Always in sync",
+        "A clear foundation for information that keeps moving."
+      ],
+      [
+        "Useful at every layer",
+        "Technical detail organized around the job you need to do."
+      ],
+      [
+        "A signal worth following",
+        "Purposeful tools, legible interfaces, and fewer unnecessary steps."
+      ]
+    ],
+    "layoutNote": "Terminal-black hero with acid-yellow type and waveform art. Numbered modules, monospaced labels, 3px corners, and rectangular controls. No candy gradients or floating cards."
+  },
+  "version": "2.0.0",
+  "number": 11,
+  "assets": 30
+}

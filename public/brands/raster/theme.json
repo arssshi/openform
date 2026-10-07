@@ -1,0 +1,225 @@
+{
+  "format": "openform-theme",
+  "version": "2.0.0",
+  "id": "raster",
+  "name": "RASTER",
+  "direction": "Computational craft",
+  "concept": "Dithered dimensional objects, scanner-like framing, broken grid glyphs, and compact machine labels. A digital visual world with an intentionally crafted edge.",
+  "scope": {
+    "attribute": "data-openform",
+    "value": "raster",
+    "selector": "[data-openform=\"raster\"]"
+  },
+  "installation": {
+    "command": "node install-theme.mjs --target /path/to/your/project",
+    "publicDirectory": "public",
+    "destination": "themes/raster",
+    "stylesheet": "/themes/raster/theme.css",
+    "reference": "/themes/raster/reference.html",
+    "components": "/themes/raster/components.html",
+    "htmlAttribute": "data-openform=\"raster\""
+  },
+  "colors": {
+    "ink": "#252C2E",
+    "accent": "#C9EF85",
+    "paper": "#E4EAE9",
+    "support": "#8C9D9D",
+    "secondary": "#42494a",
+    "border": "#b0b7b7",
+    "heroBackground": "#252C2E",
+    "heroForeground": "#E4EAE9",
+    "buttonBackground": "#C9EF85",
+    "buttonForeground": "#252C2E"
+  },
+  "typography": {
+    "display": {
+      "family": "Space Grotesk",
+      "file": "fonts/space-grotesk.ttf",
+      "weight": 700,
+      "trackingEm": 0.04,
+      "lineHeight": 1.02,
+      "desktopMaxPx": 96,
+      "mobileMinPx": 38
+    },
+    "body": {
+      "family": "DM Mono",
+      "file": "fonts/dm-mono.ttf",
+      "weight": 400,
+      "sizePx": 16,
+      "lineHeight": 1.7
+    },
+    "accent": {
+      "family": "DM Mono",
+      "file": "fonts/dm-mono.ttf",
+      "style": "normal"
+    },
+    "label": {
+      "sizePx": 11,
+      "trackingEm": 0.08,
+      "lineHeight": 1.5
+    }
+  },
+  "layout": {
+    "id": "pixel",
+    "family": "terminal",
+    "mode": "dark",
+    "alignment": "left",
+    "maxWidthPx": 1400,
+    "pageGutter": "clamp(20px, 4vw, 64px)",
+    "sectionGap": "clamp(64px, 9vw, 128px)",
+    "heroTextRatio": 0.48,
+    "gridColumns": 3,
+    "breakpoints": {
+      "mobile": 640,
+      "tablet": 960
+    },
+    "description": "Carbon hero, phosphor type, dithered artifact, and scan-line boundaries. Square pixels and mono captions; a strict data grid anchors experimental imagery."
+  },
+  "components": {
+    "classes": {
+      "root": "of-theme",
+      "container": "of-container",
+      "header": "of-header",
+      "navigation": "of-nav",
+      "mobileNavigation": "of-mobile-nav",
+      "logo": "of-logo",
+      "eyebrow": "of-eyebrow",
+      "hero": "of-hero",
+      "heroCopy": "of-hero-copy",
+      "heroHeading": "of-display",
+      "heroMedia": "of-hero-media",
+      "heading": "of-heading",
+      "body": "of-body",
+      "actions": "of-actions",
+      "button": "of-button",
+      "secondaryButton": "of-button of-button--ghost",
+      "section": "of-section",
+      "sectionHeading": "of-section-heading",
+      "grid": "of-grid",
+      "card": "of-card",
+      "cardImage": "of-card-image",
+      "badge": "of-badge",
+      "form": "of-form",
+      "field": "of-field",
+      "input": "of-input",
+      "select": "of-select",
+      "textarea": "of-textarea",
+      "notice": "of-notice",
+      "table": "of-table",
+      "accordion": "of-accordion",
+      "footer": "of-footer"
+    },
+    "radiusPx": 0,
+    "cardRadiusPx": 0,
+    "borderPx": 1,
+    "buttonShape": "square",
+    "minimumControlHeightPx": 48,
+    "inputHeightPx": 52,
+    "focus": {
+      "widthPx": 3,
+      "offsetPx": 4,
+      "color": "#252C2E"
+    }
+  },
+  "content": {
+    "headline": [
+      "A sharper view.",
+      "A different resolution."
+    ],
+    "eyebrow": "DESIGN / CODE / MOVING PICTURES",
+    "cta": "See the resolution",
+    "secondaryCta": "Behind the process",
+    "nav": [
+      "Selected work",
+      "The process",
+      "Notes"
+    ],
+    "features": [
+      [
+        "Design in detail",
+        "A visual practice that finds character in the smallest units."
+      ],
+      [
+        "Built with code",
+        "Experimental systems that are also ready for the real world."
+      ],
+      [
+        "A moving point of view",
+        "Work that keeps an idea clear across frames and formats."
+      ]
+    ]
+  },
+  "rules": [
+    "Pixel shapes snap to a square grid without rounded corners.",
+    "Use phosphor to identify one focal point per composition.",
+    "Set captions as compact mono data labels at the canvas edges.",
+    "Carbon hero, phosphor type, dithered artifact, and scan-line boundaries. Square pixels and mono captions; a strict data grid anchors experimental imagery.",
+    "Use the supplied artwork and SVG logos; keep glyph proportions intact.",
+    "Preserve the existing project content, routes, data fetching, and interaction handlers."
+  ],
+  "fonts": [
+    {
+      "id": "space-grotesk",
+      "family": "Space Grotesk",
+      "path": "fonts/space-grotesk.ttf",
+      "license": "fonts/space-grotesk-OFL.txt",
+      "weight": "300 700",
+      "style": "normal"
+    },
+    {
+      "id": "dm-mono",
+      "family": "DM Mono",
+      "path": "fonts/dm-mono.ttf",
+      "license": "fonts/dm-mono-OFL.txt",
+      "weight": "400",
+      "style": "normal"
+    }
+  ],
+  "exports": [
+    "mark.svg",
+    "lockup.svg",
+    "wordmark.svg",
+    "monochrome.svg",
+    "pattern.svg",
+    "poster.svg",
+    "social.svg",
+    "avatar.svg",
+    "favicon.svg",
+    "artwork.svg",
+    "identity-board.svg",
+    "stationery.svg",
+    "packaging.svg",
+    "website.svg",
+    "social-story.svg",
+    "icon-set.svg",
+    "palette.svg",
+    "typography.svg",
+    "business-card.svg",
+    "tokens.json",
+    "theme.css",
+    "theme.json",
+    "theme.js",
+    "reference.html",
+    "components.html",
+    "components.tsx",
+    "install-theme.mjs",
+    "AI-PROMPT.md",
+    "INSTALL.md",
+    "guidelines.md"
+  ],
+  "license": {
+    "artwork": "CC0-1.0",
+    "code": "MIT",
+    "fonts": "OFL-1.1"
+  },
+  "acceptance": [
+    "The exact stylesheet loads without a 404.",
+    "All local fonts load; there are no requests to remote font services.",
+    "The root or intended subtree carries the exact data-openform attribute.",
+    "The supplied display font, colors, radius, spacing, and layout family are used consistently.",
+    "At 360px, 768px, and 1440px there is no horizontal page overflow.",
+    "Navigation, forms, routes, and existing business behavior still work.",
+    "Controls are keyboard accessible with visible focus; reduced-motion preferences are respected.",
+    "The final interface follows reference.html and components.html rather than a guessed visual style."
+  ]
+}

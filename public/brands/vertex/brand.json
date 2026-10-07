@@ -1,0 +1,87 @@
+{
+  "id": "vertex",
+  "name": "VERTEX",
+  "category": "Mobility",
+  "style": "Futuristic",
+  "tagline": "Go beyond the everyday.",
+  "description": "A kinetic identity for electric mobility. A pointed shard, deep violet, and a directional compositional system suggest momentum before anything moves.",
+  "colors": [
+    "#342B57",
+    "#B5A8E1",
+    "#EFEAF6",
+    "#ED936B"
+  ],
+  "colorNames": [
+    "Vector",
+    "Voltage",
+    "Cloud",
+    "Ignition"
+  ],
+  "heading": "unbounded",
+  "body": "urbanist",
+  "weight": 500,
+  "tracking": -1,
+  "mark": "shard",
+  "layout": "kinetic",
+  "pattern": "vectors",
+  "radius": 4,
+  "voice": "Driven, optimistic, and technically assured.",
+  "rules": [
+    "Use forward-facing shards with a shared vanishing direction.",
+    "Keep technical details on calm surfaces separate from kinetic graphics.",
+    "Ignition is a small action accent, not a body-text color."
+  ],
+  "collection": "future-forward",
+  "featured": false,
+  "system": {
+    "direction": "Forward-facing energy",
+    "concept": "Prismatic speed studies, directional shards, technical product crops, and a striking violet interface. Momentum lives in geometry while practical information stays steady.",
+    "art": "kinetic-prism",
+    "family": "digital",
+    "mode": "dark",
+    "alignment": "left",
+    "split": 0.52,
+    "maxWidth": 1400,
+    "headingSize": 102,
+    "border": 1,
+    "button": "square",
+    "accentFont": "dm-mono",
+    "campaign": [
+      "GO BEYOND",
+      "THE",
+      "EVERYDAY."
+    ],
+    "headline": [
+      "A new direction",
+      "for the everyday."
+    ],
+    "eyebrow": "ELECTRIC MOVEMENT / FORWARD THINKING",
+    "cta": "Explore the next direction",
+    "secondaryCta": "Meet the design",
+    "nav": [
+      "The design",
+      "The everyday",
+      "Perspectives"
+    ],
+    "product": "The forward collection",
+    "productNote": "Made for a different kind of momentum.",
+    "features": [
+      [
+        "A useful new direction",
+        "Thoughtful mobility design for the way you actually move."
+      ],
+      [
+        "Precision in the details",
+        "A clear, considered system from form to information."
+      ],
+      [
+        "Go beyond the familiar",
+        "A new perspective on everyday journeys."
+      ]
+    ],
+    "layoutNote": "Vector-violet hero with light display text and kinetic shard artwork. Fixed technical panels, forward diagonal decoration, and small ignition-colored labels."
+  },
+  "version": "2.0.0",
+  "number": 36,
+  "assets": 30
+}

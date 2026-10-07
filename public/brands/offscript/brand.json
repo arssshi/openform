@@ -1,0 +1,87 @@
+{
+  "id": "offscript",
+  "name": "OFFSCRIPT",
+  "category": "Creative",
+  "style": "Brutalist",
+  "tagline": "Make a little noise.",
+  "description": "A rule-bending system for an independent creative studio. A cut-paper asterisk, electric orange, and deliberately displaced type make it impossible to ignore.",
+  "colors": [
+    "#24241F",
+    "#FF713D",
+    "#F7F3E8",
+    "#C8D3ED"
+  ],
+  "colorNames": [
+    "Ink",
+    "Hot orange",
+    "Newsprint",
+    "Blue note"
+  ],
+  "heading": "archivo",
+  "body": "dm-mono",
+  "weight": 900,
+  "tracking": -4,
+  "mark": "asterisk",
+  "layout": "offset",
+  "pattern": "crosses",
+  "radius": 0,
+  "voice": "Direct, irreverent, and full of conviction.",
+  "rules": [
+    "Keep the asterisk sharp; do not round its ends.",
+    "Oversized type may break the grid, but utility text must align precisely.",
+    "Use hot orange as a dominant surface, paired only with ink for text."
+  ],
+  "collection": "loud-and-clear",
+  "featured": true,
+  "system": {
+    "direction": "Constructive disruption",
+    "concept": "Offset print, torn geometric registrations, oversized compressed headlines, and high-visibility orange. The chaos is deliberate; the information is exact.",
+    "art": "print-disruption",
+    "family": "poster",
+    "mode": "accent",
+    "alignment": "left",
+    "split": 0.62,
+    "maxWidth": 1400,
+    "headingSize": 128,
+    "border": 2,
+    "button": "square",
+    "accentFont": "dm-mono",
+    "campaign": [
+      "BREAK",
+      "THE",
+      "FORMAT."
+    ],
+    "headline": [
+      "Good ideas",
+      "break the format."
+    ],
+    "eyebrow": "INDEPENDENT STUDIO / ZERO DEFAULTS",
+    "cta": "Make some noise",
+    "secondaryCta": "See the work",
+    "nav": [
+      "Work",
+      "Point of view",
+      "Contact"
+    ],
+    "product": "A different point of view",
+    "productNote": "Direction / Design / Disorder",
+    "features": [
+      [
+        "A sharper idea",
+        "Start with a position worth taking, then make it unmistakable."
+      ],
+      [
+        "A louder language",
+        "Graphic systems with enough conviction to carry the message."
+      ],
+      [
+        "Built to break through",
+        "Useful, working design that does more than sit politely."
+      ]
+    ],
+    "layoutNote": "Orange poster-scale hero with hard grid rules, black rectangular CTA, and a cropped print graphic. Never soften the composition into rounded SaaS cards."
+  },
+  "version": "2.0.0",
+  "number": 4,
+  "assets": 30
+}

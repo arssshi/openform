@@ -1,0 +1,87 @@
+{
+  "id": "kinfolk",
+  "name": "kinfolk",
+  "category": "Food & drink",
+  "style": "Organic",
+  "tagline": "From good ground.",
+  "description": "A generous identity for a local produce pantry. A growing sprout, butter-yellow paper, and an honest serif connect familiar food with the people who grow it.",
+  "colors": [
+    "#4B5134",
+    "#E8D996",
+    "#F4EFDF",
+    "#B8684C"
+  ],
+  "colorNames": [
+    "Olive",
+    "Butter",
+    "Flour",
+    "Brick"
+  ],
+  "heading": "fraunces",
+  "body": "work-sans",
+  "weight": 500,
+  "tracking": -3,
+  "mark": "sprout",
+  "layout": "pantry",
+  "pattern": "seeds",
+  "radius": 12,
+  "voice": "Generous, seasonal, and neighborly.",
+  "rules": [
+    "The sprout grows upward with a visible stem.",
+    "Use butter labels with olive text on natural packaging.",
+    "Treat ingredient lists as a key part of the design, not fine print."
+  ],
+  "collection": "earthbound",
+  "featured": false,
+  "system": {
+    "direction": "The good-ground pantry",
+    "concept": "Hand-cut produce silhouettes, seed diagrams, honest food labels, and a warm bookish serif. Seasonal abundance sits inside orderly, useful information design.",
+    "art": "produce-study",
+    "family": "botanical",
+    "mode": "accent",
+    "alignment": "left",
+    "split": 0.52,
+    "maxWidth": 1280,
+    "headingSize": 106,
+    "border": 1,
+    "button": "soft",
+    "accentFont": "fraunces",
+    "campaign": [
+      "FROM",
+      "GOOD",
+      "GROUND."
+    ],
+    "headline": [
+      "Good things grow",
+      "close to home."
+    ],
+    "eyebrow": "A SEASONAL PANTRY / A SHARED TABLE",
+    "cta": "Meet the pantry",
+    "secondaryCta": "From the growers",
+    "nav": [
+      "The pantry",
+      "The growers",
+      "Seasonal notes"
+    ],
+    "product": "The seasonal pantry",
+    "productNote": "Grown with care. Shared generously.",
+    "features": [
+      [
+        "Seasonal by nature",
+        "A collection that follows what is good right now."
+      ],
+      [
+        "Know the ground",
+        "A closer connection to the people and places that grow your food."
+      ],
+      [
+        "Bring it to the table",
+        "Simple, generous things for the way you actually eat."
+      ]
+    ],
+    "layoutNote": "Butter hero with olive reading type and hand-cut produce art. Pantry labels have visible ingredients, softly rounded frames, and serif product names."
+  },
+  "version": "2.0.0",
+  "number": 17,
+  "assets": 30
+}

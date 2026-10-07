@@ -1,0 +1,87 @@
+{
+  "id": "juno",
+  "name": "juno",
+  "category": "Lifestyle",
+  "style": "Playful",
+  "tagline": "For your many sides.",
+  "description": "A lively identity for an independent accessories label. Four offset dots, violet blocks, and a confident rounded wordmark celebrate personal expression without taking it too seriously.",
+  "colors": [
+    "#55358D",
+    "#C7DB73",
+    "#FAF1DB",
+    "#D69CBD"
+  ],
+  "colorNames": [
+    "Violet",
+    "Limeade",
+    "Custard",
+    "Candy"
+  ],
+  "heading": "outfit",
+  "body": "karla",
+  "weight": 800,
+  "tracking": -5,
+  "mark": "dots",
+  "layout": "dots",
+  "pattern": "confetti",
+  "radius": 24,
+  "voice": "Expressive, spontaneous, and self-assured.",
+  "rules": [
+    "Keep the dot cluster asymmetrical rather than arranging it in a square.",
+    "Let violet and limeade meet at hard-edged background divisions.",
+    "Use oversized lowercase words and short, friendly supporting lines."
+  ],
+  "collection": "happy-accidents",
+  "featured": false,
+  "system": {
+    "direction": "Many-sided expression",
+    "concept": "Asymmetric color orbs, editorial cutouts, highly rounded lettering, and accessories-as-sculpture. Confident complementary blocks celebrate the many versions of you.",
+    "art": "color-constellation",
+    "family": "playful",
+    "mode": "dark",
+    "alignment": "left",
+    "split": 0.5,
+    "maxWidth": 1260,
+    "headingSize": 124,
+    "border": 0,
+    "button": "pill",
+    "accentFont": "bricolage",
+    "campaign": [
+      "FOR YOUR",
+      "MANY",
+      "SIDES."
+    ],
+    "headline": [
+      "Every side",
+      "is your good side."
+    ],
+    "eyebrow": "OBJECTS FOR SELF-EXPRESSION",
+    "cta": "Find your side",
+    "secondaryCta": "Meet the collection",
+    "nav": [
+      "The collection",
+      "Your many sides",
+      "Notes"
+    ],
+    "product": "The many-sided collection",
+    "productNote": "Personality, in good company.",
+    "features": [
+      [
+        "Mix it your way",
+        "A little collection with a lot of possible combinations."
+      ],
+      [
+        "Express more",
+        "Objects chosen for how they make your world feel."
+      ],
+      [
+        "No single version",
+        "Room for the changing, interesting person you already are."
+      ]
+    ],
+    "layoutNote": "Violet split hero with limeade display type and a large constellation of differently scaled orbs. Alternate hard color blocks with round product frames."
+  },
+  "version": "2.0.0",
+  "number": 19,
+  "assets": 30
+}

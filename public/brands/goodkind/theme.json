@@ -1,0 +1,233 @@
+{
+  "format": "openform-theme",
+  "version": "2.0.0",
+  "id": "goodkind",
+  "name": "goodkind",
+  "direction": "Generosity in print",
+  "concept": "Embracing shapes, riso-style overprinting, neighborhood notices, and welcoming rounded lettering. Warmth comes from the sense that many people belong here.",
+  "scope": {
+    "attribute": "data-openform",
+    "value": "goodkind",
+    "selector": "[data-openform=\"goodkind\"]"
+  },
+  "installation": {
+    "command": "node install-theme.mjs --target /path/to/your/project",
+    "publicDirectory": "public",
+    "destination": "themes/goodkind",
+    "stylesheet": "/themes/goodkind/theme.css",
+    "reference": "/themes/goodkind/reference.html",
+    "components": "/themes/goodkind/components.html",
+    "htmlAttribute": "data-openform=\"goodkind\""
+  },
+  "colors": {
+    "ink": "#452C59",
+    "accent": "#C9B6EA",
+    "paper": "#FFF6DE",
+    "support": "#F0775D",
+    "secondary": "#614a6d",
+    "border": "#cdbfba",
+    "heroBackground": "#C9B6EA",
+    "heroForeground": "#452C59",
+    "buttonBackground": "#452C59",
+    "buttonForeground": "#FFF6DE"
+  },
+  "typography": {
+    "display": {
+      "family": "Rubik",
+      "file": "fonts/rubik.ttf",
+      "weight": 600,
+      "trackingEm": -0.04,
+      "lineHeight": 1.02,
+      "desktopMaxPx": 96,
+      "mobileMinPx": 38
+    },
+    "body": {
+      "family": "DM Sans",
+      "file": "fonts/dm-sans.ttf",
+      "weight": 400,
+      "sizePx": 16,
+      "lineHeight": 1.7
+    },
+    "accent": {
+      "family": "Bricolage Grotesque",
+      "file": "fonts/bricolage.ttf",
+      "style": "normal"
+    },
+    "label": {
+      "sizePx": 11,
+      "trackingEm": 0.08,
+      "lineHeight": 1.5
+    }
+  },
+  "layout": {
+    "id": "bubble",
+    "family": "playful",
+    "mode": "accent",
+    "alignment": "left",
+    "maxWidthPx": 1280,
+    "pageGutter": "clamp(20px, 4vw, 64px)",
+    "sectionGap": "clamp(64px, 9vw, 128px)",
+    "heroTextRatio": 0.51,
+    "gridColumns": 3,
+    "breakpoints": {
+      "mobile": 640,
+      "tablet": 960
+    },
+    "description": "Lavender hero with embracing forms, plum headings, and tomato event panels below. Friendly pill controls; readable event information always stays on a calm surface."
+  },
+  "components": {
+    "classes": {
+      "root": "of-theme",
+      "container": "of-container",
+      "header": "of-header",
+      "navigation": "of-nav",
+      "mobileNavigation": "of-mobile-nav",
+      "logo": "of-logo",
+      "eyebrow": "of-eyebrow",
+      "hero": "of-hero",
+      "heroCopy": "of-hero-copy",
+      "heroHeading": "of-display",
+      "heroMedia": "of-hero-media",
+      "heading": "of-heading",
+      "body": "of-body",
+      "actions": "of-actions",
+      "button": "of-button",
+      "secondaryButton": "of-button of-button--ghost",
+      "section": "of-section",
+      "sectionHeading": "of-section-heading",
+      "grid": "of-grid",
+      "card": "of-card",
+      "cardImage": "of-card-image",
+      "badge": "of-badge",
+      "form": "of-form",
+      "field": "of-field",
+      "input": "of-input",
+      "select": "of-select",
+      "textarea": "of-textarea",
+      "notice": "of-notice",
+      "table": "of-table",
+      "accordion": "of-accordion",
+      "footer": "of-footer"
+    },
+    "radiusPx": 40,
+    "cardRadiusPx": 0,
+    "borderPx": 1,
+    "buttonShape": "pill",
+    "minimumControlHeightPx": 48,
+    "inputHeightPx": 52,
+    "focus": {
+      "widthPx": 3,
+      "offsetPx": 4,
+      "color": "#452C59"
+    }
+  },
+  "content": {
+    "headline": [
+      "A little good.",
+      "A lot of together."
+    ],
+    "eyebrow": "GOOD PEOPLE / SHARED POSSIBILITY",
+    "cta": "Find your part",
+    "secondaryCta": "See what is happening",
+    "nav": [
+      "Get involved",
+      "Around here",
+      "Our story"
+    ],
+    "features": [
+      [
+        "Start close to home",
+        "Small, useful actions that begin with the people around you."
+      ],
+      [
+        "Make room for others",
+        "A community that gets better with every different perspective."
+      ],
+      [
+        "Keep the good going",
+        "Share an idea, a skill, a little time, or a helping hand."
+      ]
+    ]
+  },
+  "rules": [
+    "The smile remains open at the top; do not turn it into a closed badge.",
+    "Write calls to action in everyday language and sentence case.",
+    "Use lavender and tomato in separate blocks, with plum linking the layout.",
+    "Lavender hero with embracing forms, plum headings, and tomato event panels below. Friendly pill controls; readable event information always stays on a calm surface.",
+    "Use the supplied artwork and SVG logos; keep glyph proportions intact.",
+    "Preserve the existing project content, routes, data fetching, and interaction handlers."
+  ],
+  "fonts": [
+    {
+      "id": "rubik",
+      "family": "Rubik",
+      "path": "fonts/rubik.ttf",
+      "license": "fonts/rubik-OFL.txt",
+      "weight": "300 900",
+      "style": "normal"
+    },
+    {
+      "id": "dm-sans",
+      "family": "DM Sans",
+      "path": "fonts/dm-sans.ttf",
+      "license": "fonts/dm-sans-OFL.txt",
+      "weight": "100 1000",
+      "style": "normal"
+    },
+    {
+      "id": "bricolage",
+      "family": "Bricolage Grotesque",
+      "path": "fonts/bricolage.ttf",
+      "license": "fonts/bricolage-OFL.txt",
+      "weight": "200 800",
+      "style": "normal"
+    }
+  ],
+  "exports": [
+    "mark.svg",
+    "lockup.svg",
+    "wordmark.svg",
+    "monochrome.svg",
+    "pattern.svg",
+    "poster.svg",
+    "social.svg",
+    "avatar.svg",
+    "favicon.svg",
+    "artwork.svg",
+    "identity-board.svg",
+    "stationery.svg",
+    "packaging.svg",
+    "website.svg",
+    "social-story.svg",
+    "icon-set.svg",
+    "palette.svg",
+    "typography.svg",
+    "business-card.svg",
+    "tokens.json",
+    "theme.css",
+    "theme.json",
+    "theme.js",
+    "reference.html",
+    "components.html",
+    "components.tsx",
+    "install-theme.mjs",
+    "AI-PROMPT.md",
+    "INSTALL.md",
+    "guidelines.md"
+  ],
+  "license": {
+    "artwork": "CC0-1.0",
+    "code": "MIT",
+    "fonts": "OFL-1.1"
+  },
+  "acceptance": [
+    "The exact stylesheet loads without a 404.",
+    "All local fonts load; there are no requests to remote font services.",
+    "The root or intended subtree carries the exact data-openform attribute.",
+    "The supplied display font, colors, radius, spacing, and layout family are used consistently.",
+    "At 360px, 768px, and 1440px there is no horizontal page overflow.",
+    "Navigation, forms, routes, and existing business behavior still work.",
+    "Controls are keyboard accessible with visible focus; reduced-motion preferences are respected.",
+    "The final interface follows reference.html and components.html rather than a guessed visual style."
+  ]
+}

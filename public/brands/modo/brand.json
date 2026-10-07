@@ -1,0 +1,87 @@
+{
+  "id": "modo",
+  "name": "modo",
+  "category": "Finance",
+  "style": "Minimal",
+  "tagline": "Your money. More possibility.",
+  "description": "A clear identity for a small-business finance tool. Interlocking modules and a single decisive cobalt accent create a system that feels both trustworthy and approachable.",
+  "colors": [
+    "#163BD0",
+    "#B9D7F6",
+    "#F3F6FA",
+    "#253143"
+  ],
+  "colorNames": [
+    "Cobalt",
+    "Ice",
+    "Paper white",
+    "Ledger"
+  ],
+  "heading": "manrope",
+  "body": "outfit",
+  "weight": 700,
+  "tracking": -4,
+  "mark": "modules",
+  "layout": "precision",
+  "pattern": "tiles",
+  "radius": 10,
+  "voice": "Helpful, calm, and transparent.",
+  "rules": [
+    "Keep a one-module gap between the two halves of the symbol.",
+    "Use cobalt for active elements, with ledger for long-form text.",
+    "Align numerical values to the right and use consistent decimal precision."
+  ],
+  "collection": "less-but-better",
+  "featured": false,
+  "system": {
+    "direction": "Clarity compounds",
+    "concept": "Folded modular M geometry, confident cobalt interfaces, and meticulous financial hierarchy. The expressive graphic system never obscures numerical information.",
+    "art": "modular-ledger",
+    "family": "digital",
+    "mode": "paper",
+    "alignment": "left",
+    "split": 0.57,
+    "maxWidth": 1280,
+    "headingSize": 98,
+    "border": 1,
+    "button": "soft",
+    "accentFont": "outfit",
+    "campaign": [
+      "YOUR MONEY.",
+      "MORE",
+      "POSSIBILITY."
+    ],
+    "headline": [
+      "A little more clarity.",
+      "A lot more possibility."
+    ],
+    "eyebrow": "A BETTER VIEW OF YOUR BUSINESS",
+    "cta": "Explore a clearer view",
+    "secondaryCta": "How it works",
+    "nav": [
+      "The platform",
+      "How it works",
+      "Resources"
+    ],
+    "product": "A clearer business view",
+    "productNote": "Useful tools. Transparent thinking.",
+    "features": [
+      [
+        "See what matters",
+        "A considered hierarchy that makes important information clear."
+      ],
+      [
+        "Stay in control",
+        "Useful workflows that keep the everyday details together."
+      ],
+      [
+        "Make room to grow",
+        "A trustworthy foundation for the next part of your business."
+      ]
+    ],
+    "layoutNote": "White finance hero with cobalt modular illustration. Ledger text for long reading, aligned numeric rows, and calm 10px card corners. Avoid decorative low-contrast data."
+  },
+  "version": "2.0.0",
+  "number": 18,
+  "assets": 30
+}

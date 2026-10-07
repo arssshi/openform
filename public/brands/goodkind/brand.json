@@ -1,0 +1,87 @@
+{
+  "id": "goodkind",
+  "name": "goodkind",
+  "category": "Community",
+  "style": "Playful",
+  "tagline": "A little good goes a long way.",
+  "description": "A generous identity for a neighborhood mutual-aid collective. A smiling loop, surprising tomato red, and friendly typography make participation feel easy.",
+  "colors": [
+    "#452C59",
+    "#C9B6EA",
+    "#FFF6DE",
+    "#F0775D"
+  ],
+  "colorNames": [
+    "Plum",
+    "Lavender",
+    "Warm white",
+    "Tomato"
+  ],
+  "heading": "rubik",
+  "body": "dm-sans",
+  "weight": 600,
+  "tracking": -4,
+  "mark": "smile",
+  "layout": "bubble",
+  "pattern": "smiles",
+  "radius": 40,
+  "voice": "Inclusive, encouraging, and refreshingly human.",
+  "rules": [
+    "The smile remains open at the top; do not turn it into a closed badge.",
+    "Write calls to action in everyday language and sentence case.",
+    "Use lavender and tomato in separate blocks, with plum linking the layout."
+  ],
+  "collection": "happy-accidents",
+  "featured": false,
+  "system": {
+    "direction": "Generosity in print",
+    "concept": "Embracing shapes, riso-style overprinting, neighborhood notices, and welcoming rounded lettering. Warmth comes from the sense that many people belong here.",
+    "art": "collective-embrace",
+    "family": "playful",
+    "mode": "accent",
+    "alignment": "left",
+    "split": 0.51,
+    "maxWidth": 1280,
+    "headingSize": 110,
+    "border": 0,
+    "button": "pill",
+    "accentFont": "bricolage",
+    "campaign": [
+      "A LITTLE",
+      "GOOD GOES",
+      "A LONG WAY."
+    ],
+    "headline": [
+      "A little good.",
+      "A lot of together."
+    ],
+    "eyebrow": "GOOD PEOPLE / SHARED POSSIBILITY",
+    "cta": "Find your part",
+    "secondaryCta": "See what is happening",
+    "nav": [
+      "Get involved",
+      "Around here",
+      "Our story"
+    ],
+    "product": "The neighborhood noticeboard",
+    "productNote": "Something good to be part of.",
+    "features": [
+      [
+        "Start close to home",
+        "Small, useful actions that begin with the people around you."
+      ],
+      [
+        "Make room for others",
+        "A community that gets better with every different perspective."
+      ],
+      [
+        "Keep the good going",
+        "Share an idea, a skill, a little time, or a helping hand."
+      ]
+    ],
+    "layoutNote": "Lavender hero with embracing forms, plum headings, and tomato event panels below. Friendly pill controls; readable event information always stays on a calm surface."
+  },
+  "version": "2.0.0",
+  "number": 10,
+  "assets": 30
+}
